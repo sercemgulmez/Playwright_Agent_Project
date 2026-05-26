@@ -1,0 +1,322 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Turknet logo" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Turknet logo" [ref=e8]
+        - generic [ref=e10] [cursor=pointer]:
+          - text: Bireysel
+          - img [ref=e11]
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - img [ref=e16] [cursor=pointer]
+          - link "Altyapı Sorgula" [ref=e17] [cursor=pointer]:
+            - /url: /internet-hiz-altyapi-sorgulama
+          - link "Abone Ol" [ref=e18] [cursor=pointer]:
+            - /url: /taahhutsuz-ozgur-iletisim-abonelik
+          - link "Hız Testi" [ref=e19] [cursor=pointer]:
+            - /url: /internet-hiz-testi
+          - link "GigaFiber İstiyorum" [ref=e20] [cursor=pointer]:
+            - /url: /gigafiber-istiyorum
+        - generic:
+          - generic:
+            - img
+            - textbox [active]
+            - generic:
+              - button
+      - generic [ref=e21]:
+        - button "Ara" [ref=e22] [cursor=pointer]:
+          - img [ref=e23]
+        - button "Online İşlemler" [ref=e26] [cursor=pointer]:
+          - text: Online İşlemler
+          - img [ref=e28]:
+            - img [ref=e29]
+    - main [ref=e31]:
+      - main [ref=e32]:
+        - generic [ref=e33]:
+          - img "Turknet taahhutsayar sayfasının arka planındaki taahhütbitişini hesaplayan kadın illüstrasyonu." [ref=e35]
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - heading "Taahhüt Bitişini Söyle, Sana Özel Fırsatla Geç Turknet’e!" [level=3] [ref=e39]
+              - heading "Taahhüt bitişini paylaş, senin yerine takip edelim. Peki sonra? Taahhüdün bitmeden sana özel bir fırsat sunalım, seni 1.000 Mbps’ye varan hızda taahhütsüz internetle tanıştıralım." [level=3] [ref=e40]
+            - button "Taahhüt Bildir" [ref=e41] [cursor=pointer]
+        - generic [ref=e42]:
+          - heading "Taahhütten Kurtulmanın Avantajlı Formülü" [level=3] [ref=e43]
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - img "Taahhüdünü Bildir Telefon Iconu" [ref=e46]
+              - heading "Taahhüdünü Bildir" [level=3] [ref=e47]
+              - heading "Taahhüdün bitmeden sana haber verelim, internetin kesilmeden devam etsin." [level=3] [ref=e48]
+            - img [ref=e50]
+            - generic [ref=e53]:
+              - img "Sana Özel Fırsat Sunalım konfeti iconu" [ref=e54]
+              - heading "Sana Özel Fırsat Sunalım" [level=3] [ref=e55]
+              - heading "Taahhütsüz ve hızlı internet avantajının yanı sıra bir de sana özel bir fırsat sunalım." [level=3] [ref=e56]
+            - img [ref=e58]
+            - generic [ref=e61]:
+              - img "Harika Bi’ Geçiş Yapman için yıldızlar iconu" [ref=e62]
+              - heading "Harika Bi’ Geçiş Yap" [level=3] [ref=e63]
+              - heading "Fırsata ek, ₺2.500’e kadar cayma bedelini de karşılayarak seni Turknet’le tanıştıralım." [level=3] [ref=e64]
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - heading "Formu Doldurarak Taahhüdünü Bildir, Takibini Biz Yapalım" [level=3] [ref=e67]
+            - heading "Taahhüdünü bize bildirdikten sonra sana en doğru zamanda reddedemeyeceğin bir fırsat sunalım. Taahhüt zorunluluğu olmadan 1.000 Mbps’ye varan hızlı internet kullanmayı çok seveceksin." [level=3] [ref=e68]
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - generic [ref=e75]:
+                - img [ref=e77]
+                - textbox "Ad Soyad" [ref=e79]
+              - generic [ref=e83]:
+                - img [ref=e85]
+                - textbox "e-Postanı yaz" [ref=e87]
+            - generic [ref=e88]:
+              - generic [ref=e92]:
+                - img [ref=e94]
+                - textbox "Telefon numaranızı yazın" [ref=e96]
+              - generic [ref=e100]:
+                - img [ref=e102]
+                - textbox "Taahhüt bitiş tarihinizi yazın" [ref=e105]
+            - button "Taahhüt bitiş tarihini bilmiyorsan, hemen öğren. Şimdi Öğren" [ref=e106] [cursor=pointer]:
+              - generic [ref=e107]:
+                - img [ref=e108]
+                - heading "Taahhüt bitiş tarihini bilmiyorsan, hemen öğren." [level=3] [ref=e110]
+              - generic [ref=e111]:
+                - heading "Şimdi Öğren" [level=3] [ref=e112]
+                - img [ref=e113]
+            - generic [ref=e116]:
+              - generic [ref=e118] [cursor=pointer]:
+                - checkbox "Aydınlatma Metni kapsamında kişisel verilerimin reklam, pazarlama, tanıtım ve analiz amacıyla kullanılmasına onay veriyorum."
+                - heading "Aydınlatma Metni kapsamında kişisel verilerimin reklam, pazarlama, tanıtım ve analiz amacıyla kullanılmasına onay veriyorum." [level=3] [ref=e122]
+              - generic [ref=e124] [cursor=pointer]:
+                - checkbox "İletişim adreslerime ticari elektronik ileti gönderimini kabul ediyorum."
+                - heading "İletişim adreslerime ticari elektronik ileti gönderimini kabul ediyorum." [level=3] [ref=e128]
+            - heading "* Formu tamamladığında, sana özel fırsatlarımızı sunmak için belli aralıklarla tarafına e-posta ve SMS gönderecek, taahhüdünün bitişine 30 gün kala da sana “Alo!” diyeceğiz. Turknet’in avantajlı dünyasına dahil olmak istemiyorsan, bize tekrar başvuru yapana kadar seninle iletişime geçmeyeceğiz." [level=3] [ref=e129]
+            - button "Gönder" [ref=e131] [cursor=pointer]
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - heading "Taahhütsayar Nedir?" [level=3] [ref=e135]
+              - heading "Biz, herkesin hızlı ve uygun fiyatlı internete erişme hakkı olduğuna inanıyoruz. Alınan hizmetin de memnun olunduğu kadar kullanılmasını savunuyoruz. Tam da bu yüzden herkesi taahhütsüz internet kullanmaya davet ediyoruz. Taahhütsayar sayesinde, taahhüdünün bitmesine ne kadar zaman kaldığını senin yerine takip ediyor, seni özel fırsatlarla buluşturarak özgür internetle tanışmanı istiyoruz." [level=3] [ref=e136]
+            - generic:
+              - img "Taahhüt süresini takip etmeyi temsil eden, mor renkli dijital saat ve takvim görseli."
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - heading "Taahhüt Bitiş Tarihi Nasıl Öğrenilir?" [level=3] [ref=e139]
+              - heading "Sen de internetteki özgürlüğüne ne kadar kaldığını merak ediyorsan, yapman gereken şey basit. Hemen hizmet aldığın operatörü arayarak veya mobil uygulamasını kullanarak bu bilgiyi öğrenebilirsin. Umarız kalan süre çok uzun değildir ☺️" [level=3] [ref=e140]
+            - generic:
+              - img "\"Bilgisayar başında zaman takibini gösteren retro tarzda kol saati görseli."
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - heading "Taahhüdünü Biz Sayalım, Fırsatı Sen Yakala!" [level=3] [ref=e143]
+              - heading "Taahhüdünün bitmesine yakın, senden yenisini isteyecekler. Muhtemelen de daha yüksek fiyata! Biz zaten sana çok hızlı interneti, çok iyi fiyata sunuyoruz. Şimdi taahhüt tarihini bizimle paylaş, zamanı gelince ekstra bir fırsatla" [level=3] [ref=e144]
+              - button "Taahhüt Bildir" [ref=e146] [cursor=pointer]
+            - generic:
+              - img "Taahhüt bilgisini paylaşan kulaklıklı bir kadın."
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - heading "₺2.500’e Kadar Cayma Bedeli Turknet’ten!" [level=3] [ref=e149]
+              - heading "Taahhüdünü senin yerine biz takip ediyoruz. Ama, \"ben hemen Turknet’e geçmek istiyorum!\" diyorsan, aramıza şimdiden hoş geldin! Nasıl mı? ₺2500’e kadar cayma bedelini biz karşılıyor, seni özgür internetle buluşturuyoruz." [level=3] [ref=e150]
+              - link "Detaylı İncele" [ref=e152] [cursor=pointer]:
+                - /url: /baska-operatorden-gecis
+                - button "Detaylı İncele" [ref=e153]
+            - generic:
+              - img "Yeni internetine geçiş yaptıktan sonra tabletinde internet keyfi yapan gülen müşteri."
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - heading "Soru/Cevap" [level=2] [ref=e156]
+            - heading "Aklınıza takılan bir soru mu var?" [level=3] [ref=e157]
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - button "Taahhütsayar sana ne sağlar?" [ref=e160] [cursor=pointer]:
+                - generic [ref=e162]: Taahhütsayar sana ne sağlar?
+                - img [ref=e164]
+              - heading [level=3] [ref=e167]: TaahhütSayar, taahhüdünün bitmesine yakın sana ulaşarak özel bir fırsat sunmamızı ve Turknet’in avantajlı dünyasına daha da ayrıcalıklı şekilde adım atmanı sağlar. Bunun sonucunda ise, taahhütlü internet kullanımından seni kurtarmamıza ve tek fiyat ödeyerek interneti 1.000 Mbps’ye varan eşit/simetrik download (indirme) & upload (yükleme) hızda kullanmana yardımcı olur. Düşük ping ve kotasız kullanımı da unutmamak gerek.
+            - separator [ref=e168]
+            - generic [ref=e169]:
+              - button "Taahhütsayar nasıl işler?" [ref=e170] [cursor=pointer]:
+                - generic [ref=e172]: Taahhütsayar nasıl işler?
+                - img [ref=e174]
+              - heading [level=3] [ref=e177]: Turknet’in TaahhütSayar kolaylığından yararlanman için tek yapman gereken; taahhüt bildirme formunu doldurarak, mevcut operatöründeki taahhüt bitiş tarihini bizimle paylaşman. Sonrasında, sana belli aralıklarla taahhüdünün bitmesine ne kadar kaldığına dair hatırlatma yapacağız ve sana özel fırsatlar sunarak Turknet’in özgür, yani taahhütsüz internet hizmetiyle tanışmanı daha da avantajlı hale getireceğiz. Yerleşik operatördeysen, senin adına tüm işlemleri yürüteceğiz ve internet hizmetinin kesintisiz şekilde Turknet’e taşınmasını sağlayacağız. Altyapının GigaFiber’e uygun olması halinde ise önce mevcut operatöründen aldığın hizmeti sonlandırabilir, sonrasında birkaç tıklamayla Turknet’e tamamen dijital olarak geçiş yapabilirsin.
+            - separator [ref=e178]
+            - generic [ref=e179]:
+              - button "Turknet’e nasıl geçilir?" [ref=e180] [cursor=pointer]:
+                - generic [ref=e182]: Turknet’e nasıl geçilir?
+                - img [ref=e184]
+              - heading [level=3] [ref=e187]: 1.000 Mbps hız, Turknet'in kendi altyapısı olan GigaFiber bölgelerinde mümkündür. Adresiniz GigaFiber'i destekliyorsa, bu hıza kadar hizmet alabilirsiniz.
+            - separator [ref=e188]
+            - generic [ref=e189]:
+              - button "1.000 Mbps’ye kadar hız nasıl oluyor?" [ref=e190] [cursor=pointer]:
+                - generic [ref=e192]: 1.000 Mbps’ye kadar hız nasıl oluyor?
+                - img [ref=e194]
+              - heading [level=3] [ref=e197]: Biz denedik, inan çok güzel oluyor :) Turknet olarak, altyapının desteklediği en yüksek hızı sana sunuyor, herhangi bir sınırlamaya gitmiyoruz. Eğer altyapın 1.000 Mbps’ye kadar hızı destekliyorsa, bu hızı aynen evine getiriyoruz. Yani, ne kadar hız alacağını adresindeki altyapı belirliyor. Üstelik simetrik olarak sunduğumuz internet hizmetimiz sayesinde seni eşit download (indirme) ve upload (yükleme) hızıyla buluşturuyoruz.
+            - separator [ref=e198]
+            - generic [ref=e199]:
+              - button "Cayma bedelini diğer operatörler nasıl hesaplıyor?" [ref=e200] [cursor=pointer]:
+                - generic [ref=e202]: Cayma bedelini diğer operatörler nasıl hesaplıyor?
+                - img [ref=e204]
+              - heading [level=3] [ref=e207]: Örneğin liste fiyatı 300 TL olan bir paketten 140 TL’ye iki yıl taahhüt vererek internet hizmeti aldığını ve memnun kalmadığın için beşinci ayda bu hizmeti sonlandırdığını düşünelim. Bu durumda, sana aylık sağlanan 140 TL indirim; kullanım yaptığın ay sayısıyla, yani beşle çarpılır. Bu bedele, başta sana hediye olduğu söylenen aktivasyon ücreti ve bunun gibi bazı ek bedeller de eklenebilir. Ayrıca modem aldıysan, muhtemelen onun da güncel liste fiyatı, cayma bedeline eklenir.
+            - separator [ref=e208]
+            - generic [ref=e209]:
+              - button "Telefon numaram size mi taşınacak?" [ref=e210] [cursor=pointer]:
+                - generic [ref=e212]: Telefon numaram size mi taşınacak?
+                - img [ref=e214]
+              - heading [level=3] [ref=e217]: Evet, mevcut operatöründe telefon numarası kullanıyorsan, aynı telefon numarasını kullanmaya devam edeceksiniz. Bazı operatörler fiber hizmet verdikleri yerlerde VOIP teknolojisi üzerinden telefon hizmeti veriyorlar. Böyle bir hizmet kullanıyorsan, telefon numaranı Turknet’e taşıyamayabiliriz, o zaman sana yeni bir numara tahsis ederiz.
+            - separator [ref=e218]
+            - generic [ref=e219]:
+              - button "Memnun kalmazsam ne olacak?" [ref=e220] [cursor=pointer]:
+                - generic [ref=e222]: Memnun kalmazsam ne olacak?
+                - img [ref=e224]
+              - heading [level=3] [ref=e227]: Hiçbir şey. Hizmetimizden memnun kalmazsan, bir ay içinde vazgeçerek ödediğin ücreti geri alabilirsin. Böylece cebinden hiçbir ücret ödemeden Turknet’i denemiş olursun. Ayrıca, taahhütsüz bir hizmet sunduğumuz için dilediğin zaman, aldığın hizmeti herhangi bir sebeple sonlandırabilirsin.
+            - separator [ref=e228]
+    - generic [ref=e229]:
+      - generic [ref=e230]:
+        - link "Blog Bilgilen, Öğren, Keşfet" [ref=e232] [cursor=pointer]:
+          - /url: /blog
+          - img [ref=e234]
+          - generic [ref=e237]:
+            - heading "Blog" [level=3] [ref=e238]
+            - heading "Bilgilen, Öğren, Keşfet" [level=3] [ref=e239]
+        - link "İletişim Biz 7/24 Buradayız" [ref=e241] [cursor=pointer]:
+          - /url: /iletisim
+          - img [ref=e243]
+          - generic [ref=e245]:
+            - heading "İletişim" [level=3] [ref=e246]
+            - heading "Biz 7/24 Buradayız" [level=3] [ref=e247]
+        - link "Destek Her Zaman Yanındayız!" [ref=e249] [cursor=pointer]:
+          - /url: /destek
+          - img [ref=e251]
+          - generic [ref=e253]:
+            - heading "Destek" [level=3] [ref=e254]
+            - heading "Her Zaman Yanındayız!" [level=3] [ref=e255]
+        - link "0850 288 80 81 Satış Hattı" [ref=e256] [cursor=pointer]:
+          - /url: tel:08502888081
+          - generic [ref=e257]:
+            - img [ref=e259]
+            - generic [ref=e261]:
+              - heading "0850 288 80 81" [level=3] [ref=e262]
+              - heading "Satış Hattı" [level=3] [ref=e263]
+      - contentinfo [ref=e264]:
+        - generic [ref=e266]:
+          - generic [ref=e267]:
+            - heading "Hakkımızda" [level=3] [ref=e268]
+            - link "Bizi Tanıyın" [ref=e270] [cursor=pointer]:
+              - /url: /hakkimizda/index
+              - heading "Bizi Tanıyın" [level=3] [ref=e271]
+            - link "Şeffaflık Raporu" [ref=e273] [cursor=pointer]:
+              - /url: /turknet-karnesi
+              - heading "Şeffaflık Raporu" [level=3] [ref=e274]
+            - link "Bizden Haberler" [ref=e276] [cursor=pointer]:
+              - /url: /basinda-turknet
+              - heading "Bizden Haberler" [level=3] [ref=e277]
+            - link "Bilgi Toplumu Hizmetleri" [ref=e279] [cursor=pointer]:
+              - /url: https://e-sirket.mkk.com.tr/esir/Dashboard.jsp#/sirketbilgileri/17512
+              - heading "Bilgi Toplumu Hizmetleri" [level=3] [ref=e280]
+            - link "Ekibimize Katıl" [ref=e282] [cursor=pointer]:
+              - /url: /ekibimize-katil
+              - heading "Ekibimize Katıl" [level=3] [ref=e283]
+            - link "Daha Fazla" [ref=e284] [cursor=pointer]:
+              - /url: "#"
+              - heading "Daha Fazla" [level=3] [ref=e285]
+              - img [ref=e287]
+          - generic [ref=e289]:
+            - heading "Hizmetler" [level=3] [ref=e290]
+            - link "1.000 Mbps İnternet" [ref=e292] [cursor=pointer]:
+              - /url: /1000-mbps-internet
+              - heading "1.000 Mbps İnternet" [level=3] [ref=e293]
+            - link "Sınırsız İnternet Özgür İletişim" [ref=e295] [cursor=pointer]:
+              - /url: /sinirsiz-internet-ozgur-iletisim
+              - heading "Sınırsız İnternet Özgür İletişim" [level=3] [ref=e296]
+            - link "Fiber İnternet" [ref=e298] [cursor=pointer]:
+              - /url: /fiber-internet
+              - heading "Fiber İnternet" [level=3] [ref=e299]
+            - link "Engelsiz Tarife" [ref=e301] [cursor=pointer]:
+              - /url: /engelsiz-tarife
+              - heading "Engelsiz Tarife" [level=3] [ref=e302]
+            - link "Hız Testi" [ref=e304] [cursor=pointer]:
+              - /url: /internet-hiz-testi
+              - heading "Hız Testi" [level=3] [ref=e305]
+            - link "Daha Fazla" [ref=e306] [cursor=pointer]:
+              - /url: "#"
+              - heading "Daha Fazla" [level=3] [ref=e307]
+              - img [ref=e309]
+          - generic [ref=e311]:
+            - heading "Bilgiler" [level=3] [ref=e312]
+            - link "İnternet Tarifeleri" [ref=e314] [cursor=pointer]:
+              - /url: /tarifelerimiz
+              - heading "İnternet Tarifeleri" [level=3] [ref=e315]
+            - link "Sözleşmeler & Formlar" [ref=e317] [cursor=pointer]:
+              - /url: /sozlesme-ve-formlar
+              - heading "Sözleşmeler & Formlar" [level=3] [ref=e318]
+            - link "Telefon Tarifeleri" [ref=e320] [cursor=pointer]:
+              - /url: /telefon-tarifeleri
+              - heading "Telefon Tarifeleri" [level=3] [ref=e321]
+            - link "KVKK Aydınlatma Metni" [ref=e323] [cursor=pointer]:
+              - /url: /kvkk
+              - heading "KVKK Aydınlatma Metni" [level=3] [ref=e324]
+            - link "Çerez Politikası" [ref=e326] [cursor=pointer]:
+              - /url: /cerez-politikasi
+              - heading "Çerez Politikası" [level=3] [ref=e327]
+            - link "Daha Fazla" [ref=e328] [cursor=pointer]:
+              - /url: "#"
+              - heading "Daha Fazla" [level=3] [ref=e329]
+              - img [ref=e331]
+          - generic [ref=e333]:
+            - heading "Yardım" [level=3] [ref=e334]
+            - link "İade Sorgulama" [ref=e336] [cursor=pointer]:
+              - /url: https://refund.turknet.net.tr
+              - heading "İade Sorgulama" [level=3] [ref=e337]
+            - link "Borç Alacak Sorgulama" [ref=e339] [cursor=pointer]:
+              - /url: /borc-sorgulama
+              - heading "Borç Alacak Sorgulama" [level=3] [ref=e340]
+            - link "Şikayet İlet" [ref=e342] [cursor=pointer]:
+              - /url: /tuketici-sikayetleri
+              - heading "Şikayet İlet" [level=3] [ref=e343]
+          - generic [ref=e344]:
+            - heading "Mobil Uygulama" [level=3] [ref=e345]
+            - heading "QR kod’u okutarak “Turknet Mobil Uygulamasını” indirin." [level=3] [ref=e346]
+            - img [ref=e350]
+        - generic [ref=e658]:
+          - heading "Copyright © 2026 TurkNet" [level=3] [ref=e660]
+          - link "Gizlilik Koşulları" [ref=e662] [cursor=pointer]:
+            - /url: /gizlilik-ve-kullanim-kosullari
+            - heading "Gizlilik Koşulları" [level=3] [ref=e663]
+          - generic [ref=e664]:
+            - link [ref=e665] [cursor=pointer]:
+              - /url: https://www.facebook.com/turknet/
+              - img [ref=e666]
+            - link [ref=e668] [cursor=pointer]:
+              - /url: https://www.instagram.com/turknet/
+              - img [ref=e669]
+            - link [ref=e671] [cursor=pointer]:
+              - /url: https://x.com/turknet
+              - img [ref=e672]
+            - link [ref=e674] [cursor=pointer]:
+              - /url: https://www.youtube.com/@turknet
+              - img [ref=e675]
+            - link [ref=e677] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/turknet/
+              - img [ref=e678]
+        - generic [ref=e680]:
+          - heading "Tüketici Şikayetleri" [level=3] [ref=e681]
+          - generic [ref=e682]:
+            - heading "Bilgi Teknolojileri ve İletişim Kurulu Kararları uyarınca abonelere yapılacak iadeler" [level=3] [ref=e683]
+            - link "Detaylı İncele" [ref=e684] [cursor=pointer]:
+              - /url: /duyurular/tuketici-sikayetleri
+              - generic [ref=e685]:
+                - heading "Detaylı İncele" [level=3] [ref=e686]
+                - img [ref=e687]:
+                  - img [ref=e688]
+  - alert [ref=e690]
+  - generic [ref=e692]:
+    - generic [ref=e693]: Çerezleri kullanıyoruz. 🍪
+    - paragraph [ref=e695]:
+      - text: İnternet sayfamızda çerezler yoluyla kişisel veriler işlenmektedir. İşlevsel, performans/analitik ve reklam/pazarlama çerezleri onay vermeniz halinde kullanılacaktır. Çerezler hakkında ayrıntılı bilgiye
+      - link "www.turk.net/cerez-politikasi" [ref=e696] [cursor=pointer]:
+        - /url: https://www.turk.net/cerez-politikasi
+        - strong [ref=e697]: www.turk.net/cerez-politikasi
+      - text: adresinden ulaşabilirsiniz
+    - generic [ref=e698]:
+      - generic [ref=e699] [cursor=pointer]: Reddet
+      - generic [ref=e700] [cursor=pointer]: Ayarlar
+      - generic [ref=e701] [cursor=pointer]: Kabul Et

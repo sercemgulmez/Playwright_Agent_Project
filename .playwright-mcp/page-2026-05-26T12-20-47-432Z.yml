@@ -1,0 +1,336 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Turknet logo" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Turknet logo" [ref=e8]
+        - generic [ref=e10] [cursor=pointer]:
+          - text: Bireysel
+          - img [ref=e11]
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - img [ref=e16] [cursor=pointer]
+          - link "Altyapı Sorgula" [ref=e17] [cursor=pointer]:
+            - /url: /internet-hiz-altyapi-sorgulama
+          - link "Abone Ol" [ref=e18] [cursor=pointer]:
+            - /url: /taahhutsuz-ozgur-iletisim-abonelik
+          - link "Hız Testi" [ref=e19] [cursor=pointer]:
+            - /url: /internet-hiz-testi
+          - link "GigaFiber İstiyorum" [ref=e20] [cursor=pointer]:
+            - /url: /gigafiber-istiyorum
+        - generic:
+          - generic:
+            - img
+            - textbox [active]
+            - generic:
+              - button
+      - generic [ref=e21]:
+        - button "Ara" [ref=e22] [cursor=pointer]:
+          - img [ref=e23]
+        - button "Online İşlemler" [ref=e26] [cursor=pointer]:
+          - text: Online İşlemler
+          - img [ref=e28]:
+            - img [ref=e29]
+    - main [ref=e31]:
+      - main [ref=e32]:
+        - generic [ref=e34]:
+          - img "Turknet Alt Yapı Sorgulama" [ref=e36]
+          - button "Adres girin" [ref=e39] [cursor=pointer]:
+            - generic [ref=e41]:
+              - img [ref=e43]
+              - textbox "Adres girin" [ref=e46]
+        - generic [ref=e47]:
+          - img "Turknet Alt Yapı Sorgulama" [ref=e51]
+          - generic [ref=e52]:
+            - heading "GigaFiber İle İnternet Neden Çok Başka?" [level=5] [ref=e53]
+            - heading "Çünkü, 1.000 Mbps’ye varan eşit indirme & yükleme hızı sunan GigaFiber’le internetin sınırları kalkıyor." [level=6] [ref=e54]
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - img [ref=e58]
+                - paragraph [ref=e60]: Düşük pingli oyun oynama, takılmadan 4K film izleme, akıcı online görüşme yapma, çok hızlı dosya indirme & yükleme.
+              - generic [ref=e61]:
+                - img [ref=e63]
+                - paragraph [ref=e65]: Memnun kalmazsan 30 gün içinde para iadesi.
+              - generic [ref=e66]:
+                - img [ref=e68]
+                - paragraph [ref=e70]: Aynı anda birçok cihaz bağlı olsa bile daima yüksek performans.
+              - generic [ref=e71]:
+                - img [ref=e73]
+                - paragraph [ref=e75]: Modem kullanımı aylık fiyatın içinde.
+              - generic [ref=e76]:
+                - img [ref=e78]
+                - paragraph [ref=e80]: ₺1.200’lik kurulum ücretini biz karşılıyoruz.
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - heading "GigaFiber Yayılıyor, Türkiye Hızlanıyor!" [level=5] [ref=e83]
+            - heading "İyi interneti herkese ulaştırmak için çok çalışıyor, her gün 1.000 Mbps'ye varan güçteki GigaFiber'i Türkiye'nin dört bir yanına genişletmeye devam ediyoruz. Belki de sıra senin şehrinde!" [level=6] [ref=e84]
+            - generic [ref=e85]:
+              - generic [ref=e86] [cursor=pointer]:
+                - img [ref=e88]
+                - generic [ref=e91]: İstanbul
+              - generic [ref=e92] [cursor=pointer]:
+                - img [ref=e94]
+                - generic [ref=e97]: Ankara
+              - generic [ref=e98] [cursor=pointer]:
+                - img [ref=e100]
+                - generic [ref=e103]: İzmir
+              - generic [ref=e104] [cursor=pointer]:
+                - img [ref=e106]
+                - generic [ref=e109]: Bursa
+              - generic [ref=e110] [cursor=pointer]:
+                - img [ref=e112]
+                - generic [ref=e115]: Kocaeli
+              - generic [ref=e116] [cursor=pointer]:
+                - img [ref=e118]
+                - generic [ref=e121]: Tekirdağ
+              - generic [ref=e122] [cursor=pointer]:
+                - img [ref=e124]
+                - generic [ref=e127]: Eskişehir
+              - generic [ref=e128] [cursor=pointer]:
+                - img [ref=e130]
+                - generic [ref=e133]: Manisa
+              - generic [ref=e134] [cursor=pointer]:
+                - img [ref=e136]
+                - generic [ref=e139]: Konya
+              - generic [ref=e140] [cursor=pointer]:
+                - img [ref=e142]
+                - generic [ref=e145]: Samsun
+              - generic [ref=e146] [cursor=pointer]:
+                - img [ref=e148]
+                - generic [ref=e151]: Denizli
+              - generic [ref=e152] [cursor=pointer]:
+                - img [ref=e154]
+                - generic [ref=e157]: Diyarbakir
+          - generic [ref=e160]:
+            - img "İstanbul GigaFiber Haritası" [ref=e163]
+            - img "Ankara GigaFiber Haritası" [ref=e166]
+            - img "İzmir GigaFiber Haritası" [ref=e169]
+            - img "Bursa GigaFiber Haritası" [ref=e172]
+            - img "Kocaeli GigaFiber Haritası" [ref=e175]
+            - img "Tekirdağ GigaFiber Haritası" [ref=e178]
+            - img "Eskişehir GigaFiber Haritası" [ref=e181]
+            - img "Manisa GigaFiber Haritası" [ref=e184]
+            - img "Konya GigaFiber Haritası" [ref=e187]
+            - img "Samsun GigaFiber Haritası" [ref=e190]
+            - img "Denizli GigaFiber Haritası" [ref=e193]
+            - img "Diyarbakir GigaFiber Haritası" [ref=e196]
+        - generic [ref=e197]:
+          - generic [ref=e198]:
+            - heading "Soru/Cevap" [level=2] [ref=e199]
+            - paragraph [ref=e200]: Aklınıza takılan bir soru mu var?
+          - generic [ref=e201]:
+            - generic [ref=e202]:
+              - button "ADSL, VDSL ve Fiber Altyapıların Farkları Nelerdir?" [ref=e203] [cursor=pointer]:
+                - generic [ref=e205]: ADSL, VDSL ve Fiber Altyapıların Farkları Nelerdir?
+                - img [ref=e207]
+              - heading [level=3] [ref=e210]:
+                - generic [ref=e211]:
+                  - paragraph [ref=e212]: ADSL, VDSL ve fiber internet altyapılarının kullanıcı odağındaki farkı indirme ve yükleme hızıdır. Yani altyapınızın teknolojisini tanımlar.
+                  - paragraph [ref=e213]: ADSL (Asymmetric Digital Subscriber Line), bir çeşit DSL bağlantısıdır. Bu teknolojideki internet bağlantısı standart bakır telefon kabloların kullanılmasıyla sağlanır. Veri, ses trafiğinin kullanmadığı frekanslar üzerinden gönderilir. Bu teknolojinin avantajı, mevcut telefon altyapısının kullanılması ve yeni altyapı yatırımı yapılmasına ihtiyaç duyulmamasıdır.
+                  - paragraph [ref=e214]: ADSL teorik olarak 24 Mbps’ye kadar indirme (download) hızı verilebilir ancak yükleme (upload) hızı çok daha sınırlıdır. Alınabilecek maksimum hız; internet altyapısına ve ev içi tesisatın kalitesine, santrale olan uzaklığa ve hat gürültü oranına göre değişkenlik gösterir. ADSL2+ teknolojisi ise daha yeni bir DSL teknolojisidir. Santrale iki kilometre mesafede olan bölgelerde daha yüksek internet hızları alınmasına olanak sağlar.
+                  - paragraph [ref=e215]: VDSL (Very-high-bitrate Digital Subscriber Line), ADSL’den çok daha yüksek hızlara (5 kat daha fazla download ve 10 kat daha fazla upload hızı) olanak verir. Sinyalin güçlü olarak aktarılabildiği noktalarda 100 Mbps’ye kadar hıza ulaşılabilir. VDSL teknolojisi bakır telefon hatlarını çok daha verimli şekilde kullanır. Ancak bu verim ADSL’e kıyasla çok daha kısa mesafelerde mümkündür. Kısa mesafeler, daha az bozulma ve daha çok güvenilir bağlantı demektir. Ayrıca, internet altyapısının ve iç tesisatın kalitesi de VDSL verimliliğini etkiler.
+                  - paragraph [ref=e216]: Fiber internet teknolojisi ise ADSL ve VDSL teknolojilerine göre teoride daha yüksek hız sunar. Bunun sebebi, mesafeye bağlı hız kaybı yaşanmamasıdır. Ancak bu teknolojide de yoğun kullanım saatlerinde alınabilecek maksimum hızlar düşebilmektedir. Aslında 75 Mbps VDSL hizmeti, operatörlerin sunduğu 20 Mbps fiber hizmetinden dosya indirme olarak daha hızlıdır. Ancak tabii ki; kullanım yoğunluğu, hat kalitesi, modem ayarları, santrale olan yakınlık unsurları, hızı etkileyen başlıca faktörlerdir.
+                  - paragraph [ref=e217]: Biz de kullanıcılarımız için her geçen gün fiber altyapı çalışmalarımızı artırıyoruz. Tamamen kendi internet altyapımızda kullandığımız fiber optik kablolar sayesinde binana ya da dairene kadar gelip ev internetinin dünya standartlarına çıkmasını sağlıyoruz. Hem indirme (download) hem de yükleme (upload) hızlarımızla, tat kaçıran bekleme sürelerini, düşük çözünürlükle izlenen filmleri ve dizileri geçmişte bırakıyoruz. Dosyalarını hızla indirmeni, paylaşmanı ve zamandan tasarruf etmeni sağlıyoruz.
+            - separator [ref=e218]
+            - generic [ref=e219]:
+              - button "Gerçekten Taahhüt Yok mu? Peki, Fiyatlar Ne Sıklıkla Değişiyor?" [ref=e220] [cursor=pointer]:
+                - generic [ref=e222]: Gerçekten Taahhüt Yok mu? Peki, Fiyatlar Ne Sıklıkla Değişiyor?
+                - img [ref=e224]
+              - heading [level=3] [ref=e227]:
+                - paragraph [ref=e229]: Evet, Turknet’te kesinlikle ve kesinlikle taahhüt yok. Yani Turknet’te interneti sadece memnun olduğun sürece kullanır, dilediğin zaman herhangi bir taahhüt cayma bedeli ödemene gerek kalmadan abonelik hizmetini sonlandırabilirsin. Fiyat güncellemelerini piyasa koşullarına bağlı olarak gerçekleştiriyoruz ama bu güncellemeyi de sürekli yapmıyoruz. Yani Turknet’te fiyat güncellemesi yılda defalarca tekrar eden bir durum değil. Genellikle yılda 1 kere fiyat güncellemesi yapıyoruz gibi düşünebilirsin.
+            - separator [ref=e230]
+            - generic [ref=e231]:
+              - button "Aldığım Hız Düşer mi? Dediğiniz Hızı Gerçekten Alır mıyım?" [ref=e232] [cursor=pointer]:
+                - generic [ref=e234]: Aldığım Hız Düşer mi? Dediğiniz Hızı Gerçekten Alır mıyım?
+                - img [ref=e236]
+              - heading [level=3] [ref=e239]:
+                - paragraph [ref=e241]: "Altyapına göre Turknet’te sana hep hızlı bağlantı sunuyoruz. Hız durumu; modem kalitesi ve ev içi bağlantı durumu, duvar kalınlığı ve benzeri diğer şartlara göre değişkenlik gösterebilir. Ama şunu bilmelisin: Altyapı sorgulama sonucunda sana sunacağımız değerler tutarlılık gösterir. Yani altyapı sorgulama yaptın ve 100 Mbps sonucunu gördün diyelim. Bu durumda, düzenli olarak 100 Mbps’ye oldukça yakın değerleri görebilirsin."
+            - separator [ref=e242]
+            - generic [ref=e243]:
+              - button "Bana Sunacağınızdan Daha Düşük veya Daha Hızlı Bir Paket Seçebiliyor muyum?" [ref=e244] [cursor=pointer]:
+                - generic [ref=e246]: Bana Sunacağınızdan Daha Düşük veya Daha Hızlı Bir Paket Seçebiliyor muyum?
+                - img [ref=e248]
+              - heading [level=3] [ref=e251]:
+                - paragraph [ref=e253]: Turknet, kullanıcıların en verimli deneyimi yaşaması için hız/fiyat dengesini gözetir ve bu kapsamda onlara en hızlı seçeneği mümkün olan en iyi fiyatla sunar. Bu nedenle, kullanıcıların altyapı özelinde alabilecekleri daha düşük veya daha hızlı bir paketimiz bulunmaz. Fakat, altyapın VDSL’den fibere güncellendi diyelim. Böyle bir durumda hiçbir ücret talep etmeden, sana ekstra bir maliyet çıkartmadan hızını yükseltebiliriz. Turknet olarak her zaman senin için en iyisini düşünürüz.
+            - separator [ref=e254]
+            - generic [ref=e255]:
+              - button "Modem Veriyor musunuz?" [ref=e256] [cursor=pointer]:
+                - generic [ref=e258]: Modem Veriyor musunuz?
+                - img [ref=e260]
+              - heading [level=3] [ref=e263]:
+                - paragraph [ref=e265]: Altyapın fiber için uygunsa, sana bir modem temin ediyor ve abonelik süren boyunca bu modemi ücretsiz kullanmanı sağlıyoruz. Bunun yanı sıra, modem satışı da gerçekleştiriyoruz ama bu hizmetimizi sadece bazı bölgelere sunuyoruz. Elinde altyapına uyum sağlayacak bir modemin varsa, internet bağlantısı için bu cihazı da kullanabilirsin. Bize 0850 288 80 80 numaralı telefon üzerinden ulaşabilirsen bu konu hakkındaki tüm detayları seninle paylaşmaktan mutluluk duyarız.
+            - separator [ref=e266]
+            - generic [ref=e267]:
+              - button "İlk Faturam Ne Zaman Gelir?" [ref=e268] [cursor=pointer]:
+                - generic [ref=e270]: İlk Faturam Ne Zaman Gelir?
+                - img [ref=e272]
+              - heading [level=3] [ref=e275]:
+                - paragraph [ref=e277]: İlk faturan, internet hizmetinin aktivasyonu tamamlandığında ve kullanımın başladığında oluşur. Aktivasyon hangi gün gerçekleşirse, o gün fatura döneminin başlangıç tarihi olur. Örneğin, bağlantın 21 Temmuz’da aktif olduysa ve kullanıma da o gün başladıysan, her ayın 21’inde yeni faturan kesilir.
+            - separator [ref=e278]
+            - generic [ref=e279]:
+              - button "Herhangi Bir Arıza Olursa, Sorunum Ne Zaman Çözülür?" [ref=e280] [cursor=pointer]:
+                - generic [ref=e282]: Herhangi Bir Arıza Olursa, Sorunum Ne Zaman Çözülür?
+                - img [ref=e284]
+              - heading [level=3] [ref=e287]:
+                - paragraph [ref=e289]: Teknik ekibimiz genellikle 24 ila 48 saat içinde arızaya müdahale eder ve uzmanlığı sayesinde meydana gelen sorunu olabildiğince hızlı bir şekilde çözüme kavuşturur. Kendi altyapımızda hizmet sağladığımız GigaFiber için bu süre daha da kısadır. Turknet, kullanıcılarının daima kesintisiz hizmet almasını savunur, bu nedenle de meydana gelebilecek her türlü problemi önceliklendirir ve en hızlı şekilde ortadan kaldırır.
+            - separator [ref=e290]
+            - generic [ref=e291]:
+              - button "Başka Bir Yere Taşınırsam, İnternetimi de Oraya Götürebilir miyim?" [ref=e292] [cursor=pointer]:
+                - generic [ref=e294]: Başka Bir Yere Taşınırsam, İnternetimi de Oraya Götürebilir miyim?
+                - img [ref=e296]
+              - heading [level=3] [ref=e299]:
+                - paragraph [ref=e301]: Evet. Taşındığın yerde altyapımız varsa, internetini orada kullanmaya devam edebilirsin. Bu ihtimal oldukça düşük ama taşındığında yerde altyapımız yoksa da, taahhüt cayma bedeli gibi ekstra bir ücret ödemek zorunda kalmadan bizden aldığın hizmeti doğrudan sonlandırabilirsin. Çünkü, Turknet’te taahhüt yok.
+            - separator [ref=e302]
+            - generic [ref=e303]:
+              - button "Turknet’te Taahhüt Yok Dediniz Ama Evime Kablo Çekilmesi Taahhüt Sayılmaz mı?" [ref=e304] [cursor=pointer]:
+                - generic [ref=e306]: Turknet’te Taahhüt Yok Dediniz Ama Evime Kablo Çekilmesi Taahhüt Sayılmaz mı?
+                - img [ref=e308]
+              - heading [level=3] [ref=e311]:
+                - paragraph [ref=e313]: Hayır, bu bir taahhüt değildir. Turknet’te taahhütsüz hizmet sunulur. Altyapının türüne göre bağlantının sağlanabilmesi için evine bir kablo çekilmesi gerekebilir. Bu işlem, internet hizmetinin teknik olarak çalışması için yapılan standart bir kurulumdur ve seni belirli bir süre hizmet almaya zorlayan yasal bir taahhüt anlamına gelmez. Yani evinize kablo çekilmiş olsa bile, hizmetten memnun kalmazsan istediğin zaman aboneliğini iptal edebilirsin. Bu esneklik, Turknet’in taahhütsüzlük ilkesinin bir parçasıdır.
+            - separator [ref=e314]
+            - generic [ref=e315]:
+              - button "Altyapı Sorgulaması Yapmak Neden Önemli?" [ref=e316] [cursor=pointer]:
+                - generic [ref=e318]: Altyapı Sorgulaması Yapmak Neden Önemli?
+                - img [ref=e320]
+              - heading [level=3] [ref=e323]:
+                - paragraph [ref=e325]: Altyapı sorgulaması, evinde erişebileceğin internet hızını ve desteklenen teknolojiyi (örneğin VDSL, ADSL, fiber) öğrenmenin en doğru yoludur. Çünkü internet hizmetinin kalitesi, bulunduğun adresteki altyapı olanaklarına doğrudan bağlıdır. Her bölgenin altyapısı ise farklılık gösterebilir. Bu nedenle internete hangi hızla ve altyapı seçeneğiyle bağlanabileceğinin yolu, altyapı sorgulama işlemi gerçekleştirmekten geçer.
+    - generic [ref=e326]:
+      - generic [ref=e327]:
+        - link "Blog Bilgilen, Öğren, Keşfet" [ref=e329] [cursor=pointer]:
+          - /url: /blog
+          - img [ref=e331]
+          - generic [ref=e334]:
+            - heading "Blog" [level=3] [ref=e335]
+            - heading "Bilgilen, Öğren, Keşfet" [level=3] [ref=e336]
+        - link "İletişim Biz 7/24 Buradayız" [ref=e338] [cursor=pointer]:
+          - /url: /iletisim
+          - img [ref=e340]
+          - generic [ref=e342]:
+            - heading "İletişim" [level=3] [ref=e343]
+            - heading "Biz 7/24 Buradayız" [level=3] [ref=e344]
+        - link "Destek Her Zaman Yanındayız!" [ref=e346] [cursor=pointer]:
+          - /url: /destek
+          - img [ref=e348]
+          - generic [ref=e350]:
+            - heading "Destek" [level=3] [ref=e351]
+            - heading "Her Zaman Yanındayız!" [level=3] [ref=e352]
+        - link "0850 288 80 81 Satış Hattı" [ref=e353] [cursor=pointer]:
+          - /url: tel:08502888081
+          - generic [ref=e354]:
+            - img [ref=e356]
+            - generic [ref=e358]:
+              - heading "0850 288 80 81" [level=3] [ref=e359]
+              - heading "Satış Hattı" [level=3] [ref=e360]
+      - contentinfo [ref=e361]:
+        - generic [ref=e363]:
+          - generic [ref=e364]:
+            - heading "Hakkımızda" [level=3] [ref=e365]
+            - link "Bizi Tanıyın" [ref=e367] [cursor=pointer]:
+              - /url: /hakkimizda/index
+              - heading "Bizi Tanıyın" [level=3] [ref=e368]
+            - link "Şeffaflık Raporu" [ref=e370] [cursor=pointer]:
+              - /url: /turknet-karnesi
+              - heading "Şeffaflık Raporu" [level=3] [ref=e371]
+            - link "Bizden Haberler" [ref=e373] [cursor=pointer]:
+              - /url: /basinda-turknet
+              - heading "Bizden Haberler" [level=3] [ref=e374]
+            - link "Bilgi Toplumu Hizmetleri" [ref=e376] [cursor=pointer]:
+              - /url: https://e-sirket.mkk.com.tr/esir/Dashboard.jsp#/sirketbilgileri/17512
+              - heading "Bilgi Toplumu Hizmetleri" [level=3] [ref=e377]
+            - link "Ekibimize Katıl" [ref=e379] [cursor=pointer]:
+              - /url: /ekibimize-katil
+              - heading "Ekibimize Katıl" [level=3] [ref=e380]
+            - link "Daha Fazla" [ref=e381] [cursor=pointer]:
+              - /url: "#"
+              - heading "Daha Fazla" [level=3] [ref=e382]
+              - img [ref=e384]
+          - generic [ref=e386]:
+            - heading "Hizmetler" [level=3] [ref=e387]
+            - link "1.000 Mbps İnternet" [ref=e389] [cursor=pointer]:
+              - /url: /1000-mbps-internet
+              - heading "1.000 Mbps İnternet" [level=3] [ref=e390]
+            - link "Sınırsız İnternet Özgür İletişim" [ref=e392] [cursor=pointer]:
+              - /url: /sinirsiz-internet-ozgur-iletisim
+              - heading "Sınırsız İnternet Özgür İletişim" [level=3] [ref=e393]
+            - link "Fiber İnternet" [ref=e395] [cursor=pointer]:
+              - /url: /fiber-internet
+              - heading "Fiber İnternet" [level=3] [ref=e396]
+            - link "Engelsiz Tarife" [ref=e398] [cursor=pointer]:
+              - /url: /engelsiz-tarife
+              - heading "Engelsiz Tarife" [level=3] [ref=e399]
+            - link "Hız Testi" [ref=e401] [cursor=pointer]:
+              - /url: /internet-hiz-testi
+              - heading "Hız Testi" [level=3] [ref=e402]
+            - link "Daha Fazla" [ref=e403] [cursor=pointer]:
+              - /url: "#"
+              - heading "Daha Fazla" [level=3] [ref=e404]
+              - img [ref=e406]
+          - generic [ref=e408]:
+            - heading "Bilgiler" [level=3] [ref=e409]
+            - link "İnternet Tarifeleri" [ref=e411] [cursor=pointer]:
+              - /url: /tarifelerimiz
+              - heading "İnternet Tarifeleri" [level=3] [ref=e412]
+            - link "Sözleşmeler & Formlar" [ref=e414] [cursor=pointer]:
+              - /url: /sozlesme-ve-formlar
+              - heading "Sözleşmeler & Formlar" [level=3] [ref=e415]
+            - link "Telefon Tarifeleri" [ref=e417] [cursor=pointer]:
+              - /url: /telefon-tarifeleri
+              - heading "Telefon Tarifeleri" [level=3] [ref=e418]
+            - link "KVKK Aydınlatma Metni" [ref=e420] [cursor=pointer]:
+              - /url: /kvkk
+              - heading "KVKK Aydınlatma Metni" [level=3] [ref=e421]
+            - link "Çerez Politikası" [ref=e423] [cursor=pointer]:
+              - /url: /cerez-politikasi
+              - heading "Çerez Politikası" [level=3] [ref=e424]
+            - link "Daha Fazla" [ref=e425] [cursor=pointer]:
+              - /url: "#"
+              - heading "Daha Fazla" [level=3] [ref=e426]
+              - img [ref=e428]
+          - generic [ref=e430]:
+            - heading "Yardım" [level=3] [ref=e431]
+            - link "İade Sorgulama" [ref=e433] [cursor=pointer]:
+              - /url: https://refund.turknet.net.tr
+              - heading "İade Sorgulama" [level=3] [ref=e434]
+            - link "Borç Alacak Sorgulama" [ref=e436] [cursor=pointer]:
+              - /url: /borc-sorgulama
+              - heading "Borç Alacak Sorgulama" [level=3] [ref=e437]
+            - link "Şikayet İlet" [ref=e439] [cursor=pointer]:
+              - /url: /tuketici-sikayetleri
+              - heading "Şikayet İlet" [level=3] [ref=e440]
+          - generic [ref=e441]:
+            - heading "Mobil Uygulama" [level=3] [ref=e442]
+            - heading "QR kod’u okutarak “Turknet Mobil Uygulamasını” indirin." [level=3] [ref=e443]
+            - img [ref=e447]
+        - generic [ref=e755]:
+          - heading "Copyright © 2026 TurkNet" [level=3] [ref=e757]
+          - link "Gizlilik Koşulları" [ref=e759] [cursor=pointer]:
+            - /url: /gizlilik-ve-kullanim-kosullari
+            - heading "Gizlilik Koşulları" [level=3] [ref=e760]
+          - generic [ref=e761]:
+            - link [ref=e762] [cursor=pointer]:
+              - /url: https://www.facebook.com/turknet/
+              - img [ref=e763]
+            - link [ref=e765] [cursor=pointer]:
+              - /url: https://www.instagram.com/turknet/
+              - img [ref=e766]
+            - link [ref=e768] [cursor=pointer]:
+              - /url: https://x.com/turknet
+              - img [ref=e769]
+            - link [ref=e771] [cursor=pointer]:
+              - /url: https://www.youtube.com/@turknet
+              - img [ref=e772]
+            - link [ref=e774] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/turknet/
+              - img [ref=e775]
+        - generic [ref=e777]:
+          - heading "Tüketici Şikayetleri" [level=3] [ref=e778]
+          - generic [ref=e779]:
+            - heading "Bilgi Teknolojileri ve İletişim Kurulu Kararları uyarınca abonelere yapılacak iadeler" [level=3] [ref=e780]
+            - link "Detaylı İncele" [ref=e781] [cursor=pointer]:
+              - /url: /duyurular/tuketici-sikayetleri
+              - generic [ref=e782]:
+                - heading "Detaylı İncele" [level=3] [ref=e783]
+                - img [ref=e784]:
+                  - img [ref=e785]
+  - alert [ref=e787]

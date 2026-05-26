@@ -1,0 +1,2 @@
+[     726ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.turk.net/online-islemler/login:0
+[    1754ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://www.turk.net/wp-content/uploads/2021/10/favicon.png?100925:0

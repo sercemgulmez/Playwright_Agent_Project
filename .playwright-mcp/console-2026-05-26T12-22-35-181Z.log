@@ -1,0 +1,8 @@
+[     292ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://www.turk.net/lp-statics/js/newrelic-browser-agent.js:646
+[     809ms] [LOG] slider initialized @ https://www.turk.net/lp-statics/js/newrelic-browser-agent.js:646
+[    1100ms] Uncaught (in promise) undefined
+    at M.<computed>.load (https://www.gstatic.com/recaptcha/releases/P8cyHPrXODVy7ASorEhMUv3P/recaptcha__en.js:1264:312)
+    at <anonymous> (https://www.gstatic.com/recaptcha/releases/P8cyHPrXODVy7ASorEhMUv3P/recaptcha__en.js:381:346)
+    at cY (https://www.gstatic.com/recaptcha/releases/P8cyHPrXODVy7ASorEhMUv3P/recaptcha__en.js:865:96)
+    at <anonymous> (https://www.gstatic.com/recaptcha/releases/P8cyHPrXODVy7ASorEhMUv3P/recaptcha__en.js:1519:121)
+    at <anonymous> (https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeW2KMUAAAAANZD-qO8bKi9i1vzkEZssdNzH3kh&co=aHR0cHM6Ly93d3cudHVyay5uZXQ6NDQz&hl=en&type=v3&v=P8cyHPrXODVy7ASorEhMUv3P&size=invisible&badge=bottomright&sa=Form&anchor-ms=20000&execute-ms=30000&cb=ttjuycoam0gl:257:28)

@@ -1,0 +1,324 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - banner [ref=e5]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - link [ref=e16] [cursor=pointer]:
+              - /url: /
+              - img [ref=e17]
+            - button "Bireysel" [ref=e22] [cursor=pointer]:
+              - text: Bireysel
+              - img [ref=e23]
+          - generic [ref=e26]:
+            - navigation "Main Menu" [ref=e29]:
+              - list [ref=e30]:
+                - listitem [ref=e31]:
+                  - link [ref=e32] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e34]
+            - list [ref=e42]:
+              - listitem [ref=e43]:
+                - link "Altyapı Sorgula" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.turk.net/internet-hiz-altyapi-sorgulama
+                  - generic [ref=e45]: Altyapı Sorgula
+              - listitem [ref=e46]:
+                - link "Abone Ol" [ref=e47] [cursor=pointer]:
+                  - /url: https://www.turk.net/taahhutsuz-ozgur-iletisim-abonelik
+                  - generic [ref=e48]: Abone Ol
+              - listitem [ref=e49]:
+                - link "Hız Testi" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.turk.net/hiz-testi
+                  - generic [ref=e51]: Hız Testi
+              - listitem [ref=e52]:
+                - link "Kampanyalar" [ref=e53] [cursor=pointer]:
+                  - /url: https://www.turk.net/internet-kampanyalari
+                  - generic [ref=e54]: Kampanyalar
+              - listitem [ref=e55]:
+                - link "Yardım" [ref=e56] [cursor=pointer]:
+                  - /url: https://www.turk.net/destek
+                  - generic [ref=e57]: Yardım
+          - link "Online İşlemler - opens in a new window" [ref=e63] [cursor=pointer]:
+            - /url: /online-islemler
+            - generic [ref=e65]: Online İşlemler
+    - main [ref=e69]:
+      - generic [ref=e71]:
+        - generic [ref=e75]:
+          - heading "Arkadaşını Getir, İkiniz de 1 Ay Ücretsiz İnternet Kazanın" [level=1] [ref=e78]:
+            - text: Arkadaşını Getir,
+            - text: İkiniz de 1 Ay Ücretsiz İnternet Kazanın
+          - generic [ref=e80]: Arkadaşını Turknetli yap, hem sen hem de arkadaşın 1 ay ücretsiz internet kazanın. Başka bir arkadaşını daha mı Turknetli yaptın, yine hem sen hem de arkadaşın 1 ay ücretsiz internet kazanırsınız. Yani ne kadar çok Turknetli arkadaş, o kadar çok ücretsiz internet demek.
+          - link "Kampanyayı İncele" [ref=e84] [cursor=pointer]:
+            - /url: /arkadasini-getir
+            - generic [ref=e86]: Kampanyayı İncele
+        - generic [ref=e90]:
+          - generic [ref=e92]:
+            - generic [ref=e95]:
+              - figure [ref=e96]:
+                - link [ref=e97] [cursor=pointer]:
+                  - /url: /internette-sabit-fiyat-firsati
+              - generic [ref=e98]:
+                - heading "12 Ay Peşin Öde, İndirim Kazan" [level=3] [ref=e99]:
+                  - link "12 Ay Peşin Öde, İndirim Kazan" [ref=e100] [cursor=pointer]:
+                    - /url: /internette-sabit-fiyat-firsati
+                - paragraph [ref=e101]:
+                  - text: İnternetini 12 aylık ₺599
+                  - superscript [ref=e102]: ",90"
+                  - text: ’dan peşin ödeyerek fiyatı 1 yıl boyunca sabitleyebilirsin. 6 aya varan taksit imkanı da var! Bu fırsat, Arkadaşını Getir ile de birleştirilebilir.
+            - link "Detayları İncele" [ref=e106] [cursor=pointer]:
+              - /url: /internette-sabit-fiyat-firsati
+              - generic [ref=e108]: Detayları İncele
+          - generic [ref=e110]:
+            - generic [ref=e113]:
+              - figure [ref=e114]:
+                - link [ref=e115] [cursor=pointer]:
+                  - /url: /baska-operatorden-gecis
+              - generic [ref=e116]:
+                - 'heading "Taahhüt Cayma Bedelin Bizden: ₺2.500''ye Kadar" [level=3] [ref=e117]':
+                  - 'link "Taahhüt Cayma Bedelin Bizden: ₺2.500''ye Kadar" [ref=e118] [cursor=pointer]':
+                    - /url: /baska-operatorden-gecis
+                - paragraph [ref=e119]: ₺200’ye kadar olan cayma bedelini 2 ay, ₺201 - ₺2.500 arasındaki cayma bedelini ise 6 ay boyunca eşit tutarda faturana indirim uygulayarak karşılıyoruz.
+            - link "Detayları İncele" [ref=e123] [cursor=pointer]:
+              - /url: /baska-operatorden-gecis
+              - generic [ref=e125]: Detayları İncele
+          - generic [ref=e127]:
+            - generic [ref=e130]:
+              - figure [ref=e131]:
+                - link [ref=e132] [cursor=pointer]:
+                  - /url: /internet-hiz-altyapi-sorgulama
+              - generic [ref=e133]:
+                - heading "Binada İlk Gigafiberli Olana 2 Ay Ücretsiz İnternet" [level=3] [ref=e134]:
+                  - link "Binada İlk Gigafiberli Olana 2 Ay Ücretsiz İnternet" [ref=e135] [cursor=pointer]:
+                    - /url: /internet-hiz-altyapi-sorgulama
+                    - text: Binada İlk Gigafiberli Olana
+                    - text: 2 Ay Ücretsiz İnternet
+                - paragraph [ref=e136]: Binasında ilk Gigafiberli olacak kişiyi GigaŞanslı olarak tanımlıyor ve ona 2 ay boyunca ücretsiz Gigafiber kullanım hakkı veriyoruz.
+            - link "Detayları İncele" [ref=e140] [cursor=pointer]:
+              - /url: /internet-hiz-altyapi-sorgulama
+              - generic [ref=e142]: Detayları İncele
+          - generic [ref=e144]:
+            - generic [ref=e147]:
+              - figure [ref=e148]:
+                - link [ref=e149] [cursor=pointer]:
+                  - /url: /gigafiber
+              - generic [ref=e150]:
+                - heading "Fiber Altyapılarda Modem Bizden!" [level=3] [ref=e151]:
+                  - link "Fiber Altyapılarda Modem Bizden!" [ref=e152] [cursor=pointer]:
+                    - /url: /gigafiber
+                    - text: Fiber Altyapılarda
+                    - text: Modem Bizden!
+                - paragraph [ref=e153]: İster 100 Mbps, ister 1.000 Mbps’ye varan Gigafiber hızımızdan faydalan, fiber altyapıların tamamında yüksek performanslı modemimiz aboneliğin boyunca ücretsiz.
+            - link "Detayları İncele" [ref=e157] [cursor=pointer]:
+              - /url: /gigafiber
+              - generic [ref=e159]: Detayları İncele
+          - generic [ref=e161]:
+            - generic [ref=e164]:
+              - figure [ref=e165]:
+                - link [ref=e166] [cursor=pointer]:
+                  - /url: /turknet-sigortamnet-kampanyasi
+              - generic [ref=e167]:
+                - heading "Turknetlilere Özel Sigorta İndirimi Sigortam.net’ten!" [level=3] [ref=e168]:
+                  - link "Turknetlilere Özel Sigorta İndirimi Sigortam.net’ten!" [ref=e169] [cursor=pointer]:
+                    - /url: /turknet-sigortamnet-kampanyasi
+                - paragraph [ref=e170]: Turknet’e özel indirim kodunu Sigortam.net’te kullan, sağlık, konut ve Evim Güvende sigortalarında %10’a varan indirim kazan.
+            - link "Detayları İncele" [ref=e174] [cursor=pointer]:
+              - /url: /turknet-sigortamnet-kampanyasi
+              - generic [ref=e176]: Detayları İncele
+          - generic [ref=e178]:
+            - generic [ref=e181]:
+              - figure [ref=e182]:
+                - link [ref=e183] [cursor=pointer]:
+                  - /url: /ogrencilere-internet-paketleri
+              - generic [ref=e184]:
+                - heading "Buraya Öğrenci Dostu Bir Turknet Bırakalım!" [level=3] [ref=e185]:
+                  - link "Buraya Öğrenci Dostu Bir Turknet Bırakalım!" [ref=e186] [cursor=pointer]:
+                    - /url: /ogrencilere-internet-paketleri
+                - paragraph [ref=e187]: Doya doya dizi/film izle, sadece memnun olduğun süre kullan diye kotasız ve taahhütsüzüz. 1.000 Mbps’ye varan yüksek hızlı sınırsız internet ilk ay ücretsiz!
+            - link "Detayları İncele" [ref=e191] [cursor=pointer]:
+              - /url: /ogrencilere-internet-paketleri
+              - generic [ref=e193]: Detayları İncele
+          - generic [ref=e195]:
+            - generic [ref=e198]:
+              - figure [ref=e199]:
+                - link [ref=e200] [cursor=pointer]:
+                  - /url: /ogretmenlere-internet-paketleri
+              - generic [ref=e201]:
+                - heading "Turknet Öğretmenleri Hep Destekler!" [level=3] [ref=e202]:
+                  - link "Turknet Öğretmenleri Hep Destekler!" [ref=e203] [cursor=pointer]:
+                    - /url: /ogretmenlere-internet-paketleri
+                - paragraph [ref=e204]: 1.000 Mbps’ye varan hız, taahhütsüz kullanım ve ilk ay ücretsiz fırsatı Turknet’te öğretmenleri bekliyor. Yüksek performanslı Özgür İletişim paketleriyle şimdi tanışın!
+            - link "Detayları İncele" [ref=e208] [cursor=pointer]:
+              - /url: /ogretmenlere-internet-paketleri
+              - generic [ref=e210]: Detayları İncele
+          - generic [ref=e212]:
+            - generic [ref=e215]:
+              - figure [ref=e216]:
+                - link [ref=e217] [cursor=pointer]:
+                  - /url: /engelsiz-tarife
+              - generic [ref=e218]:
+                - heading "Turknet’ten Engelsiz Tarife ile %25 İndirim" [level=3] [ref=e219]:
+                  - link "Turknet’ten Engelsiz Tarife ile %25 İndirim" [ref=e220] [cursor=pointer]:
+                    - /url: /engelsiz-tarife
+                - paragraph [ref=e221]: Engelsiz Tarife’den, engellilik oranı %40 ve üzeri olan vatandaşlarımızın yanı sıra, engelli ve gazi vatandaşlarımızın 1. dereceden yakınları yararlanabilir.
+            - link "Detayları İncele" [ref=e225] [cursor=pointer]:
+              - /url: /engelsiz-tarife
+              - generic [ref=e227]: Detayları İncele
+          - generic [ref=e231]:
+            - heading "Altyapını Sorgula, Yüksek Hızı Yakala" [level=3] [ref=e234]
+            - paragraph [ref=e237]: Turknet’in özgür iletişim anlayışı, internet kampanyaları ile hep daha güçlü! Fiber hızlı internet deneyimini şimdi Turknet’in internet kampanyalarıyla birleştir, yüksek hızlı internet dünyasına avantajlı bir adım at. Hemen şimdi internet sorgulama yap, altyapının desteklediği hızı kolayca öğren, kendine uygun kampanyayı seç, 1.000 Mbps’ye varan hızla özgürlüğü seç!
+            - link "Adresini Sorgula" [ref=e241] [cursor=pointer]:
+              - /url: /internet-hiz-altyapi-sorgulama
+              - generic [ref=e243]: Adresini Sorgula
+    - contentinfo [ref=e248]:
+      - contentinfo [ref=e249]:
+        - generic [ref=e252]:
+          - generic [ref=e254]:
+            - generic [ref=e257]:
+              - generic [ref=e259] [cursor=pointer]: Hakkımızda
+              - list [ref=e261]:
+                - listitem [ref=e262]:
+                  - link "Bizi Tanıyın" [ref=e263] [cursor=pointer]:
+                    - /url: /hakkimizda/index
+                - listitem [ref=e264]:
+                  - link "Şeffaflık Raporu" [ref=e265] [cursor=pointer]:
+                    - /url: /turknet-karnesi
+                - listitem [ref=e266]:
+                  - link "Bizden Haberler" [ref=e267] [cursor=pointer]:
+                    - /url: /haberler
+                - listitem [ref=e268]:
+                  - link "Bilgi Toplumu Hizmetleri" [ref=e269] [cursor=pointer]:
+                    - /url: https://e-sirket.mkk.com.tr/esir/Dashboard.jsp#/sirketbilgileri/17512
+                - listitem [ref=e270]:
+                  - link "Ekibimize Katıl" [ref=e271] [cursor=pointer]:
+                    - /url: /ekibimize-katil
+            - link "Daha Fazla" [ref=e275] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e276]:
+                - generic [ref=e278]: keyboard_arrow_down
+                - generic [ref=e279]: Daha Fazla
+          - generic [ref=e281]:
+            - generic [ref=e284]:
+              - generic [ref=e286] [cursor=pointer]: Hizmetler
+              - list [ref=e288]:
+                - listitem [ref=e289]:
+                  - link "1000 Mbps İnternet" [ref=e290] [cursor=pointer]:
+                    - /url: /1000-mbps-internet
+                - listitem [ref=e291]:
+                  - link "Sınırsız İnternet" [ref=e292] [cursor=pointer]:
+                    - /url: /sinirsiz-internet-ozgur-iletisim
+                - listitem [ref=e293]:
+                  - link "Altyapı Sorgulama" [ref=e294] [cursor=pointer]:
+                    - /url: /internet-hiz-altyapi-sorgulama
+                - listitem [ref=e295]:
+                  - link "Abonelik Başvurusu" [ref=e296] [cursor=pointer]:
+                    - /url: /turknet-abonelik-basvurusu
+                - listitem [ref=e297]:
+                  - link "Fiber İnternet" [ref=e298] [cursor=pointer]:
+                    - /url: /fiber-internet
+            - link "Daha Fazla" [ref=e302] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e303]:
+                - generic [ref=e305]: keyboard_arrow_down
+                - generic [ref=e306]: Daha Fazla
+          - generic [ref=e308]:
+            - generic [ref=e311]:
+              - generic [ref=e313] [cursor=pointer]: Bilgiler
+              - list [ref=e315]:
+                - listitem [ref=e316]:
+                  - link "Sözleşme ve Formlar" [ref=e317] [cursor=pointer]:
+                    - /url: /sozlesme-ve-formlar
+                - listitem [ref=e318]:
+                  - link "Yasal Bildirimler" [ref=e319] [cursor=pointer]:
+                    - /url: /yasal-bildirimler
+                - listitem [ref=e320]:
+                  - link "İnternet Tarifeleri" [ref=e321] [cursor=pointer]:
+                    - /url: /tarifelerimiz
+                - listitem [ref=e322]:
+                  - link "Telefon Tarifeleri" [ref=e323] [cursor=pointer]:
+                    - /url: /telefon-tarifeleri
+                - listitem [ref=e324]:
+                  - link "Siber Güvenlik" [ref=e325] [cursor=pointer]:
+                    - /url: /siber-guvenlik
+            - link "Daha Fazla" [ref=e329] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e330]:
+                - generic [ref=e332]: keyboard_arrow_down
+                - generic [ref=e333]: Daha Fazla
+          - generic [ref=e338]:
+            - generic [ref=e340] [cursor=pointer]: Yardım
+            - list [ref=e342]:
+              - listitem [ref=e343]:
+                - link "İade Sorgulama" [ref=e344] [cursor=pointer]:
+                  - /url: https://refund.turknet.net.tr/Refund/RefundLogin/Index
+              - listitem [ref=e345]:
+                - link "Borç Alacak Sorgulama" [ref=e346] [cursor=pointer]:
+                  - /url: /borc-sorgulama
+              - listitem [ref=e347]:
+                - link "Sık Sorulan Sorular" [ref=e348] [cursor=pointer]:
+                  - /url: /destek
+              - listitem [ref=e349]:
+                - link "Şikayet İlet" [ref=e350] [cursor=pointer]:
+                  - /url: /tuketici-sikayetleri
+          - generic [ref=e355]:
+            - generic [ref=e357] [cursor=pointer]: Tüketici Şikayetleri
+            - generic [ref=e358]:
+              - paragraph [ref=e360]: Bilgi Teknolojileri ve İletişim Kurulu kararları uyarınca abonelere yapılacak iadeler ve süreç hakkında bilgi alın.
+              - list [ref=e361]:
+                - listitem [ref=e362]:
+                  - link "Detaylı İncele" [ref=e363] [cursor=pointer]:
+                    - /url: https://www.turk.net/duyurular/tuketici-sikayetleri
+                    - generic [ref=e364]:
+                      - text: Detaylı İncele
+                      - generic [ref=e365]: keyboard_arrow_right
+        - generic [ref=e370]:
+          - generic [ref=e371]: Mobil Uygulama
+          - paragraph [ref=e372]: QR kod'u okutarak "Turknet Mobil Uygulamasını" indirin.
+        - generic [ref=e375]:
+          - generic [ref=e377]:
+            - paragraph [ref=e380]: Copyright © 2025 Turknet
+            - list [ref=e385]:
+              - listitem [ref=e386]:
+                - link "Gizlilk Koşulları" [ref=e387] [cursor=pointer]:
+                  - /url: /gizlilik-ve-kullanim-kosullari
+          - list [ref=e394]:
+            - listitem [ref=e395]:
+              - link "Facebook" [ref=e396] [cursor=pointer]:
+                - /url: https://www.facebook.com/turknet/
+                - generic [ref=e397]: Facebook
+                - img [ref=e398]
+            - listitem [ref=e400]:
+              - link "Instagram" [ref=e401] [cursor=pointer]:
+                - /url: http://instagram.com/turknet
+                - generic [ref=e402]: Instagram
+                - img [ref=e403]
+            - listitem [ref=e407]:
+              - link "X" [ref=e408] [cursor=pointer]:
+                - /url: https://twitter.com/Turknet
+                - generic [ref=e409]: X
+                - img [ref=e410]
+            - listitem [ref=e412]:
+              - link "Youtube" [ref=e413] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCNwR4iyGMzOrJPLKz9nMQXw
+                - generic [ref=e414]: Youtube
+                - img [ref=e415]
+            - listitem [ref=e417]:
+              - link "Linkedin" [ref=e418] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/turknet-iletisim-hizmetleri/
+                - generic [ref=e419]: Linkedin
+                - img [ref=e420]
+  - text: keyboard_arrow_right keyboard_arrow_right
+  - generic [ref=e423]:
+    - generic [ref=e424]: Çerezleri kullanıyoruz. 🍪
+    - paragraph [ref=e426]:
+      - text: İnternet sayfamızda çerezler yoluyla kişisel veriler işlenmektedir. İşlevsel, performans/analitik ve reklam/pazarlama çerezleri onay vermeniz halinde kullanılacaktır. Çerezler hakkında ayrıntılı bilgiye
+      - link "www.turk.net/cerez-politikasi" [ref=e427] [cursor=pointer]:
+        - /url: https://www.turk.net/cerez-politikasi
+        - strong [ref=e428]: www.turk.net/cerez-politikasi
+      - text: adresinden ulaşabilirsiniz
+    - generic [ref=e429]:
+      - generic [ref=e430] [cursor=pointer]: Reddet
+      - generic [ref=e431] [cursor=pointer]: Ayarlar
+      - generic [ref=e432] [cursor=pointer]: Kabul Et
+  - generic [ref=e433]: desktop

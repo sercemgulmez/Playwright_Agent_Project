@@ -1,0 +1,206 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - banner [ref=e5]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - link [ref=e16] [cursor=pointer]:
+              - /url: /
+              - img [ref=e17]
+            - button "Bireysel" [ref=e22] [cursor=pointer]:
+              - text: Bireysel
+              - img [ref=e23]
+          - generic [ref=e26]:
+            - navigation "Main Menu" [ref=e29]:
+              - list [ref=e30]:
+                - listitem [ref=e31]:
+                  - link [ref=e32] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e34]
+            - list [ref=e42]:
+              - listitem [ref=e43]:
+                - link "Altyapı Sorgula" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.turk.net/internet-hiz-altyapi-sorgulama
+                  - generic [ref=e45]: Altyapı Sorgula
+              - listitem [ref=e46]:
+                - link "Abone Ol" [ref=e47] [cursor=pointer]:
+                  - /url: https://www.turk.net/taahhutsuz-ozgur-iletisim-abonelik
+                  - generic [ref=e48]: Abone Ol
+              - listitem [ref=e49]:
+                - link "Hız Testi" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.turk.net/hiz-testi
+                  - generic [ref=e51]: Hız Testi
+              - listitem [ref=e52]:
+                - link "Kampanyalar" [ref=e53] [cursor=pointer]:
+                  - /url: https://www.turk.net/internet-kampanyalari
+                  - generic [ref=e54]: Kampanyalar
+              - listitem [ref=e55]:
+                - link "Yardım" [ref=e56] [cursor=pointer]:
+                  - /url: https://www.turk.net/destek
+                  - generic [ref=e57]: Yardım
+          - link "Online İşlemler - opens in a new window" [ref=e63] [cursor=pointer]:
+            - /url: /online-islemler
+            - generic [ref=e65]: Online İşlemler
+    - main [ref=e70]:
+      - generic [ref=e80]:
+        - heading "Gizlilik ve Kullanım Koşulları" [level=1] [ref=e83]
+        - generic [ref=e85]:
+          - paragraph [ref=e86]: www.turk.net web sitesi Turknet İletişim Hizmetleri A.Ş.’ye aittir.
+          - paragraph [ref=e87]: Sitemizi ziyaret eden tüm misafirlerimizin bilgi güvenliğini sağlamak bizim için çok önemli.
+          - paragraph [ref=e88]: Sitemizi ziyaret ederken kişisel bilgilerinizi paylaşmanızı beklemeden tüm içeriklerimizi görüntüleyebilirsiniz.
+          - paragraph [ref=e89]: Web sitemiz üzerinden isim, soyisim, iletişim bilgileriniz (GSM numarası/e-posta), doğum tarihi bilgilerinizi kullanarak Turknet ile iletişime geçmek ya da yeni bir abonelik başvurusu yapmak için verdiğiniz kişisel bilgileriniz Turknet tarafından özenle korunur.
+          - paragraph [ref=e90]: Bilgi güvenliğinizi korumak amacıyla Web sitemizde ve/veya Online İşlem Merkezinde kullandığınız kullanıcı adı ve şifrenizi açısından kimse ile paylaşmamanızı ve kolayca ulaşılabilecek, güvenliği bulunmayan hiçbir yere not etmemeniz gerektiğini hatırlatmak isteriz.
+          - paragraph [ref=e91]: Web sitemizde Turknet tarafından işletilmeyen diğer web sitelerine ulaşabileceğiniz linkler bulunabilir. Bu web sitelerinden herhangi birini ziyaret ederseniz o sitenin gizlilik ve diğer politikaları geçerli olacaktır. Diğer şirketlerin politika ve uygulamalarından sorumlu olmadığımızı belirtir, ziyaret ettiğiniz tüm web sitelerinin gizlilik ve güvenlik politikalarını incelemenizi tavsiye ederiz.
+    - contentinfo [ref=e92]:
+      - contentinfo [ref=e93]:
+        - generic [ref=e96]:
+          - generic [ref=e98]:
+            - generic [ref=e101]:
+              - generic [ref=e103] [cursor=pointer]: Hakkımızda
+              - list [ref=e105]:
+                - listitem [ref=e106]:
+                  - link "Bizi Tanıyın" [ref=e107] [cursor=pointer]:
+                    - /url: /hakkimizda/index
+                - listitem [ref=e108]:
+                  - link "Şeffaflık Raporu" [ref=e109] [cursor=pointer]:
+                    - /url: /turknet-karnesi
+                - listitem [ref=e110]:
+                  - link "Bizden Haberler" [ref=e111] [cursor=pointer]:
+                    - /url: /haberler
+                - listitem [ref=e112]:
+                  - link "Bilgi Toplumu Hizmetleri" [ref=e113] [cursor=pointer]:
+                    - /url: https://e-sirket.mkk.com.tr/esir/Dashboard.jsp#/sirketbilgileri/17512
+                - listitem [ref=e114]:
+                  - link "Ekibimize Katıl" [ref=e115] [cursor=pointer]:
+                    - /url: /ekibimize-katil
+            - link "Daha Fazla" [ref=e119] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e120]:
+                - generic [ref=e122]: keyboard_arrow_down
+                - generic [ref=e123]: Daha Fazla
+          - generic [ref=e125]:
+            - generic [ref=e128]:
+              - generic [ref=e130] [cursor=pointer]: Hizmetler
+              - list [ref=e132]:
+                - listitem [ref=e133]:
+                  - link "1000 Mbps İnternet" [ref=e134] [cursor=pointer]:
+                    - /url: /1000-mbps-internet
+                - listitem [ref=e135]:
+                  - link "Sınırsız İnternet" [ref=e136] [cursor=pointer]:
+                    - /url: /sinirsiz-internet-ozgur-iletisim
+                - listitem [ref=e137]:
+                  - link "Altyapı Sorgulama" [ref=e138] [cursor=pointer]:
+                    - /url: /internet-hiz-altyapi-sorgulama
+                - listitem [ref=e139]:
+                  - link "Abonelik Başvurusu" [ref=e140] [cursor=pointer]:
+                    - /url: /turknet-abonelik-basvurusu
+                - listitem [ref=e141]:
+                  - link "Fiber İnternet" [ref=e142] [cursor=pointer]:
+                    - /url: /fiber-internet
+            - link "Daha Fazla" [ref=e146] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e147]:
+                - generic [ref=e149]: keyboard_arrow_down
+                - generic [ref=e150]: Daha Fazla
+          - generic [ref=e152]:
+            - generic [ref=e155]:
+              - generic [ref=e157] [cursor=pointer]: Bilgiler
+              - list [ref=e159]:
+                - listitem [ref=e160]:
+                  - link "Sözleşme ve Formlar" [ref=e161] [cursor=pointer]:
+                    - /url: /sozlesme-ve-formlar
+                - listitem [ref=e162]:
+                  - link "Yasal Bildirimler" [ref=e163] [cursor=pointer]:
+                    - /url: /yasal-bildirimler
+                - listitem [ref=e164]:
+                  - link "İnternet Tarifeleri" [ref=e165] [cursor=pointer]:
+                    - /url: /tarifelerimiz
+                - listitem [ref=e166]:
+                  - link "Telefon Tarifeleri" [ref=e167] [cursor=pointer]:
+                    - /url: /telefon-tarifeleri
+                - listitem [ref=e168]:
+                  - link "Siber Güvenlik" [ref=e169] [cursor=pointer]:
+                    - /url: /siber-guvenlik
+            - link "Daha Fazla" [ref=e173] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e174]:
+                - generic [ref=e176]: keyboard_arrow_down
+                - generic [ref=e177]: Daha Fazla
+          - generic [ref=e182]:
+            - generic [ref=e184] [cursor=pointer]: Yardım
+            - list [ref=e186]:
+              - listitem [ref=e187]:
+                - link "İade Sorgulama" [ref=e188] [cursor=pointer]:
+                  - /url: https://refund.turknet.net.tr/Refund/RefundLogin/Index
+              - listitem [ref=e189]:
+                - link "Borç Alacak Sorgulama" [ref=e190] [cursor=pointer]:
+                  - /url: /borc-sorgulama
+              - listitem [ref=e191]:
+                - link "Sık Sorulan Sorular" [ref=e192] [cursor=pointer]:
+                  - /url: /destek
+              - listitem [ref=e193]:
+                - link "Şikayet İlet" [ref=e194] [cursor=pointer]:
+                  - /url: /tuketici-sikayetleri
+          - generic [ref=e199]:
+            - generic [ref=e201] [cursor=pointer]: Tüketici Şikayetleri
+            - generic [ref=e202]:
+              - paragraph [ref=e204]: Bilgi Teknolojileri ve İletişim Kurulu kararları uyarınca abonelere yapılacak iadeler ve süreç hakkında bilgi alın.
+              - list [ref=e205]:
+                - listitem [ref=e206]:
+                  - link "Detaylı İncele" [ref=e207] [cursor=pointer]:
+                    - /url: https://www.turk.net/duyurular/tuketici-sikayetleri
+                    - generic [ref=e208]:
+                      - text: Detaylı İncele
+                      - generic [ref=e209]: keyboard_arrow_right
+        - generic [ref=e214]:
+          - generic [ref=e215]: Mobil Uygulama
+          - paragraph [ref=e216]: QR kod'u okutarak "Turknet Mobil Uygulamasını" indirin.
+        - generic [ref=e219]:
+          - generic [ref=e221]:
+            - paragraph [ref=e224]: Copyright © 2025 Turknet
+            - list [ref=e229]:
+              - listitem [ref=e230]:
+                - link "Gizlilk Koşulları" [ref=e231] [cursor=pointer]:
+                  - /url: /gizlilik-ve-kullanim-kosullari
+          - list [ref=e238]:
+            - listitem [ref=e239]:
+              - link "Facebook" [ref=e240] [cursor=pointer]:
+                - /url: https://www.facebook.com/turknet/
+                - generic [ref=e241]: Facebook
+                - img [ref=e242]
+            - listitem [ref=e244]:
+              - link "Instagram" [ref=e245] [cursor=pointer]:
+                - /url: http://instagram.com/turknet
+                - generic [ref=e246]: Instagram
+                - img [ref=e247]
+            - listitem [ref=e251]:
+              - link "X" [ref=e252] [cursor=pointer]:
+                - /url: https://twitter.com/Turknet
+                - generic [ref=e253]: X
+                - img [ref=e254]
+            - listitem [ref=e256]:
+              - link "Youtube" [ref=e257] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCNwR4iyGMzOrJPLKz9nMQXw
+                - generic [ref=e258]: Youtube
+                - img [ref=e259]
+            - listitem [ref=e261]:
+              - link "Linkedin" [ref=e262] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/turknet-iletisim-hizmetleri/
+                - generic [ref=e263]: Linkedin
+                - img [ref=e264]
+  - text: keyboard_arrow_right keyboard_arrow_right
+  - generic [ref=e266]: desktop
+  - generic [ref=e268]:
+    - generic [ref=e269]: Çerezleri kullanıyoruz. 🍪
+    - paragraph [ref=e271]:
+      - text: İnternet sayfamızda çerezler yoluyla kişisel veriler işlenmektedir. İşlevsel, performans/analitik ve reklam/pazarlama çerezleri onay vermeniz halinde kullanılacaktır. Çerezler hakkında ayrıntılı bilgiye
+      - link "www.turk.net/cerez-politikasi" [ref=e272] [cursor=pointer]:
+        - /url: https://www.turk.net/cerez-politikasi
+        - strong [ref=e273]: www.turk.net/cerez-politikasi
+      - text: adresinden ulaşabilirsiniz
+    - generic [ref=e274]:
+      - generic [ref=e275] [cursor=pointer]: Reddet
+      - generic [ref=e276] [cursor=pointer]: Ayarlar
+      - generic [ref=e277] [cursor=pointer]: Kabul Et

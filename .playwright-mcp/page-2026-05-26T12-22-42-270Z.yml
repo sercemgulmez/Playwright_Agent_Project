@@ -1,0 +1,336 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - banner [ref=e5]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - link [ref=e16] [cursor=pointer]:
+              - /url: /
+              - img [ref=e17]
+            - button "Bireysel" [ref=e22] [cursor=pointer]:
+              - text: Bireysel
+              - img [ref=e23]
+          - generic [ref=e26]:
+            - navigation "Main Menu" [ref=e29]:
+              - list [ref=e30]:
+                - listitem [ref=e31]:
+                  - link [ref=e32] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e34]
+            - list [ref=e42]:
+              - listitem [ref=e43]:
+                - link "Altyapı Sorgula" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.turk.net/internet-hiz-altyapi-sorgulama
+                  - generic [ref=e45]: Altyapı Sorgula
+              - listitem [ref=e46]:
+                - link "Abone Ol" [ref=e47] [cursor=pointer]:
+                  - /url: https://www.turk.net/taahhutsuz-ozgur-iletisim-abonelik
+                  - generic [ref=e48]: Abone Ol
+              - listitem [ref=e49]:
+                - link "Hız Testi" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.turk.net/hiz-testi
+                  - generic [ref=e51]: Hız Testi
+              - listitem [ref=e52]:
+                - link "Kampanyalar" [ref=e53] [cursor=pointer]:
+                  - /url: https://www.turk.net/internet-kampanyalari
+                  - generic [ref=e54]: Kampanyalar
+              - listitem [ref=e55]:
+                - link "Yardım" [ref=e56] [cursor=pointer]:
+                  - /url: https://www.turk.net/destek
+                  - generic [ref=e57]: Yardım
+          - link "Online İşlemler - opens in a new window" [ref=e63] [cursor=pointer]:
+            - /url: /online-islemler
+            - generic [ref=e65]: Online İşlemler
+    - main [ref=e70]:
+      - generic [ref=e72]:
+        - generic [ref=e76]:
+          - heading "Fiber İnternet — Taahhütsüz & Sınırsız" [level=1] [ref=e79]
+          - heading "1.000 Mbps’ye Kadar Hız" [level=2] [ref=e82]
+          - generic [ref=e84]:
+            - paragraph [ref=e85]:
+              - text: 1000 Mbps’ye
+              - link "(1)" [ref=e86] [cursor=pointer]:
+                - /url: "#footnote"
+              - text: varan hızlarıyla dünya kalitesinde sınırsız fiber internet Turknet’te! Üstelik taahhüt ve kota yok. Başka operatörden geçişlerde de taahhüt cayma bedelini dert etmeyin, bir kısmı Turknet’ten! Üstelik aboneliğiniz süresince ₺3.000 değerindeki fiber modem dahil!
+              - strong [ref=e87]: Mevcut internetinizi iptal ettirmeden de zahmetsizce Turknet’e geçebilirsiniz. Kurulum ücreti de ödemezsiniz.
+            - paragraph [ref=e88]: Hemen altyapınızı sorgulayıp, alabileceğiniz fiber internet hızını keşfedin ve yüksek hız keyfini doyasıya yaşayın!
+          - list [ref=e91]:
+            - listitem [ref=e92]:
+              - generic [ref=e94]: check
+              - generic [ref=e95]: Taahhütsüz, hızlı ve kotasız internet
+            - listitem [ref=e96]:
+              - generic [ref=e98]: check
+              - generic [ref=e99]: Zahmetsiz iptal
+            - listitem [ref=e100]:
+              - generic [ref=e102]: check
+              - generic [ref=e103]: Netflix'e hızlı bağlantı
+            - listitem [ref=e104]:
+              - generic [ref=e106]: check
+              - generic [ref=e107]: Steam’e üstün erişim performansı
+          - link "Hemen abone ol" [ref=e111] [cursor=pointer]:
+            - /url: /taahhutsuz-ozgur-iletisim-abonelik
+            - generic [ref=e113]: Hemen abone ol
+          - link "Altyapı sorgula" [ref=e117] [cursor=pointer]:
+            - /url: /internet-hiz-altyapi-sorgulama
+            - generic [ref=e119]: Altyapı sorgula
+        - generic [ref=e131]:
+          - heading "Turknet Gigafiber ile dünya kalitesinde internet!" [level=2] [ref=e134]
+          - paragraph [ref=e137]:
+            - generic [ref=e138]:
+              - text: 1.000 Mbps'ye varan yüksek hızlarda internet Turknet
+              - text: ile
+              - link "GigaFiber" [ref=e139] [cursor=pointer]:
+                - /url: https://www.turk.net/gigafiber
+              - text: sizinle! Siz de hemen dünya hızında, taahhütsüz ve eşsiz bir internet deneyimiyle tanışın. Üstelik aboneliğiniz boyunca modem dahil!
+        - generic [ref=e141]:
+          - generic [ref=e143]:
+            - heading "Özgür İletişim Fiber 100 ile internetinizi uçurun!" [level=2] [ref=e146]
+            - paragraph [ref=e149]:
+              - text: Turknet
+              - link "GigaFiber" [ref=e150] [cursor=pointer]:
+                - /url: /gigafiber
+              - text: henüz bölgenize gelmediyse, Özgür İletişim Fiber 100 var! 100 Mbps’ye kadar, altyapınızın sunduğu fiber hızı keyifle kullanın. Modeminiz de ücretsiz kapınıza gelsin. Gerçek
+              - link "sınırsız fiber internet" [ref=e151] [cursor=pointer]:
+                - /url: /sinirsiz-internet-ozgur-iletisim
+              - text: deneyimi yaşamak için
+              - link "fiber internet altyapı sorgulama" [ref=e152] [cursor=pointer]:
+                - /url: /internet-hiz-altyapi-sorgulama
+              - text: sayfamızı ziyaret edebilir ve fiber internete geçmek için başvuru işlemlerinizi yapabilirsiniz.
+          - img "Özgür İletişim Fiber 100 ile internetinizi uçurun" [ref=e157]
+        - generic [ref=e165]:
+          - heading "Fiber İnternet kullanmak için çok sebebiniz var!" [level=2] [ref=e168]
+          - generic [ref=e170]:
+            - paragraph [ref=e171]:
+              - text: Tüm kullanıcılarımıza yüksek hızlı fiber internet sunmak için çok çalışıyoruz! Kendi altyapımızda sunduğumuz Turknet Gigafiber’i sürekli olarak geliştirmeye ve yaygınlaştırmaya devam ediyoruz. Fiber internet sayesinde ADSL ve VDSL altyapı teknolojilerinin sunamadığı hızları size sunarken sadece download değil upload tarafında da yüksek hızları sizinle buluşturuyoruz. Üstelik hız avantajına; ücretsiz modem, kotasız ve
+              - link "taahhütsüz internet" [ref=e172] [cursor=pointer]:
+                - /url: /taahhutsuz-internet
+              - text: özgürlüğü de ekliyoruz.
+            - paragraph [ref=e173]:
+              - text: Mevcut internetiniz varsa iptal ettirmeyin.
+              - strong [ref=e174]: Kurulum ücreti ödemeden ücretsiz olarak Turknet’e geçin
+              - text: ; fiber internetin keyfini çıkarın.
+          - heading "Steam ve Netflix’te üstün performans" [level=3] [ref=e177]
+          - paragraph [ref=e180]: Fiber hızlarımız sayesinde, Netflix’in resmî web sitesinde yayınladığı rapora göre 2023’de zirveyi paylaşıyoruz! Bunun Netflix’te 4K kalitesinde kesintisiz dizi, film ve belgesel keyfi yaşamak anlamına geldiğini vurgulayalım. Ayrıca dünyanın en büyük çevrim içi online oyun portallarından Steam’in haftalık olarak yayınladığı raporlara göre birinciyiz ve her hafta üstün erişim performansı gösteriyoruz!
+        - generic [ref=e184]:
+          - heading "Dünya Hızında İnterneti Arkadaşınla 1 Ay Ücretsiz Kullan!" [level=3] [ref=e188]
+          - paragraph [ref=e191]: Arkadaşını Turknet’li yap hem senin hem de arkadaşın için 1 ay internet ücretsiz olsun. Bu fırsatı kaçırma, Turknet ile arkadaşlık kazansın!
+          - link "Detayları İncele" [ref=e199] [cursor=pointer]:
+            - /url: /arkadasini-getir
+            - generic [ref=e201]: Detayları İncele
+        - generic [ref=e205]:
+          - heading "Soru/Cevap" [level=2] [ref=e208]
+          - paragraph [ref=e211]: Aklınıza takılan bir soru mu var?
+          - generic [ref=e214]:
+            - generic [ref=e215]:
+              - button "Fiber internet nedir?" [expanded] [ref=e216] [cursor=pointer]:
+                - img [ref=e219]
+                - link "Fiber internet nedir?" [ref=e220]:
+                  - /url: "#"
+              - region "Fiber internet nedir?" [ref=e221]:
+                - text: Fiber optik kablolar aracılığıyla aktarılan internet bağlantısı olarak tanımlanan fiber internet, en hızlı internet deneyimlerinden birini sunar. Cam, elyaf ve plastik olmak üzere, üç farklı materyalin birleşimi sonucu üretilen fiber optik kablolar işlevsel yapıları sayesinde veriyi diğer bağlantı türlerine kıyasla çok daha hızlı şekilde iletir. Ayrıca fiber internet ile normal internet arasındaki fark bununla sınırlı değildir. Fiber optik kablolar bakır kablolara göre çok daha güvenli, kesintisiz ve çevre dostudur ve diğer internet bağlantıları gibi telefon bağlantısına gerek duymaz. Fiber internet hakkında daha fazla bilgi almak için
+                - link "tıklayın." [ref=e222] [cursor=pointer]:
+                  - /url: /blog/fiber-internet-nedir-neden-tercih-edilmelidir/
+            - button "Fiber internet ne kadar hızlı?" [ref=e224] [cursor=pointer]:
+              - img [ref=e227]
+              - link "Fiber internet ne kadar hızlı?" [ref=e228]:
+                - /url: "#"
+            - button "Fiber internet kaç Mbps hız sunar?" [ref=e230] [cursor=pointer]:
+              - img [ref=e233]
+              - link "Fiber internet kaç Mbps hız sunar?" [ref=e234]:
+                - /url: "#"
+            - button "En hızlı fiber internet kaç Mbps?" [ref=e236] [cursor=pointer]:
+              - img [ref=e239]
+              - link "En hızlı fiber internet kaç Mbps?" [ref=e240]:
+                - /url: "#"
+            - button "Fiber internet en az kaç Mbps?" [ref=e242] [cursor=pointer]:
+              - img [ref=e245]
+              - link "Fiber internet en az kaç Mbps?" [ref=e246]:
+                - /url: "#"
+            - button "Fiber internet ile ADSL arasındaki fark nedir?" [ref=e248] [cursor=pointer]:
+              - img [ref=e251]
+              - link "Fiber internet ile ADSL arasındaki fark nedir?" [ref=e252]:
+                - /url: "#"
+            - button "Turknet Fiber İnternet'in avantajları nelerdir?" [ref=e254] [cursor=pointer]:
+              - img [ref=e257]
+              - link "Turknet Fiber İnternet'in avantajları nelerdir?" [ref=e258]:
+                - /url: "#"
+            - button "Fiber internet paketleri ve kampanyaları nelerdir?" [ref=e260] [cursor=pointer]:
+              - img [ref=e263]
+              - link "Fiber internet paketleri ve kampanyaları nelerdir?" [ref=e264]:
+                - /url: "#"
+            - button "Adresimde fiber internet altyapısı var mı?" [ref=e266] [cursor=pointer]:
+              - img [ref=e269]
+              - link "Adresimde fiber internet altyapısı var mı?" [ref=e270]:
+                - /url: "#"
+            - button "Fiber başvurusu nasıl yapılır?" [ref=e272] [cursor=pointer]:
+              - img [ref=e275]
+              - link "Fiber başvurusu nasıl yapılır?" [ref=e276]:
+                - /url: "#"
+            - button "Paketimi iptal edersem modemi ne yapmam gerekecek?" [ref=e278] [cursor=pointer]:
+              - img [ref=e281]
+              - link "Paketimi iptal edersem modemi ne yapmam gerekecek?" [ref=e282]:
+                - /url: "#"
+            - button "Turknet Gigafiber kullanıcıları için özel destek hattı var mı?" [ref=e284] [cursor=pointer]:
+              - img [ref=e287]
+              - link "Turknet Gigafiber kullanıcıları için özel destek hattı var mı?" [ref=e288]:
+                - /url: "#"
+            - button "Fiber internet için ne gerekir?" [ref=e290] [cursor=pointer]:
+              - img [ref=e293]
+              - link "Fiber internet için ne gerekir?" [ref=e294]:
+                - /url: "#"
+        - generic [ref=e298]:
+          - paragraph [ref=e302]: "1"
+          - paragraph [ref=e305]: Adresinde sunulan hızlar mevcut altyapına göre değişebilir. Yerleşik operatör altyapısı üzerinden hizmet verildiği takdirde, adresinde sunulabilen 16, 35, 50, 75, 100 veya 1.000 Mbps’ye varan hızlardan en yükseği ile hizmet verilmektedir. 1.000 Mbps’ye varan hız Turknet Gigafiber bölgelerinde bulunur veya yerleşik operatörün fiber altyapısının bulunduğu bölgelerde ek hız hizmeti kapsamında sunulur.
+    - contentinfo [ref=e306]:
+      - contentinfo [ref=e307]:
+        - generic [ref=e310]:
+          - generic [ref=e312]:
+            - generic [ref=e315]:
+              - generic [ref=e317] [cursor=pointer]: Hakkımızda
+              - list [ref=e319]:
+                - listitem [ref=e320]:
+                  - link "Bizi Tanıyın" [ref=e321] [cursor=pointer]:
+                    - /url: /hakkimizda/index
+                - listitem [ref=e322]:
+                  - link "Şeffaflık Raporu" [ref=e323] [cursor=pointer]:
+                    - /url: /turknet-karnesi
+                - listitem [ref=e324]:
+                  - link "Bizden Haberler" [ref=e325] [cursor=pointer]:
+                    - /url: /haberler
+                - listitem [ref=e326]:
+                  - link "Bilgi Toplumu Hizmetleri" [ref=e327] [cursor=pointer]:
+                    - /url: https://e-sirket.mkk.com.tr/esir/Dashboard.jsp#/sirketbilgileri/17512
+                - listitem [ref=e328]:
+                  - link "Ekibimize Katıl" [ref=e329] [cursor=pointer]:
+                    - /url: /ekibimize-katil
+            - link "Daha Fazla" [ref=e333] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e334]:
+                - generic [ref=e336]: keyboard_arrow_down
+                - generic [ref=e337]: Daha Fazla
+          - generic [ref=e339]:
+            - generic [ref=e342]:
+              - generic [ref=e344] [cursor=pointer]: Hizmetler
+              - list [ref=e346]:
+                - listitem [ref=e347]:
+                  - link "1000 Mbps İnternet" [ref=e348] [cursor=pointer]:
+                    - /url: /1000-mbps-internet
+                - listitem [ref=e349]:
+                  - link "Sınırsız İnternet" [ref=e350] [cursor=pointer]:
+                    - /url: /sinirsiz-internet-ozgur-iletisim
+                - listitem [ref=e351]:
+                  - link "Altyapı Sorgulama" [ref=e352] [cursor=pointer]:
+                    - /url: /internet-hiz-altyapi-sorgulama
+                - listitem [ref=e353]:
+                  - link "Abonelik Başvurusu" [ref=e354] [cursor=pointer]:
+                    - /url: /turknet-abonelik-basvurusu
+                - listitem [ref=e355]:
+                  - link "Fiber İnternet" [ref=e356] [cursor=pointer]:
+                    - /url: /fiber-internet
+            - link "Daha Fazla" [ref=e360] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e361]:
+                - generic [ref=e363]: keyboard_arrow_down
+                - generic [ref=e364]: Daha Fazla
+          - generic [ref=e366]:
+            - generic [ref=e369]:
+              - generic [ref=e371] [cursor=pointer]: Bilgiler
+              - list [ref=e373]:
+                - listitem [ref=e374]:
+                  - link "Sözleşme ve Formlar" [ref=e375] [cursor=pointer]:
+                    - /url: /sozlesme-ve-formlar
+                - listitem [ref=e376]:
+                  - link "Yasal Bildirimler" [ref=e377] [cursor=pointer]:
+                    - /url: /yasal-bildirimler
+                - listitem [ref=e378]:
+                  - link "İnternet Tarifeleri" [ref=e379] [cursor=pointer]:
+                    - /url: /tarifelerimiz
+                - listitem [ref=e380]:
+                  - link "Telefon Tarifeleri" [ref=e381] [cursor=pointer]:
+                    - /url: /telefon-tarifeleri
+                - listitem [ref=e382]:
+                  - link "Siber Güvenlik" [ref=e383] [cursor=pointer]:
+                    - /url: /siber-guvenlik
+            - link "Daha Fazla" [ref=e387] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e388]:
+                - generic [ref=e390]: keyboard_arrow_down
+                - generic [ref=e391]: Daha Fazla
+          - generic [ref=e396]:
+            - generic [ref=e398] [cursor=pointer]: Yardım
+            - list [ref=e400]:
+              - listitem [ref=e401]:
+                - link "İade Sorgulama" [ref=e402] [cursor=pointer]:
+                  - /url: https://refund.turknet.net.tr/Refund/RefundLogin/Index
+              - listitem [ref=e403]:
+                - link "Borç Alacak Sorgulama" [ref=e404] [cursor=pointer]:
+                  - /url: /borc-sorgulama
+              - listitem [ref=e405]:
+                - link "Sık Sorulan Sorular" [ref=e406] [cursor=pointer]:
+                  - /url: /destek
+              - listitem [ref=e407]:
+                - link "Şikayet İlet" [ref=e408] [cursor=pointer]:
+                  - /url: /tuketici-sikayetleri
+          - generic [ref=e413]:
+            - generic [ref=e415] [cursor=pointer]: Tüketici Şikayetleri
+            - generic [ref=e416]:
+              - paragraph [ref=e418]: Bilgi Teknolojileri ve İletişim Kurulu kararları uyarınca abonelere yapılacak iadeler ve süreç hakkında bilgi alın.
+              - list [ref=e419]:
+                - listitem [ref=e420]:
+                  - link "Detaylı İncele" [ref=e421] [cursor=pointer]:
+                    - /url: https://www.turk.net/duyurular/tuketici-sikayetleri
+                    - generic [ref=e422]:
+                      - text: Detaylı İncele
+                      - generic [ref=e423]: keyboard_arrow_right
+        - generic [ref=e428]:
+          - generic [ref=e429]: Mobil Uygulama
+          - paragraph [ref=e430]: QR kod'u okutarak "Turknet Mobil Uygulamasını" indirin.
+        - generic [ref=e433]:
+          - generic [ref=e435]:
+            - paragraph [ref=e438]: Copyright © 2025 Turknet
+            - list [ref=e443]:
+              - listitem [ref=e444]:
+                - link "Gizlilk Koşulları" [ref=e445] [cursor=pointer]:
+                  - /url: /gizlilik-ve-kullanim-kosullari
+          - list [ref=e452]:
+            - listitem [ref=e453]:
+              - link "Facebook" [ref=e454] [cursor=pointer]:
+                - /url: https://www.facebook.com/turknet/
+                - generic [ref=e455]: Facebook
+                - img [ref=e456]
+            - listitem [ref=e458]:
+              - link "Instagram" [ref=e459] [cursor=pointer]:
+                - /url: http://instagram.com/turknet
+                - generic [ref=e460]: Instagram
+                - img [ref=e461]
+            - listitem [ref=e465]:
+              - link "X" [ref=e466] [cursor=pointer]:
+                - /url: https://twitter.com/Turknet
+                - generic [ref=e467]: X
+                - img [ref=e468]
+            - listitem [ref=e470]:
+              - link "Youtube" [ref=e471] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCNwR4iyGMzOrJPLKz9nMQXw
+                - generic [ref=e472]: Youtube
+                - img [ref=e473]
+            - listitem [ref=e475]:
+              - link "Linkedin" [ref=e476] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/turknet-iletisim-hizmetleri/
+                - generic [ref=e477]: Linkedin
+                - img [ref=e478]
+  - text: keyboard_arrow_right keyboard_arrow_right
+  - generic [ref=e481]:
+    - generic [ref=e482]: Çerezleri kullanıyoruz. 🍪
+    - paragraph [ref=e484]:
+      - text: İnternet sayfamızda çerezler yoluyla kişisel veriler işlenmektedir. İşlevsel, performans/analitik ve reklam/pazarlama çerezleri onay vermeniz halinde kullanılacaktır. Çerezler hakkında ayrıntılı bilgiye
+      - link "www.turk.net/cerez-politikasi" [ref=e485] [cursor=pointer]:
+        - /url: https://www.turk.net/cerez-politikasi
+        - strong [ref=e486]: www.turk.net/cerez-politikasi
+      - text: adresinden ulaşabilirsiniz
+    - generic [ref=e487]:
+      - generic [ref=e488] [cursor=pointer]: Reddet
+      - generic [ref=e489] [cursor=pointer]: Ayarlar
+      - generic [ref=e490] [cursor=pointer]: Kabul Et
+  - generic [ref=e491]: desktop

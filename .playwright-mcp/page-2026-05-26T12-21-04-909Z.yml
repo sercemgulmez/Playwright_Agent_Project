@@ -1,0 +1,417 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Turknet logo" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Turknet logo" [ref=e8]
+        - generic [ref=e10] [cursor=pointer]:
+          - text: Bireysel
+          - img [ref=e11]
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - img [ref=e16] [cursor=pointer]
+          - link "Altyapı Sorgula" [ref=e17] [cursor=pointer]:
+            - /url: /internet-hiz-altyapi-sorgulama
+          - link "Abone Ol" [ref=e18] [cursor=pointer]:
+            - /url: /taahhutsuz-ozgur-iletisim-abonelik
+          - link "Hız Testi" [ref=e19] [cursor=pointer]:
+            - /url: /internet-hiz-testi
+          - link "GigaFiber İstiyorum" [ref=e20] [cursor=pointer]:
+            - /url: /gigafiber-istiyorum
+        - generic:
+          - generic:
+            - img
+            - textbox [active]
+            - generic:
+              - button
+      - generic [ref=e21]:
+        - button "Ara" [ref=e22] [cursor=pointer]:
+          - img [ref=e23]
+        - button "Online İşlemler" [ref=e26] [cursor=pointer]:
+          - text: Online İşlemler
+          - img [ref=e28]:
+            - img [ref=e29]
+    - main [ref=e31]:
+      - main [ref=e32]:
+        - main [ref=e33]:
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - link "Turk.net 30. Yıl Özel Kampanyası" [ref=e38] [cursor=pointer]:
+                - /url: https://www.turk.net/internette-sabit-fiyat-firsati?ref=ana-sayfa-slider
+                - img "Turk.net 30. Yıl Özel Kampanyası" [ref=e41]
+              - img "Turk.net 30. Yıl Özel Kampanyası" [ref=e44]
+              - img "Turk.net 30. Yıl Özel Kampanyası" [ref=e47]
+              - img "Turk.net 30. Yıl Özel Kampanyası" [ref=e50]
+              - img "Turk.net 30. Yıl Özel Kampanyası" [ref=e53]
+              - link "Turk.net Ookla En Hızlı Sabit İnternet Ağı Speedtest Ödülü" [ref=e55] [cursor=pointer]:
+                - /url: https://www.turk.net/ookla-fastest-fixed-network-speedtest-odulu?ref=ana-sayfa-slider-speedtest
+                - img "Turk.net Ookla En Hızlı Sabit İnternet Ağı Speedtest Ödülü" [ref=e58]
+            - generic [ref=e59]:
+              - img [ref=e61] [cursor=pointer]
+              - img [ref=e64] [cursor=pointer]
+          - button "Adres sorgula widget'ı, açmak için tıklayın veya Enter/Space tuşuna basın" [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]: Adresini Gir, Sonucu Gör
+            - textbox "Adres seçin..." [ref=e75]
+          - generic [ref=e76]:
+            - generic [ref=e79]:
+              - heading "Bizim Olayımız İnternet" [level=1] [ref=e80]
+              - heading "30 yıldır tek odağımız internet. Bu sadece iş değil, bir dönüşüm. Ezberleri bozuyor, bu dönüşüme liderlik ediyoruz. Çünkü bizim için internet, Turknet’tir." [level=3] [ref=e81]
+            - generic [ref=e83]:
+              - generic [ref=e85]:
+                - button "Yüksek Hız ve Performans" [ref=e86] [cursor=pointer]:
+                  - heading "Yüksek Hız ve Performans" [level=3] [ref=e87]
+                - button "Basit ve Net" [ref=e88] [cursor=pointer]:
+                  - heading "Basit ve Net" [level=3] [ref=e89]
+                - button "Taahhütsüz" [ref=e90] [cursor=pointer]:
+                  - heading "Taahhütsüz" [level=3] [ref=e91]
+                - button "Uçtan Uca Dijital" [ref=e92] [cursor=pointer]:
+                  - heading "Uçtan Uca Dijital" [level=3] [ref=e93]
+                - button "Eşit ve Adil" [ref=e94] [cursor=pointer]:
+                  - heading "Eşit ve Adil" [level=3] [ref=e95]
+                - button "Müşteri Odaklı" [ref=e96] [cursor=pointer]:
+                  - heading "Müşteri Odaklı" [level=3] [ref=e97]
+              - heading "Bu Oyunu Değiştirdik." [level=3] [ref=e98]
+              - generic [ref=e104]:
+                - generic [ref=e105]:
+                  - img "Yüksek Performans" [ref=e107]
+                  - generic [ref=e108]:
+                    - heading "Yüksek Performans" [level=3] [ref=e109]
+                    - heading "Ookla'ya göre Türkiye'de Turknet'ten daha hızlısı yok. Ayrıca düşük ping konusunda zirvede! Steam ve Netflix'e göre de, harika oyun ve 4K video izleme deneyimi Turknet'te." [level=3] [ref=e110]
+                - generic [ref=e111]:
+                  - img "Simetrik Hız Deneyimi" [ref=e113]
+                  - generic [ref=e114]:
+                    - heading "Simetrik Hız Deneyimi" [level=3] [ref=e115]
+                    - heading "GigaFiber'de indirme ve yüklemede 1.000 Mbps'ye varan hız ile simetrik internet deneyimi yaşatıyoruz. Dosya yüklerken de, veri gönderirken de gerçek hız deneyimi burada." [level=3] [ref=e116]
+                - generic [ref=e117]:
+                  - img "ADSL,VDSL, Fiber, GigaFiber" [ref=e119]
+                  - generic [ref=e120]:
+                    - heading "ADSL,VDSL, Fiber, GigaFiber" [level=3] [ref=e121]
+                    - heading "81 ilde yüksek hızlı ev interneti sunuyoruz. Ayrıca, 9 ilde kendi altyapımızla götürdüğümüz 1.000 Mbps'ye varan GigaFiber'i en uygun fiyata kullanıcılarla buluşturuyoruz." [level=3] [ref=e122]
+              - link "Bizi Tanı" [ref=e124] [cursor=pointer]:
+                - /url: /degerlerimiz
+                - button "Bizi Tanı" [ref=e126]:
+                  - text: Bizi Tanı
+                  - img [ref=e128]
+          - generic [ref=e132]:
+            - generic [ref=e135]:
+              - generic [ref=e137]:
+                - img "GigaFiber Hızında Olmalı" [ref=e139]
+                - generic [ref=e140]:
+                  - generic [ref=e141]:
+                    - img [ref=e143]
+                    - text: Bizce İnternet Dediğin Nasıl mı Olmalı?
+                  - heading "GigaFiber Hızında Olmalı" [level=3] [ref=e145]
+                  - paragraph [ref=e147]: İnternette "yavaşlık" kavramı artık son bulmalı. 1.000 Mbps'ye varan eşit indirme ve yükleme hızından herkes faydalanmalı. Çünkü hızlı internet herkesin hakkı. Bugün değilse ne zaman?
+                  - link "Detaylı Bilgi" [ref=e148] [cursor=pointer]:
+                    - /url: /1000-mbps-internet
+                    - button "Detaylı Bilgi" [ref=e150]
+              - generic [ref=e152]:
+                - img "Evin Her Yerinde Çekiyor Olmalı" [ref=e154]
+                - generic [ref=e155]:
+                  - generic [ref=e156]:
+                    - img [ref=e158]
+                    - text: Bizce İnternet Dediğin Nasıl mı Olmalı?
+                  - heading "Evin Her Yerinde Çekiyor Olmalı" [level=3] [ref=e160]
+                  - paragraph [ref=e162]: Modem salonda, sen balkonda olsan da "çekmiyor" sorunu yaşanmamalı. Tüm odalardan güçlü ve stabil bağlantı kurulmalı. Çünkü evin her köşesinde iyi çeken hızlı internet herkesin hakkı.
+                  - link "Detaylı Bilgi" [ref=e163] [cursor=pointer]:
+                    - /url: /akilli-wifi-deneyimi-smartyfi
+                    - button "Detaylı Bilgi" [ref=e165]
+              - generic [ref=e167]:
+                - img "Dertsiz Tasasız Olmalı" [ref=e169]
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - img [ref=e173]
+                    - text: Bizce İnternet Dediğin Nasıl mı Olmalı?
+                  - heading "Dertsiz Tasasız Olmalı" [level=3] [ref=e175]
+                  - paragraph [ref=e177]: Taahhüt cayma bedeli gibi ceza ödeme zorunlulukları olmamalı. İnternet mecburiyet olmadan, sadece memnun olunduğu sürece kullanılmalı. Gerçek özgürlük, beğenmediğinde gidebilmektir.
+                  - link "Detaylı Bilgi" [ref=e178] [cursor=pointer]:
+                    - /url: /baska-operatorden-gecis
+                    - button "Detaylı Bilgi" [ref=e180]
+              - generic [ref=e182]:
+                - img "Tek Tıkla İptal Olmalı" [ref=e184]
+                - generic [ref=e185]:
+                  - generic [ref=e186]:
+                    - img [ref=e188]
+                    - text: Bizce İnternet Dediğin Nasıl mı Olmalı?
+                  - heading "Tek Tıkla İptal Olmalı" [level=3] [ref=e190]
+                  - paragraph [ref=e192]: Abonelik iptali için evrak süreçleriyle, bayiye gitmekle, defalarca telefonda konuşmakla, faks çekmekle uğraşılmamalı. İptal işlemi de, abone olmak gibi internetten kolayca yapılmalı.
+                  - link "Detaylı Bilgi" [ref=e193] [cursor=pointer]:
+                    - /url: /iptal
+                    - button "Detaylı Bilgi" [ref=e195]
+              - generic [ref=e197]:
+                - img "Zahmetsiz Olmalı" [ref=e199]
+                - generic [ref=e200]:
+                  - generic [ref=e201]:
+                    - img [ref=e203]
+                    - text: Bizce İnternet Dediğin Nasıl mı Olmalı?
+                  - heading "Zahmetsiz Olmalı" [level=3] [ref=e205]
+                  - paragraph [ref=e207]: Abone olmak, abonelik sonlandırmak, taşınırken internetini de taşımak veya ihtiyaç olmadığında hizmeti dondurmak zahmetsiz olmalı. İşlemler tek tıkla, internetten kolayca yapılmalı.
+                  - link "Detaylı Bilgi" [ref=e208] [cursor=pointer]:
+                    - /url: /dijital-musteri-deneyimi
+                    - button "Detaylı Bilgi" [ref=e210]
+              - generic [ref=e212]:
+                - img "Destek Almak Kolay Olmalı" [ref=e214]
+                - generic [ref=e215]:
+                  - generic [ref=e216]:
+                    - img [ref=e218]
+                    - text: Bizce İnternet Dediğin Nasıl mı Olmalı?
+                  - heading "Destek Almak Kolay Olmalı" [level=3] [ref=e220]
+                  - paragraph [ref=e222]: İnternet hayatımızın bu kadar merkezindeyken, internette sorun olduğunda kimse yalnız kalmamalı. Canlı destek, online işlemler/mobil uygulama üzerinden 7/24 müşteri desteği alınmalı.
+                  - link "Detaylı Bilgi" [ref=e223] [cursor=pointer]:
+                    - /url: /turknet-yaklasimi
+                    - button "Detaylı Bilgi" [ref=e225]
+            - generic:
+              - button "Slide 1" [ref=e226] [cursor=pointer]
+              - button "Slide 2" [ref=e227] [cursor=pointer]
+              - button "Slide 3" [ref=e228] [cursor=pointer]
+              - button "Slide 4" [ref=e229] [cursor=pointer]
+              - button "Slide 5" [ref=e230] [cursor=pointer]
+              - button "Slide 6" [ref=e231] [cursor=pointer]
+          - generic [ref=e232]:
+            - generic [ref=e233]:
+              - img [ref=e235]
+              - heading "Farklı Operatörden Geçişte 2.500TL'ye Kadar Cayma Bedeli Bizden!" [level=3] [ref=e237]:
+                - text: Farklı Operatörden Geçişte
+                - generic [ref=e238]: 2.500TL
+                - text: "'ye Kadar Cayma Bedeli Bizden!"
+            - link "Detaylı Bilgi" [ref=e239] [cursor=pointer]:
+              - /url: /baska-operatorden-gecis
+              - button "Detaylı Bilgi" [ref=e241]:
+                - generic [ref=e242]: Detaylı Bilgi
+          - generic [ref=e243]:
+            - generic [ref=e244]:
+              - img "GigaFiber Background" [ref=e246]
+              - generic [ref=e247]:
+                - heading "Mahallene GigaFiber Yakışır!" [level=3] [ref=e248]
+                - heading "GigaFiber altyapını sorgula, adresinde GigaFiber yoksa üzülme, talebini şimdi bırak, biz hemen çalışmaya başlayalım." [level=3] [ref=e249]
+                - heading "Formu doldur, ilk 3 ay %50 indirimli GigaFiber fırsatını da kaçırma." [level=3] [ref=e250]
+              - link "GigaFiber İstiyorum" [ref=e251] [cursor=pointer]:
+                - /url: /gigafiber-istiyorum
+                - button "GigaFiber İstiyorum" [ref=e253]
+            - generic [ref=e254]:
+              - generic [ref=e256]:
+                - heading "Taahhüdünü Bildir, GigaFiber'le Tanış" [level=3] [ref=e257]
+                - heading "Formu doldur, taahhüt bitişini bizimle paylaş, biz senin yerine takibini yapalım. Süresi dolmadan sana özel fırsatla geçiş yap, 1.000 Mbps'ye varan hız ve taahhütsüz internetin keyfini çıkar." [level=3] [ref=e258]
+                - heading "Üstelik GigaFiber'e geçişte ₺2.500'e kadar cayma bedelini de biz karşılıyoruz!" [level=3] [ref=e259]:
+                  - text: Üstelik GigaFiber'e geçişte
+                  - generic [ref=e260]: ₺2.500'e kadar
+                  - text: cayma bedelini de biz karşılıyoruz!
+                - link "Detaylı Bilgi" [ref=e261] [cursor=pointer]:
+                  - /url: /taahhutsayar
+                  - button "Detaylı Bilgi" [ref=e263]
+              - img "Taahhüdünü Bildir, GigaFiber'le Tanış" [ref=e265]
+          - generic [ref=e268]:
+            - generic [ref=e271]:
+              - generic [ref=e273]:
+                - generic [ref=e274]:
+                  - generic [ref=e276]:
+                    - img [ref=e278]
+                    - text: Kampanyalar
+                  - generic [ref=e280]:
+                    - heading "Arkadaşını Getir, 1 Ay Ücretsiz İnternet Kazan" [level=3] [ref=e281]
+                    - paragraph [ref=e283]: Arkadaşını Turknetli yap; ikiniz de 1 ay ücretsiz internet alın! Ne kadar çok arkadaşını Turknet'li yaparsan, o kadar çok ay ücretsiz internet alırsınız. Kodunu paylaş, kazanmaya başla!
+                    - link "Detaylı Bilgi" [ref=e284] [cursor=pointer]:
+                      - /url: /arkadasini-getir
+                      - button "Detaylı Bilgi" [ref=e286]
+                - img "Arkadaşını Getir, 1 Ay Ücretsiz İnternet Kazan" [ref=e288]
+              - generic [ref=e290]:
+                - generic [ref=e291]:
+                  - generic [ref=e293]:
+                    - img [ref=e295]
+                    - text: Kampanyalar
+                  - generic [ref=e297]:
+                    - heading "Öğrencilere Özel İlk Ay %100 İndirim!" [level=3] [ref=e298]
+                    - paragraph [ref=e300]: 1.000 Mbps'ye kadar yüksek hız, düşük ping ve taahhütsüz internetle tanış. İlk ay %100 indirimli, GigaFiber altyapılarda modem de bizden. Netflix ve Steam'de lider hız seni bekliyor.
+                    - link "Detaylı Bilgi" [ref=e301] [cursor=pointer]:
+                      - /url: /ogrencilere-internet-paketleri
+                      - button "Detaylı Bilgi" [ref=e303]
+                - img "Öğrencilere Özel İlk Ay %100 İndirim!" [ref=e305]
+              - generic [ref=e307]:
+                - generic [ref=e308]:
+                  - generic [ref=e310]:
+                    - img [ref=e312]
+                    - text: Kampanyalar
+                  - generic [ref=e314]:
+                    - heading "12 Aylık Peşin Öde, İndirimli Kullan" [level=3] [ref=e315]
+                    - paragraph [ref=e317]: ₺599,90 fiyatla internet ücretini peşin öde, 12 ay boyunca internetini indirimli kullan.Üstelik dilediğinde iptal et ve para iadesi al. 6 aya varabilen taksit kolaylığı da yanında.
+                    - link "Detaylı Bilgi" [ref=e318] [cursor=pointer]:
+                      - /url: /internette-sabit-fiyat-firsati
+                      - button "Detaylı Bilgi" [ref=e320]
+                - img "12 Aylık Peşin Öde, İndirimli Kullan" [ref=e322]
+            - generic [ref=e323]:
+              - button "Slide 1" [ref=e324] [cursor=pointer]
+              - button "Slide 2" [ref=e325] [cursor=pointer]
+              - button "Slide 3" [ref=e326] [cursor=pointer]
+          - generic [ref=e328]:
+            - generic [ref=e329]:
+              - heading "Turknet’le Tanışmak Turknet Hızında" [level=3] [ref=e330]
+              - heading "Evine ilk bağlatacağın internet Turknet mi olacak veya evine internet bağlı ama başka operatörden Turknet’e mi geçiş yapacaksın? İkisi de çok hızlı, çok kolay! Web sitemizden ya da çağrı merkezimizden hemen başvur, gerisini bize bırak. Sen sadece hızlı, taahhütsüz ve zahmetsiz internetin keyfini çıkar." [level=3] [ref=e331]
+            - generic [ref=e332]:
+              - link "Evimde İnternetim Yok, Turknetli Olacağım" [ref=e334] [cursor=pointer]:
+                - /url: /nasil-turknetli-olurum
+                - generic [ref=e335]:
+                  - generic [ref=e336]:
+                    - img [ref=e338]:
+                      - img [ref=e339]
+                    - heading "Evimde İnternetim Yok, Turknetli Olacağım" [level=3] [ref=e341]
+                  - img [ref=e343]
+              - link "İnternetimi Değiştiriyor, Turknet’e Geçiyorum" [ref=e346] [cursor=pointer]:
+                - /url: /baska-operatorden-gecis
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - img [ref=e350]:
+                      - img [ref=e351]
+                    - heading "İnternetimi Değiştiriyor, Turknet’e Geçiyorum" [level=3] [ref=e353]
+                  - img [ref=e355]
+    - generic [ref=e357]:
+      - generic [ref=e358]:
+        - link "Blog Bilgilen, Öğren, Keşfet" [ref=e360] [cursor=pointer]:
+          - /url: /blog
+          - img [ref=e362]
+          - generic [ref=e365]:
+            - heading "Blog" [level=3] [ref=e366]
+            - heading "Bilgilen, Öğren, Keşfet" [level=3] [ref=e367]
+        - link "İletişim Biz 7/24 Buradayız" [ref=e369] [cursor=pointer]:
+          - /url: /iletisim
+          - img [ref=e371]
+          - generic [ref=e373]:
+            - heading "İletişim" [level=3] [ref=e374]
+            - heading "Biz 7/24 Buradayız" [level=3] [ref=e375]
+        - link "Destek Her Zaman Yanındayız!" [ref=e377] [cursor=pointer]:
+          - /url: /destek
+          - img [ref=e379]
+          - generic [ref=e381]:
+            - heading "Destek" [level=3] [ref=e382]
+            - heading "Her Zaman Yanındayız!" [level=3] [ref=e383]
+        - link "0850 288 80 81 Satış Hattı" [ref=e384] [cursor=pointer]:
+          - /url: tel:08502888081
+          - generic [ref=e385]:
+            - img [ref=e387]
+            - generic [ref=e389]:
+              - heading "0850 288 80 81" [level=3] [ref=e390]
+              - heading "Satış Hattı" [level=3] [ref=e391]
+      - contentinfo [ref=e392]:
+        - generic [ref=e394]:
+          - generic [ref=e395]:
+            - heading "Hakkımızda" [level=3] [ref=e396]
+            - link "Bizi Tanıyın" [ref=e398] [cursor=pointer]:
+              - /url: /hakkimizda/index
+              - heading "Bizi Tanıyın" [level=3] [ref=e399]
+            - link "Şeffaflık Raporu" [ref=e401] [cursor=pointer]:
+              - /url: /turknet-karnesi
+              - heading "Şeffaflık Raporu" [level=3] [ref=e402]
+            - link "Bizden Haberler" [ref=e404] [cursor=pointer]:
+              - /url: /basinda-turknet
+              - heading "Bizden Haberler" [level=3] [ref=e405]
+            - link "Bilgi Toplumu Hizmetleri" [ref=e407] [cursor=pointer]:
+              - /url: https://e-sirket.mkk.com.tr/esir/Dashboard.jsp#/sirketbilgileri/17512
+              - heading "Bilgi Toplumu Hizmetleri" [level=3] [ref=e408]
+            - link "Ekibimize Katıl" [ref=e410] [cursor=pointer]:
+              - /url: /ekibimize-katil
+              - heading "Ekibimize Katıl" [level=3] [ref=e411]
+            - link "Daha Fazla" [ref=e412] [cursor=pointer]:
+              - /url: "#"
+              - heading "Daha Fazla" [level=3] [ref=e413]
+              - img [ref=e415]
+          - generic [ref=e417]:
+            - heading "Hizmetler" [level=3] [ref=e418]
+            - link "1.000 Mbps İnternet" [ref=e420] [cursor=pointer]:
+              - /url: /1000-mbps-internet
+              - heading "1.000 Mbps İnternet" [level=3] [ref=e421]
+            - link "Sınırsız İnternet Özgür İletişim" [ref=e423] [cursor=pointer]:
+              - /url: /sinirsiz-internet-ozgur-iletisim
+              - heading "Sınırsız İnternet Özgür İletişim" [level=3] [ref=e424]
+            - link "Fiber İnternet" [ref=e426] [cursor=pointer]:
+              - /url: /fiber-internet
+              - heading "Fiber İnternet" [level=3] [ref=e427]
+            - link "Engelsiz Tarife" [ref=e429] [cursor=pointer]:
+              - /url: /engelsiz-tarife
+              - heading "Engelsiz Tarife" [level=3] [ref=e430]
+            - link "Hız Testi" [ref=e432] [cursor=pointer]:
+              - /url: /internet-hiz-testi
+              - heading "Hız Testi" [level=3] [ref=e433]
+            - link "Daha Fazla" [ref=e434] [cursor=pointer]:
+              - /url: "#"
+              - heading "Daha Fazla" [level=3] [ref=e435]
+              - img [ref=e437]
+          - generic [ref=e439]:
+            - heading "Bilgiler" [level=3] [ref=e440]
+            - link "İnternet Tarifeleri" [ref=e442] [cursor=pointer]:
+              - /url: /tarifelerimiz
+              - heading "İnternet Tarifeleri" [level=3] [ref=e443]
+            - link "Sözleşmeler & Formlar" [ref=e445] [cursor=pointer]:
+              - /url: /sozlesme-ve-formlar
+              - heading "Sözleşmeler & Formlar" [level=3] [ref=e446]
+            - link "Telefon Tarifeleri" [ref=e448] [cursor=pointer]:
+              - /url: /telefon-tarifeleri
+              - heading "Telefon Tarifeleri" [level=3] [ref=e449]
+            - link "KVKK Aydınlatma Metni" [ref=e451] [cursor=pointer]:
+              - /url: /kvkk
+              - heading "KVKK Aydınlatma Metni" [level=3] [ref=e452]
+            - link "Çerez Politikası" [ref=e454] [cursor=pointer]:
+              - /url: /cerez-politikasi
+              - heading "Çerez Politikası" [level=3] [ref=e455]
+            - link "Daha Fazla" [ref=e456] [cursor=pointer]:
+              - /url: "#"
+              - heading "Daha Fazla" [level=3] [ref=e457]
+              - img [ref=e459]
+          - generic [ref=e461]:
+            - heading "Yardım" [level=3] [ref=e462]
+            - link "İade Sorgulama" [ref=e464] [cursor=pointer]:
+              - /url: https://refund.turknet.net.tr
+              - heading "İade Sorgulama" [level=3] [ref=e465]
+            - link "Borç Alacak Sorgulama" [ref=e467] [cursor=pointer]:
+              - /url: /borc-sorgulama
+              - heading "Borç Alacak Sorgulama" [level=3] [ref=e468]
+            - link "Şikayet İlet" [ref=e470] [cursor=pointer]:
+              - /url: /tuketici-sikayetleri
+              - heading "Şikayet İlet" [level=3] [ref=e471]
+          - generic [ref=e472]:
+            - heading "Mobil Uygulama" [level=3] [ref=e473]
+            - heading "QR kod’u okutarak “Turknet Mobil Uygulamasını” indirin." [level=3] [ref=e474]
+            - img [ref=e478]
+        - generic [ref=e786]:
+          - heading "Copyright © 2026 TurkNet" [level=3] [ref=e788]
+          - link "Gizlilik Koşulları" [ref=e790] [cursor=pointer]:
+            - /url: /gizlilik-ve-kullanim-kosullari
+            - heading "Gizlilik Koşulları" [level=3] [ref=e791]
+          - generic [ref=e792]:
+            - link [ref=e793] [cursor=pointer]:
+              - /url: https://www.facebook.com/turknet/
+              - img [ref=e794]
+            - link [ref=e796] [cursor=pointer]:
+              - /url: https://www.instagram.com/turknet/
+              - img [ref=e797]
+            - link [ref=e799] [cursor=pointer]:
+              - /url: https://x.com/turknet
+              - img [ref=e800]
+            - link [ref=e802] [cursor=pointer]:
+              - /url: https://www.youtube.com/@turknet
+              - img [ref=e803]
+            - link [ref=e805] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/turknet/
+              - img [ref=e806]
+        - generic [ref=e808]:
+          - heading "Tüketici Şikayetleri" [level=3] [ref=e809]
+          - generic [ref=e810]:
+            - heading "Bilgi Teknolojileri ve İletişim Kurulu Kararları uyarınca abonelere yapılacak iadeler" [level=3] [ref=e811]
+            - link "Detaylı İncele" [ref=e812] [cursor=pointer]:
+              - /url: /duyurular/tuketici-sikayetleri
+              - generic [ref=e813]:
+                - heading "Detaylı İncele" [level=3] [ref=e814]
+                - img [ref=e815]:
+                  - img [ref=e816]
+  - alert [ref=e818]
+  - generic [ref=e820]:
+    - generic [ref=e821]: Çerezleri kullanıyoruz. 🍪
+    - paragraph [ref=e823]:
+      - text: İnternet sayfamızda çerezler yoluyla kişisel veriler işlenmektedir. İşlevsel, performans/analitik ve reklam/pazarlama çerezleri onay vermeniz halinde kullanılacaktır. Çerezler hakkında ayrıntılı bilgiye
+      - link "www.turk.net/cerez-politikasi" [ref=e824] [cursor=pointer]:
+        - /url: https://www.turk.net/cerez-politikasi
+        - strong [ref=e825]: www.turk.net/cerez-politikasi
+      - text: adresinden ulaşabilirsiniz
+    - generic [ref=e826]:
+      - generic [ref=e827] [cursor=pointer]: Reddet
+      - generic [ref=e828] [cursor=pointer]: Ayarlar
+      - generic [ref=e829] [cursor=pointer]: Kabul Et

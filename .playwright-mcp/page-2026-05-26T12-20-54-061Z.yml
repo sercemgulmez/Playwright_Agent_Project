@@ -1,0 +1,394 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - banner [ref=e5]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - link [ref=e16] [cursor=pointer]:
+              - /url: /
+              - img [ref=e17]
+            - button "Bireysel" [ref=e22] [cursor=pointer]:
+              - text: Bireysel
+              - img [ref=e23]
+          - generic [ref=e26]:
+            - navigation "Main Menu" [ref=e29]:
+              - list [ref=e30]:
+                - listitem [ref=e31]:
+                  - link [ref=e32] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e34]
+            - list [ref=e42]:
+              - listitem [ref=e43]:
+                - link "Altyapı Sorgula" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.turk.net/internet-hiz-altyapi-sorgulama
+                  - generic [ref=e45]: Altyapı Sorgula
+              - listitem [ref=e46]:
+                - link "Abone Ol" [ref=e47] [cursor=pointer]:
+                  - /url: https://www.turk.net/taahhutsuz-ozgur-iletisim-abonelik
+                  - generic [ref=e48]: Abone Ol
+              - listitem [ref=e49]:
+                - link "Hız Testi" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.turk.net/hiz-testi
+                  - generic [ref=e51]: Hız Testi
+              - listitem [ref=e52]:
+                - link "Kampanyalar" [ref=e53] [cursor=pointer]:
+                  - /url: https://www.turk.net/internet-kampanyalari
+                  - generic [ref=e54]: Kampanyalar
+              - listitem [ref=e55]:
+                - link "Yardım" [ref=e56] [cursor=pointer]:
+                  - /url: https://www.turk.net/destek
+                  - generic [ref=e57]: Yardım
+          - link "Online İşlemler - opens in a new window" [ref=e63] [cursor=pointer]:
+            - /url: /online-islemler
+            - generic [ref=e65]: Online İşlemler
+    - main [ref=e69]:
+      - generic [ref=e71]:
+        - generic [ref=e74]:
+          - generic [ref=e76]:
+            - heading "Hız Testi" [level=1] [ref=e81]
+            - iframe [ref=e84]:
+              - generic [ref=f28e3]:
+                - generic [ref=f28e7]:
+                  - banner [ref=f28e8]:
+                    - generic [ref=f28e9]: Test your internet speed
+                    - img "Speedtest logo" [ref=f28e11]
+                  - main [ref=f28e15]:
+                    - generic [ref=f28e17]:
+                      - img [ref=f28e18]
+                      - img [ref=f28e20]
+                      - button "Başlat, start your Speedtest" [ref=f28e22] [cursor=pointer]: Başlat
+                    - generic [ref=f28e24]: Finding Optimal Server...
+                  - region [ref=f28e25]:
+                    - list [ref=f28e28]:
+                      - listitem [ref=f28e29]:
+                        - img [ref=f28e31]
+                      - listitem [ref=f28e33]:
+                        - img [ref=f28e35]
+                      - listitem [ref=f28e38]:
+                        - img [ref=f28e40]
+                      - listitem [ref=f28e42]:
+                        - img [ref=f28e44]
+                - generic [ref=f28e47]: All trademarks of Ookla, LLC, including Speedtest®, are used under license.
+          - generic [ref=e86]:
+            - heading "Hız Testine Başlamadan Önce" [level=2] [ref=e89]
+            - generic [ref=e91]:
+              - generic [ref=e96]:
+                - figure [ref=e97]
+                - generic [ref=e98]:
+                  - heading "Mümkünse Ethernet Kablosu Kullan" [level=3] [ref=e99]
+                  - paragraph [ref=e100]: Kablolu bağlantı, daha doğru sonuçlar verir.
+              - generic [ref=e105]:
+                - figure [ref=e106]
+                - generic [ref=e107]:
+                  - heading "Diğer Cihazları Kapat" [level=3] [ref=e108]
+                  - paragraph [ref=e109]: Ağa sadece test yaptığın cihaz bağlı olsun.
+              - generic [ref=e114]:
+                - figure [ref=e115]
+                - generic [ref=e116]:
+                  - heading "Arka Plan Uygulamalarını Kapat" [level=3] [ref=e117]
+                  - paragraph [ref=e118]: Tüm uygulamaları ve indirmeleri durdur. Bu adımlarla, en doğru hız testi sonuçlarını elde et!
+        - generic [ref=e124]:
+          - generic [ref=e126]:
+            - heading "1.000 Mbps'ye Varan Dowload & Upload Hızını Uzaklarda Arama!" [level=3] [ref=e129]
+            - paragraph [ref=e132]:
+              - generic [ref=e133]: Turk n et GigaFiber ile 1.000 Mbps’ye varan download ve upload hızlarıyla artık internet çok daha özgür! Dünya kalitesi ve hızında internet için hemen altyapını sorgula.
+          - link "Altyapı sorgula" [ref=e139] [cursor=pointer]:
+            - /url: /internet-hiz-altyapi-sorgulama
+            - generic [ref=e141]: Altyapı sorgula
+        - generic [ref=e149]:
+          - heading "Hız Testi Nedir?" [level=2] [ref=e152]
+          - generic [ref=e154]:
+            - paragraph [ref=e155]: Hız testi, mevcut internet bağlantının anlık hızını ölçen bir testtir. Genellikle “speedtest” olarak da bilinir. İndirme ve yükleme hızını göstererek bağlantı kaliten hakkında fikir verir.
+            - paragraph [ref=e156]: İnternetinde yavaşlık hissediyorsan, bu testle internet hızı sorununu tespit edebilirsin. Sonrasında daha sağlıklı bir internet bağlantısı için, kablosuz bağlantını iyileştirecek çözümlere başvurabilir, kablolu bağlantıyı denemek gibi adımlar atabilirsin.
+            - paragraph [ref=e157]: Yine de yeterli hızlara ulaşamıyorsan, farklı internet hizmetlerini değerlendirme zamanın gelmiş olabilir. Bizden söylemesi 😉
+        - generic [ref=e161]:
+          - heading "İnternet Hız Testi Nasıl Çalışır?" [level=2] [ref=e164]
+          - generic [ref=e166]:
+            - paragraph [ref=e167]: Test başladığında, sana en yakın sunucuya sinyal gönderilir ve gelen yanıtla birlikte bağlantı hızın ölçülür. Bu süreçte hem indirme hem de ping değerleri belirlenir. Ardından, sunucudan cihazına veri aktarılır ve bu verilerin ne kadar sürede ulaştığına göre hızın hesaplanır. Veri kayıpları da bu sırada tespit edilir. Bir de cihazından sunucuya veri gönderilir. Bu sayede de yükleme hızın tespit edilir.
+            - paragraph [ref=e168]: Bu test, internet üzerindeki günlük işlemlerin küçük bir simülasyonudur. En doğru sonucu almak için testi kablolu bağlantı üzerinden ve diğer cihazlar internete bağlı değilken yapman önerilir.
+        - generic [ref=e176]:
+          - heading "Soru/Cevap" [level=2] [ref=e179]
+          - paragraph [ref=e182]: Aklınıza takılan bir soru mu var?
+          - generic [ref=e185]:
+            - button "Hız Testi Öncesinde Dikkat Edilmesi Gerekenler" [expanded] [ref=e187] [cursor=pointer]:
+              - img [ref=e190]
+              - link "Hız Testi Öncesinde Dikkat Edilmesi Gerekenler" [ref=e191]:
+                - /url: "#"
+            - button "Hız Testi Yaparken Dikkat Edilmesi Gerekenler" [ref=e193] [cursor=pointer]:
+              - img [ref=e196]
+              - link "Hız Testi Yaparken Dikkat Edilmesi Gerekenler" [ref=e197]:
+                - /url: "#"
+            - button "İnternet Hız Testi Sonuçları Ne Anlama Gelir?" [ref=e199] [cursor=pointer]:
+              - img [ref=e202]
+              - link "İnternet Hız Testi Sonuçları Ne Anlama Gelir?" [ref=e203]:
+                - /url: "#"
+            - button "Mbps Nedir?" [ref=e205] [cursor=pointer]:
+              - img [ref=e208]
+              - link "Mbps Nedir?" [ref=e209]:
+                - /url: "#"
+            - button "İdeal İnternet Hızı Kaç Mbps (Mbit) Olmalı?" [ref=e211] [cursor=pointer]:
+              - img [ref=e214]
+              - link "İdeal İnternet Hızı Kaç Mbps (Mbit) Olmalı?" [ref=e215]:
+                - /url: "#"
+            - button "Download Nedir?" [ref=e217] [cursor=pointer]:
+              - img [ref=e220]
+              - link "Download Nedir?" [ref=e221]:
+                - /url: "#"
+            - button "Upload Nedir?" [ref=e223] [cursor=pointer]:
+              - img [ref=e226]
+              - link "Upload Nedir?" [ref=e227]:
+                - /url: "#"
+            - button "Ping Nedir?" [ref=e229] [cursor=pointer]:
+              - img [ref=e232]
+              - link "Ping Nedir?" [ref=e233]:
+                - /url: "#"
+            - button "İnternet İndirme Hızı Nasıl Ölçülür?" [ref=e235] [cursor=pointer]:
+              - img [ref=e238]
+              - link "İnternet İndirme Hızı Nasıl Ölçülür?" [ref=e239]:
+                - /url: "#"
+            - button "İnternet Hat Hızını Nasıl Öğrenebilirsin?" [ref=e241] [cursor=pointer]:
+              - img [ref=e244]
+              - link "İnternet Hat Hızını Nasıl Öğrenebilirsin?" [ref=e245]:
+                - /url: "#"
+            - button "Bağlantı Hızını Neden Test Etmelisin?" [ref=e247] [cursor=pointer]:
+              - img [ref=e250]
+              - link "Bağlantı Hızını Neden Test Etmelisin?" [ref=e251]:
+                - /url: "#"
+            - button "İnternet Hız Testinde Neye Bakılır?" [ref=e253] [cursor=pointer]:
+              - img [ref=e256]
+              - link "İnternet Hız Testinde Neye Bakılır?" [ref=e257]:
+                - /url: "#"
+            - button "Download ve Upload Hızı Kaç Olmalı?" [ref=e259] [cursor=pointer]:
+              - img [ref=e262]
+              - link "Download ve Upload Hızı Kaç Olmalı?" [ref=e263]:
+                - /url: "#"
+            - button "En Yüksek İnternet Hızı Kaç Mbps Olmalı?" [ref=e265] [cursor=pointer]:
+              - img [ref=e268]
+              - link "En Yüksek İnternet Hızı Kaç Mbps Olmalı?" [ref=e269]:
+                - /url: "#"
+            - button "İnternet Hızını Neler Artırır?" [ref=e271] [cursor=pointer]:
+              - img [ref=e274]
+              - link "İnternet Hızını Neler Artırır?" [ref=e275]:
+                - /url: "#"
+            - button "İnternet Hızı Metrikleri Nelerdir?" [ref=e277] [cursor=pointer]:
+              - img [ref=e280]
+              - link "İnternet Hızı Metrikleri Nelerdir?" [ref=e281]:
+                - /url: "#"
+            - button "İnternet Hızım Neden Düşük Çıkıyor?" [ref=e283] [cursor=pointer]:
+              - img [ref=e286]
+              - link "İnternet Hızım Neden Düşük Çıkıyor?" [ref=e287]:
+                - /url: "#"
+            - button "Hız Testi Hangi Faktörlerden Etkilenir?" [ref=e289] [cursor=pointer]:
+              - img [ref=e292]
+              - link "Hız Testi Hangi Faktörlerden Etkilenir?" [ref=e293]:
+                - /url: "#"
+            - button "En Doğru İnternet Hız Testini Nasıl Yaparım?" [ref=e295] [cursor=pointer]:
+              - img [ref=e298]
+              - link "En Doğru İnternet Hız Testini Nasıl Yaparım?" [ref=e299]:
+                - /url: "#"
+            - button "Hız Testi Sonucu Neden Değişkenlik Gösterir?" [ref=e301] [cursor=pointer]:
+              - img [ref=e304]
+              - link "Hız Testi Sonucu Neden Değişkenlik Gösterir?" [ref=e305]:
+                - /url: "#"
+            - button "Farklı Cihazlarda Hız Testi Sonuçları Neden Farklıdır?" [ref=e307] [cursor=pointer]:
+              - img [ref=e310]
+              - link "Farklı Cihazlarda Hız Testi Sonuçları Neden Farklıdır?" [ref=e311]:
+                - /url: "#"
+            - button "Wi-Fi ile Hız Testi Yapabilir miyim?" [ref=e313] [cursor=pointer]:
+              - img [ref=e316]
+              - link "Wi-Fi ile Hız Testi Yapabilir miyim?" [ref=e317]:
+                - /url: "#"
+            - button "İnternet Hız Testindeki Jitter Nedir?" [ref=e319] [cursor=pointer]:
+              - img [ref=e322]
+              - link "İnternet Hız Testindeki Jitter Nedir?" [ref=e323]:
+                - /url: "#"
+            - button "İnternet Hızımı Yavaşlatan Uygulamalar Nelerdir?" [ref=e325] [cursor=pointer]:
+              - img [ref=e328]
+              - link "İnternet Hızımı Yavaşlatan Uygulamalar Nelerdir?" [ref=e329]:
+                - /url: "#"
+            - button "Hız Testi Ücretli mi?" [ref=e331] [cursor=pointer]:
+              - img [ref=e334]
+              - link "Hız Testi Ücretli mi?" [ref=e335]:
+                - /url: "#"
+            - button "İnternet Hız Testi (Speed Test) Nedir?" [ref=e337] [cursor=pointer]:
+              - img [ref=e340]
+              - link "İnternet Hız Testi (Speed Test) Nedir?" [ref=e341]:
+                - /url: "#"
+            - button "İnternet Hız Testi Güvenilir mi?" [ref=e343] [cursor=pointer]:
+              - img [ref=e346]
+              - link "İnternet Hız Testi Güvenilir mi?" [ref=e347]:
+                - /url: "#"
+            - button "İnternet Hız Testi Nasıl Yapılır?" [ref=e349] [cursor=pointer]:
+              - img [ref=e352]
+              - link "İnternet Hız Testi Nasıl Yapılır?" [ref=e353]:
+                - /url: "#"
+            - button "İnternet Hız Testi Kaç Olmalıdır?" [ref=e355] [cursor=pointer]:
+              - img [ref=e358]
+              - link "İnternet Hız Testi Kaç Olmalıdır?" [ref=e359]:
+                - /url: "#"
+            - button "Packet Loss Nedir?" [ref=e361] [cursor=pointer]:
+              - img [ref=e364]
+              - link "Packet Loss Nedir?" [ref=e365]:
+                - /url: "#"
+            - button "İnternet Nasıl Hızlandırılır?" [ref=e367] [cursor=pointer]:
+              - img [ref=e370]
+              - link "İnternet Nasıl Hızlandırılır?" [ref=e371]:
+                - /url: "#"
+            - button "İnternet Hızı Kaç Olmalıdır?" [ref=e373] [cursor=pointer]:
+              - img [ref=e376]
+              - link "İnternet Hızı Kaç Olmalıdır?" [ref=e377]:
+                - /url: "#"
+        - text: speed
+    - contentinfo [ref=e378]:
+      - contentinfo [ref=e379]:
+        - generic [ref=e382]:
+          - generic [ref=e384]:
+            - generic [ref=e387]:
+              - generic [ref=e389] [cursor=pointer]: Hakkımızda
+              - list [ref=e391]:
+                - listitem [ref=e392]:
+                  - link "Bizi Tanıyın" [ref=e393] [cursor=pointer]:
+                    - /url: /hakkimizda/index
+                - listitem [ref=e394]:
+                  - link "Şeffaflık Raporu" [ref=e395] [cursor=pointer]:
+                    - /url: /turknet-karnesi
+                - listitem [ref=e396]:
+                  - link "Bizden Haberler" [ref=e397] [cursor=pointer]:
+                    - /url: /haberler
+                - listitem [ref=e398]:
+                  - link "Bilgi Toplumu Hizmetleri" [ref=e399] [cursor=pointer]:
+                    - /url: https://e-sirket.mkk.com.tr/esir/Dashboard.jsp#/sirketbilgileri/17512
+                - listitem [ref=e400]:
+                  - link "Ekibimize Katıl" [ref=e401] [cursor=pointer]:
+                    - /url: /ekibimize-katil
+            - link "Daha Fazla" [ref=e405] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e406]:
+                - generic [ref=e408]: keyboard_arrow_down
+                - generic [ref=e409]: Daha Fazla
+          - generic [ref=e411]:
+            - generic [ref=e414]:
+              - generic [ref=e416] [cursor=pointer]: Hizmetler
+              - list [ref=e418]:
+                - listitem [ref=e419]:
+                  - link "1000 Mbps İnternet" [ref=e420] [cursor=pointer]:
+                    - /url: /1000-mbps-internet
+                - listitem [ref=e421]:
+                  - link "Sınırsız İnternet" [ref=e422] [cursor=pointer]:
+                    - /url: /sinirsiz-internet-ozgur-iletisim
+                - listitem [ref=e423]:
+                  - link "Altyapı Sorgulama" [ref=e424] [cursor=pointer]:
+                    - /url: /internet-hiz-altyapi-sorgulama
+                - listitem [ref=e425]:
+                  - link "Abonelik Başvurusu" [ref=e426] [cursor=pointer]:
+                    - /url: /turknet-abonelik-basvurusu
+                - listitem [ref=e427]:
+                  - link "Fiber İnternet" [ref=e428] [cursor=pointer]:
+                    - /url: /fiber-internet
+            - link "Daha Fazla" [ref=e432] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e433]:
+                - generic [ref=e435]: keyboard_arrow_down
+                - generic [ref=e436]: Daha Fazla
+          - generic [ref=e438]:
+            - generic [ref=e441]:
+              - generic [ref=e443] [cursor=pointer]: Bilgiler
+              - list [ref=e445]:
+                - listitem [ref=e446]:
+                  - link "Sözleşme ve Formlar" [ref=e447] [cursor=pointer]:
+                    - /url: /sozlesme-ve-formlar
+                - listitem [ref=e448]:
+                  - link "Yasal Bildirimler" [ref=e449] [cursor=pointer]:
+                    - /url: /yasal-bildirimler
+                - listitem [ref=e450]:
+                  - link "İnternet Tarifeleri" [ref=e451] [cursor=pointer]:
+                    - /url: /tarifelerimiz
+                - listitem [ref=e452]:
+                  - link "Telefon Tarifeleri" [ref=e453] [cursor=pointer]:
+                    - /url: /telefon-tarifeleri
+                - listitem [ref=e454]:
+                  - link "Siber Güvenlik" [ref=e455] [cursor=pointer]:
+                    - /url: /siber-guvenlik
+            - link "Daha Fazla" [ref=e459] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e460]:
+                - generic [ref=e462]: keyboard_arrow_down
+                - generic [ref=e463]: Daha Fazla
+          - generic [ref=e468]:
+            - generic [ref=e470] [cursor=pointer]: Yardım
+            - list [ref=e472]:
+              - listitem [ref=e473]:
+                - link "İade Sorgulama" [ref=e474] [cursor=pointer]:
+                  - /url: https://refund.turknet.net.tr/Refund/RefundLogin/Index
+              - listitem [ref=e475]:
+                - link "Borç Alacak Sorgulama" [ref=e476] [cursor=pointer]:
+                  - /url: /borc-sorgulama
+              - listitem [ref=e477]:
+                - link "Sık Sorulan Sorular" [ref=e478] [cursor=pointer]:
+                  - /url: /destek
+              - listitem [ref=e479]:
+                - link "Şikayet İlet" [ref=e480] [cursor=pointer]:
+                  - /url: /tuketici-sikayetleri
+          - generic [ref=e485]:
+            - generic [ref=e487] [cursor=pointer]: Tüketici Şikayetleri
+            - generic [ref=e488]:
+              - paragraph [ref=e490]: Bilgi Teknolojileri ve İletişim Kurulu kararları uyarınca abonelere yapılacak iadeler ve süreç hakkında bilgi alın.
+              - list [ref=e491]:
+                - listitem [ref=e492]:
+                  - link "Detaylı İncele" [ref=e493] [cursor=pointer]:
+                    - /url: https://www.turk.net/duyurular/tuketici-sikayetleri
+                    - generic [ref=e494]:
+                      - text: Detaylı İncele
+                      - generic [ref=e495]: keyboard_arrow_right
+        - generic [ref=e500]:
+          - generic [ref=e501]: Mobil Uygulama
+          - paragraph [ref=e502]: QR kod'u okutarak "Turknet Mobil Uygulamasını" indirin.
+        - generic [ref=e505]:
+          - generic [ref=e507]:
+            - paragraph [ref=e510]: Copyright © 2025 Turknet
+            - list [ref=e515]:
+              - listitem [ref=e516]:
+                - link "Gizlilk Koşulları" [ref=e517] [cursor=pointer]:
+                  - /url: /gizlilik-ve-kullanim-kosullari
+          - list [ref=e524]:
+            - listitem [ref=e525]:
+              - link "Facebook" [ref=e526] [cursor=pointer]:
+                - /url: https://www.facebook.com/turknet/
+                - generic [ref=e527]: Facebook
+                - img [ref=e528]
+            - listitem [ref=e530]:
+              - link "Instagram" [ref=e531] [cursor=pointer]:
+                - /url: http://instagram.com/turknet
+                - generic [ref=e532]: Instagram
+                - img [ref=e533]
+            - listitem [ref=e537]:
+              - link "X" [ref=e538] [cursor=pointer]:
+                - /url: https://twitter.com/Turknet
+                - generic [ref=e539]: X
+                - img [ref=e540]
+            - listitem [ref=e542]:
+              - link "Youtube" [ref=e543] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCNwR4iyGMzOrJPLKz9nMQXw
+                - generic [ref=e544]: Youtube
+                - img [ref=e545]
+            - listitem [ref=e547]:
+              - link "Linkedin" [ref=e548] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/turknet-iletisim-hizmetleri/
+                - generic [ref=e549]: Linkedin
+                - img [ref=e550]
+  - text: keyboard_arrow_right keyboard_arrow_right
+  - generic [ref=e552]: desktop
+  - generic [ref=e554]:
+    - generic [ref=e555]: Çerezleri kullanıyoruz. 🍪
+    - paragraph [ref=e557]:
+      - text: İnternet sayfamızda çerezler yoluyla kişisel veriler işlenmektedir. İşlevsel, performans/analitik ve reklam/pazarlama çerezleri onay vermeniz halinde kullanılacaktır. Çerezler hakkında ayrıntılı bilgiye
+      - link "www.turk.net/cerez-politikasi" [ref=e558] [cursor=pointer]:
+        - /url: https://www.turk.net/cerez-politikasi
+        - strong [ref=e559]: www.turk.net/cerez-politikasi
+      - text: adresinden ulaşabilirsiniz
+    - generic [ref=e560]:
+      - generic [ref=e561] [cursor=pointer]: Reddet
+      - generic [ref=e562] [cursor=pointer]: Ayarlar
+      - generic [ref=e563] [cursor=pointer]: Kabul Et
