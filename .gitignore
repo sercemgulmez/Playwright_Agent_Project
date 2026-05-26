@@ -6,3 +6,43 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.env
+*.local
+*.secret
+*.secrets
+secrets/
+.secrets/
+
+# API keys, credentials, and auth state
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.csr
+id_rsa*
+id_ed25519*
+credentials.json
+client_secret*.json
+service-account*.json
+firebase-adminsdk*.json
+google-credentials*.json
+aws-credentials
+.aws/
+.npmrc
+.yarnrc.yml
+auth.json
+storageState.json
+*.storage-state.json
+
+# Local editor and OS files
+.DS_Store
+.vscode/settings.json
+.idea/
