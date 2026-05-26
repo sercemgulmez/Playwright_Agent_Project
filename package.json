@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "security:check": "bash scripts/check-secrets.sh"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sercemgulmez/Playwright_Agent_Project.git"
