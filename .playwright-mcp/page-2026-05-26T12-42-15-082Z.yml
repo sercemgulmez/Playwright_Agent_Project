@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e11]:
+        - img [ref=e13]
+        - img "Turknet" [ref=e14]
+      - paragraph [ref=e15]: Online İşlemler
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e21]:
+            - generic [ref=e22]: T.C. / Yabancı Kimlik No
+            - textbox "T.C. / Yabancı Kimlik No" [ref=e24]:
+              - /placeholder: T.C. / Yabancı Kimlik No giriniz
+          - generic [ref=e28]:
+            - generic [ref=e29]: Şifre
+            - textbox "Şifre" [ref=e32]:
+              - /placeholder: Şifrenizi giriniz
+          - generic [ref=e35] [cursor=pointer]:
+            - checkbox "Beni Hatırla" [checked] [ref=e36]
+            - paragraph [ref=e38]: Beni Hatırla
+        - iframe [ref=e45]:
+          - generic [ref=f31e2]:
+            - generic [ref=f31e3]:
+              - checkbox "Ben robot değilim" [ref=f31e7]
+              - generic [ref=f31e11]: Ben robot değilim
+            - generic [ref=f31e15]: reCAPTCHA
+        - button "Giriş Yap" [disabled] [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: Giriş Yap
+      - generic [ref=e49] [cursor=pointer]: Şifremi Unuttum
+      - paragraph [ref=e50]:
+        - text: Bu site reCAPTCHA tarafından korunmakta ve
+        - link "Google Gizlilik Politikası" [ref=e51] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy
+        - text: ve
+        - link "Kullanım Şartları" [ref=e52] [cursor=pointer]:
+          - /url: https://policies.google.com/terms
+        - text: uygulanmakta.
+  - alert [ref=e53]

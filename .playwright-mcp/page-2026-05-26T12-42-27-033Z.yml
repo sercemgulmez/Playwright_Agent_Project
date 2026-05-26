@@ -1,0 +1,289 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - banner [ref=e5]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - link [ref=e16] [cursor=pointer]:
+              - /url: /
+              - img [ref=e17]
+            - button "Kurumsal" [ref=e22] [cursor=pointer]:
+              - text: Kurumsal
+              - img [ref=e23]
+          - generic [ref=e26]:
+            - navigation "Main Menu" [ref=e29]:
+              - list [ref=e30]:
+                - listitem [ref=e31]:
+                  - link [ref=e32] [cursor=pointer]:
+                    - /url: /kurumsal
+                    - img [ref=e34]
+            - list [ref=e42]:
+              - listitem [ref=e43]:
+                - link "İş Yerine Özel İnternet" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.turk.net/kurumsal/is-yerine-ozel-gigabit-internet
+                  - generic [ref=e45]: İş Yerine Özel İnternet
+          - link "Online İşlemler - opens in a new window" [ref=e51] [cursor=pointer]:
+            - /url: https://cco.turk.net/
+            - generic [ref=e53]: Online İşlemler
+    - main [ref=e58]:
+      - generic [ref=e60]:
+        - generic [ref=e64]:
+          - heading "Taahhütsüz, Gigabit hızında yeni nesil kurumsal internet" [level=1] [ref=e67]
+          - paragraph [ref=e70]: Birlikte kalıpları yıkmaya var mısınız? Gigabit internet ofisinizin kapısında, hemen altyapınızı sorgulayın.
+          - list [ref=e73]:
+            - listitem [ref=e74]:
+              - generic [ref=e76]: check
+              - generic [ref=e77]: Metro Ethernet
+            - listitem [ref=e78]:
+              - generic [ref=e80]: check
+              - generic [ref=e81]: Ücretsiz deneme fırsatı
+            - listitem [ref=e82]:
+              - generic [ref=e84]: check
+              - generic [ref=e85]: 1 Gbps download
+          - list [ref=e88]:
+            - listitem [ref=e89]:
+              - generic [ref=e91]: check
+              - generic [ref=e92]: Paylaşımsız ve kesintisiz
+            - listitem [ref=e93]:
+              - generic [ref=e95]: check
+              - generic [ref=e96]: 7/24 size özel müşteri desteği
+            - listitem [ref=e97]:
+              - generic [ref=e99]: check
+              - generic [ref=e100]: Hızlı kurulum
+          - link "Paketleri İncele" [ref=e104] [cursor=pointer]:
+            - /url: "#paketler"
+            - generic [ref=e106]: Paketleri İncele
+        - generic [ref=e112]:
+          - generic [ref=e117]:
+            - img [ref=e120]
+            - generic [ref=e131]:
+              - heading "Taahhütsüz internet" [level=3] [ref=e132]
+              - paragraph [ref=e133]: Altyapımızın olduğu lokasyonlarda taahhütsüz özgür internet.
+          - generic [ref=e138]:
+            - img [ref=e141]
+            - generic [ref=e158]:
+              - heading "Ücretsiz deneme fırsatı" [level=3] [ref=e159]
+              - paragraph [ref=e160]: Firmanız için başvuru yaptığınızda, 1 ay ücretsiz deneme hakkı.
+          - generic [ref=e165]:
+            - img [ref=e168]
+            - generic [ref=e178]:
+              - heading "1 Gbps Download" [level=3] [ref=e179]
+              - paragraph [ref=e180]: Tüm tarifelerde 1 Gbps download hızı, gigabit upload seçenekleri.
+          - generic [ref=e185]:
+            - img [ref=e188]
+            - generic [ref=e194]:
+              - heading "Paylaşımsız ve kesintisiz" [level=3] [ref=e195]
+              - paragraph [ref=e196]: Şirketinize özel paylaşımsız Metro Ethernet altyapınız sayesinde hız kaybı olmaksızın, daha yüksek performans avantajı.
+          - generic [ref=e201]:
+            - img [ref=e204]
+            - generic [ref=e212]:
+              - heading "Sektörde lider deneyim" [level=3] [ref=e213]
+              - paragraph [ref=e214]: Size özel atanmış Müşteri Başarı Yöneticisi ve 7/24 destek alabileceğiniz Müşteri Deneyimi ekibi, şeffaf yaklaşım.
+          - generic [ref=e219]:
+            - img [ref=e222]
+            - generic [ref=e228]:
+              - heading "Yeni nesil çözüm yaklaşımı" [level=3] [ref=e229]
+              - paragraph [ref=e230]: SD-WAN, Direct Cloud gibi yeni nesil teknolojiler ile güvenli, esnek, yönetilebilir ve yüksek performanslı erişim altyapısı.
+        - generic [ref=e234]:
+          - heading "Paketlerimiz" [level=2] [ref=e237]
+          - region "Slides" [ref=e245]:
+            - generic [ref=e246]:
+              - group "1 / 2" [ref=e247]:
+                - generic [ref=e259] [cursor=pointer]:
+                  - heading "Dijitale Geçiş Paketi" [level=2] [ref=e262]
+                  - paragraph [ref=e265]: Küçük ve orta ölçekli işletmelere özel
+                  - paragraph [ref=e268]: ₺1.990
+                  - heading "+ Vergiler" [level=2] [ref=e271]
+                  - paragraph [ref=e274]: İlk 3 ay %50 kampanyası ilk defa hizmet alacak müşterilerimize uygulanmaktadır
+                  - generic [ref=e283]: check
+                  - paragraph [ref=e286]: 1000 Mbps’ye kadar simetrik hız
+                  - generic [ref=e289]:
+                    - button "Hover to preview" [ref=e290]:
+                      - generic [ref=e292]: info_outline
+                    - paragraph [ref=e295]:
+                      - generic [ref=e296]: Adresinizin altyapısına bağlı olarak 1.000 Mbps’ye kadar fiber veya 100 Mbps’ye kadar bakır altyapı üzerinden paylaşımlı internet hizmeti sağlanır.
+                  - generic [ref=e305]: check
+                  - paragraph [ref=e308]: İşletmenize özel Statik IP
+                  - generic [ref=e311]:
+                    - button "Hover to preview" [ref=e312]:
+                      - generic [ref=e314]: info_outline
+                    - paragraph [ref=e317]: İ nternet paketine tekli statik IP dahildir.
+                  - generic [ref=e326]: check
+                  - paragraph [ref=e329]: Wifi 6 Destekli Access Point
+                  - generic [ref=e332]:
+                    - button "Hover to preview" [ref=e333]:
+                      - generic [ref=e335]: info_outline
+                    - paragraph [ref=e338]:
+                      - generic [ref=e339]: Modem, router , switch ve access point gibi cihazlar Turknet mülkiyetindedir ve hizmet süresi boyunca kullanımınıza sunulur. Paket kapsamında 1 adet Access Point dahildir, ek cihazlar ayrıca ücretlendirilir.
+                  - generic [ref=e348]: check
+                  - paragraph [ref=e351]: Ücretsiz kurulum
+                  - generic [ref=e354]:
+                    - button "Hover to preview" [ref=e355]:
+                      - generic [ref=e357]: info_outline
+                    - paragraph [ref=e360]:
+                      - text: "2"
+                      - generic [ref=e361]: .000₺’ye kadar olan lokal kablolama hizmete dahildir.
+                  - generic [ref=e370]: check
+                  - paragraph [ref=e373]: 5651 loglama ile güvenli Wifi Hotspot
+                  - generic [ref=e382]: check
+                  - paragraph [ref=e385]: 7/24 öncelikli destek
+                  - generic [ref=e391]: Detaylı İncele
+              - group "2 / 2" [ref=e394]:
+                - generic [ref=e406] [cursor=pointer]:
+                  - heading "Kurumsal Metro Ethernet" [level=2] [ref=e409]
+                  - paragraph [ref=e412]: Onnet, plazalar ve teknoparklara özel
+                  - paragraph [ref=e415]: ₺15.000
+                  - heading "+ Vergiler" [level=2] [ref=e418]
+                  - paragraph [ref=e421]: Belirtilen kampanyalı fiyat onnet plazalarda 300 Mbps, Teknoparklarda ise 1000 Mbps şeklindedir.
+                  - generic [ref=e430]: check
+                  - paragraph [ref=e433]: 100.000 Mbps’ye kadar simetrik hız
+                  - generic [ref=e436]:
+                    - button "Hover to preview" [ref=e437]:
+                      - generic [ref=e439]: info_outline
+                    - paragraph [ref=e442]:
+                      - generic [ref=e443]: Adresinizin altyapısına bağlı olarak, 10 0 .000 Mbps’ye kadar farklı hız seçenekleriyle firmanızın ihtiyaçlarına özel, paylaşımsız fiber internet hizmeti sunulmaktadır. Hizmetin sağlanabilirliği, adres bazlı altyapı sorgusu sonucuna göre değişiklik gösterebilir. Belirtilen fiyat, onnet lokasyonlarda sunulan 300 Mbps hızındaki paket için geçerlidir.
+                      - generic [ref=e444]: Diğer hız seçenekleri altyapıya göre satış ekibi tarafından ayrıca tekliflendirilmektedir .
+                  - generic [ref=e453]: check
+                  - paragraph [ref=e456]: Uçtan uca mükemmel deneyim
+                  - generic [ref=e465]: check
+                  - paragraph [ref=e468]: Çözüm odaklı, yetkin destek süreci
+                  - generic [ref=e477]: check
+                  - paragraph [ref=e480]: Yüksek performans, kesintisiz hizmet
+                  - generic [ref=e489]: check
+                  - paragraph [ref=e492]: Ücretsiz kurulum
+                  - generic [ref=e501]: check
+                  - paragraph [ref=e504]: Esnek sözleşme koşulları
+                  - generic [ref=e510]: Detaylı İncele
+        - generic [ref=e520]:
+          - heading "Gigabit internet" [level=3] [ref=e523]
+          - paragraph [ref=e526]: Turknet kurumsal fiber’de en düşük hız 1 Gbps! Lokasyonunuzda mümkün olan en yüksek hız ve en doğru kurumsal internet çözümü ile işleriniz hızlanır.
+          - link "Hemen incele" [ref=e530] [cursor=pointer]:
+            - /url: /kurumsal/is-yerine-ozel-gigabit-internet
+            - generic [ref=e532]: Hemen incele
+        - generic [ref=e536]:
+          - paragraph [ref=e540]: "1"
+          - paragraph [ref=e543]: Adresinizin altyapısına bağlı olarak 1.000 Mbps’ye kadar fiber veya 100 Mbps’ye kadar bakır altyapı üzerinden paylaşımlı internet hizmeti sağlanır.
+          - paragraph [ref=e546]: "2"
+          - paragraph [ref=e549]: İnternet paketine tekli statik IP dahildir.
+          - paragraph [ref=e552]: "3"
+          - paragraph [ref=e555]: Modem, router, switch ve access point gibi cihazlar Turknet mülkiyetindedir ve hizmet süresi boyunca kullanımınıza sunulur. Paket kapsamında 1 adet Access Point dahildir, ek cihazlar ayrıca ücretlendirilir.
+          - paragraph [ref=e558]: "4"
+          - paragraph [ref=e561]: 2.000 ₺’ye kadar olan lokal kablolama hizmete dahildir
+          - paragraph [ref=e564]: "5"
+          - paragraph [ref=e567]: Adresinizin altyapısına bağlı olarak, 100.000 Mbps’ye kadar farklı hız seçenekleriyle firmanızın ihtiyaçlarına özel, paylaşımsız fiber internet hizmeti sunulmaktadır. Hizmetin sağlanabilirliği, adres bazlı altyapı sorgusu sonucuna göre değişiklik gösterebilir. Belirtilen fiyat, onnet lokasyonlarda sunulan 300 Mbps, Teknoparklarda sunulan 1000 Mbps hızındaki paket için geçerlidir. Diğer hız seçenekleri altyapıya göre satış ekibi tarafından ayrıca tekliflendirilmektedir.
+        - text: check arrow_back
+    - contentinfo [ref=e568]:
+      - contentinfo [ref=e569]:
+        - generic [ref=e571]:
+          - generic [ref=e576]:
+            - generic [ref=e578] [cursor=pointer]: Hakkımızda
+            - list [ref=e580]:
+              - listitem [ref=e581]:
+                - link "Duyurular & Etkinlikler" [ref=e582] [cursor=pointer]:
+                  - /url: /kurumsal/duyurular
+              - listitem [ref=e583]:
+                - link "Re-Pie Portföy" [ref=e584] [cursor=pointer]:
+                  - /url: https://re-pie.com/
+          - generic [ref=e589]:
+            - generic [ref=e591] [cursor=pointer]: Hizmetler
+            - list [ref=e593]:
+              - listitem [ref=e594]:
+                - link "Plazalara Özel İnternet" [ref=e595] [cursor=pointer]:
+                  - /url: /kurumsal/is-yerine-ozel-gigabit-internet
+              - listitem [ref=e596]:
+                - link "Altyapı Sorgulama" [ref=e597] [cursor=pointer]:
+                  - /url: /ofise-gigabit-hizlar-altyapi-sorgulama
+          - generic [ref=e602]:
+            - generic [ref=e604] [cursor=pointer]: Bilgiler
+            - list [ref=e606]:
+              - listitem [ref=e607]:
+                - link "Aydınlatma Metni" [ref=e608] [cursor=pointer]:
+                  - /url: /kvk-aydinlatma-metni#tuzel
+              - listitem [ref=e609]:
+                - link "Kişisel Veri Güvenliği Politikaları" [ref=e610] [cursor=pointer]:
+                  - /url: /kisisel-veri-guvenligi-politikalari
+              - listitem [ref=e611]:
+                - link "Kişisel Verilerin İşlenmesine Dair Bilgilendirme" [ref=e612] [cursor=pointer]:
+                  - /url: /kvk-aydinlatma-metni
+              - listitem [ref=e613]:
+                - link "Bilgi Güvenliği Politikası" [ref=e614] [cursor=pointer]:
+                  - /url: /kurumsal/bilgi-guvenligi-politikasi
+          - generic [ref=e619]:
+            - generic [ref=e621] [cursor=pointer]: Yardım
+            - list [ref=e623]:
+              - listitem [ref=e624]:
+                - link "Online İşlem Merkezi" [ref=e625] [cursor=pointer]:
+                  - /url: https://cco.turk.net/
+              - listitem [ref=e626]:
+                - link "İade Sorgulama" [ref=e627] [cursor=pointer]:
+                  - /url: https://refund.turknet.net.tr/Refund/RefundLogin/Index
+              - listitem [ref=e628]:
+                - link "Tüketici Şikayetleri" [ref=e629] [cursor=pointer]:
+                  - /url: /tuketici-sikayetleri
+              - listitem [ref=e630]:
+                - link "İletişim" [ref=e631] [cursor=pointer]:
+                  - /url: /kurumsal/iletisim
+          - generic [ref=e633]:
+            - heading "Mobil Uygulama" [level=3] [ref=e636]
+            - paragraph [ref=e639]: QR kod’u okutarak “Turknet Mobil Uygulamasını” indirin.
+            - heading "Satış ve başvuru hattı" [level=4] [ref=e652]
+            - generic [ref=e656]:
+              - link [ref=e660] [cursor=pointer]:
+                - /url: tel:+902123551717
+                - generic [ref=e661]: phone
+              - link "0212 355 17 17" [ref=e665] [cursor=pointer]:
+                - /url: tel:+902123551717
+        - generic [ref=e667]:
+          - generic [ref=e669]:
+            - paragraph [ref=e672]: Copyright © 2026 Turknet
+            - list [ref=e677]:
+              - listitem [ref=e678]:
+                - link "Gizlilk Koşulları" [ref=e679] [cursor=pointer]:
+                  - /url: /gizlilik-ve-kullanim-kosullari
+          - generic [ref=e683]:
+            - link "Erişilebilirlik Erişilebilirlik" [ref=e687] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e688]:
+                - img "Erişilebilirlik" [ref=e690]
+                - generic [ref=e692]: Erişilebilirlik
+            - list [ref=e695]:
+              - listitem [ref=e696]:
+                - link "Facebook" [ref=e697] [cursor=pointer]:
+                  - /url: https://www.facebook.com/turknet/
+                  - generic [ref=e698]: Facebook
+                  - img [ref=e699]
+              - listitem [ref=e700]:
+                - link "Instagram" [ref=e701] [cursor=pointer]:
+                  - /url: http://instagram.com/turknet
+                  - generic [ref=e702]: Instagram
+                  - img [ref=e703]
+              - listitem [ref=e704]:
+                - link "Linkedin" [ref=e705] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/turknet-iletisim-hizmetleri/
+                  - generic [ref=e706]: Linkedin
+                  - img [ref=e707]
+              - listitem [ref=e708]:
+                - link [ref=e709] [cursor=pointer]:
+                  - /url: https://twitter.com/Turknet
+                  - img [ref=e711]
+              - listitem [ref=e713]:
+                - link "Youtube" [ref=e714] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCNwR4iyGMzOrJPLKz9nMQXw
+                  - generic [ref=e715]: Youtube
+                  - img [ref=e716]
+  - text: keyboard_arrow_right keyboard_arrow_right
+  - generic [ref=e717]: desktop
+  - generic [ref=e719]:
+    - generic [ref=e720]: Çerezleri kullanıyoruz. 🍪
+    - paragraph [ref=e722]:
+      - text: İnternet sayfamızda çerezler yoluyla kişisel veriler işlenmektedir. İşlevsel, performans/analitik ve reklam/pazarlama çerezleri onay vermeniz halinde kullanılacaktır. Çerezler hakkında ayrıntılı bilgiye
+      - link "www.turk.net/cerez-politikasi" [ref=e723] [cursor=pointer]:
+        - /url: https://www.turk.net/cerez-politikasi
+        - strong [ref=e724]: www.turk.net/cerez-politikasi
+      - text: adresinden ulaşabilirsiniz
+    - generic [ref=e725]:
+      - generic [ref=e726] [cursor=pointer]: Reddet
+      - generic [ref=e727] [cursor=pointer]: Ayarlar
+      - generic [ref=e728] [cursor=pointer]: Kabul Et

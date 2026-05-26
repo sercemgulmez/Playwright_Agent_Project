@@ -1,0 +1,360 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - banner [ref=e5]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - link [ref=e16] [cursor=pointer]:
+              - /url: /
+              - img [ref=e17]
+            - button "Bireysel" [ref=e22] [cursor=pointer]:
+              - text: Bireysel
+              - img [ref=e23]
+          - generic [ref=e26]:
+            - navigation "Main Menu" [ref=e29]:
+              - list [ref=e30]:
+                - listitem [ref=e31]:
+                  - link [ref=e32] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e34]
+            - list [ref=e42]:
+              - listitem [ref=e43]:
+                - link "Altyapı Sorgula" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.turk.net/internet-hiz-altyapi-sorgulama
+                  - generic [ref=e45]: Altyapı Sorgula
+              - listitem [ref=e46]:
+                - link "Abone Ol" [ref=e47] [cursor=pointer]:
+                  - /url: https://www.turk.net/taahhutsuz-ozgur-iletisim-abonelik
+                  - generic [ref=e48]: Abone Ol
+              - listitem [ref=e49]:
+                - link "Hız Testi" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.turk.net/hiz-testi
+                  - generic [ref=e51]: Hız Testi
+              - listitem [ref=e52]:
+                - link "Kampanyalar" [ref=e53] [cursor=pointer]:
+                  - /url: https://www.turk.net/internet-kampanyalari
+                  - generic [ref=e54]: Kampanyalar
+              - listitem [ref=e55]:
+                - link "Yardım" [ref=e56] [cursor=pointer]:
+                  - /url: https://www.turk.net/destek
+                  - generic [ref=e57]: Yardım
+          - link "Online İşlemler - opens in a new window" [ref=e63] [cursor=pointer]:
+            - /url: /online-islemler
+            - generic [ref=e65]: Online İşlemler
+    - main [ref=e69]:
+      - generic [ref=e71]:
+        - generic [ref=e82]:
+          - region [ref=e83]:
+            - generic [ref=e84]:
+              - group "1 of 6" [ref=e85]:
+                - generic [ref=e86]:
+                  - link "Ek Hız Hizmeti" [ref=e87] [cursor=pointer]:
+                    - /url: /1000-mbps-ek-hiz-hizmeti
+                  - heading "Ek Hız Hizmeti" [level=2] [ref=e90]
+              - group "2 of 6" [ref=e91]:
+                - generic [ref=e92]:
+                  - link "İnternet Arıza" [ref=e93] [cursor=pointer]:
+                    - /url: /dijital-onarim-hizmeti
+                  - heading "İnternet Arıza" [level=2] [ref=e95]
+              - group "3 of 6" [ref=e96]:
+                - generic [ref=e97]:
+                  - link "Zahmetsiz İptal" [ref=e98] [cursor=pointer]:
+                    - /url: /iptal
+                  - heading "Zahmetsiz İptal" [level=2] [ref=e101]
+              - group "4 of 6" [ref=e102]:
+                - generic [ref=e103]:
+                  - link "İnternet Taşıma" [ref=e104] [cursor=pointer]:
+                    - /url: /internet-tasima-adres-degisikligi
+                  - heading "İnternet Taşıma" [level=2] [ref=e107]
+              - group [ref=e108]:
+                - generic [ref=e109]:
+                  - link [ref=e110] [cursor=pointer]:
+                    - /url: /internet-dondurma-hizmeti
+                  - heading [level=2] [ref=e113]: İnternet Dondurma
+              - group [ref=e114]:
+                - generic [ref=e115]:
+                  - link [ref=e116] [cursor=pointer]:
+                    - /url: /arkadasini-getir
+                  - heading [level=2] [ref=e119]: Arkadaşını Getir
+          - generic:
+            - img [ref=e121] [cursor=pointer]
+            - img [ref=e123] [cursor=pointer]
+        - main "Yardıma mı ihtiyacın var? Search Abonelik ve Teknik Destek Arkadaşını Getir Dondurma İşlemi Fatura ve Ödeme İşlemleri Fiber 100 Paketi GigaFiber Yeni Abonelik Güvenli İnternet Hizmeti İnternet Adres Değişikliği İnternet Bağlantı Sorunları İnternet Hizmet Değişikliği İnternet Hızı Soruları İnternet İç Tesisat Kontrolü İnternet Kullanımı Kolay İptal Modem Kurulumu Özgür İletişim Paketi Peşin Ödeme SmartyFi Telefon Hizmeti" [ref=e130]:
+          - generic [ref=e133]:
+            - generic [ref=e138]: Yardıma mı ihtiyacın var?
+            - search "Search" [ref=e141]:
+              - searchbox "Aratmak istediğin konuyu gir" [ref=e143]
+          - main "Abonelik ve Teknik Destek Arkadaşını Getir Dondurma İşlemi Fatura ve Ödeme İşlemleri Fiber 100 Paketi GigaFiber Yeni Abonelik Güvenli İnternet Hizmeti İnternet Adres Değişikliği İnternet Bağlantı Sorunları İnternet Hizmet Değişikliği İnternet Hızı Soruları İnternet İç Tesisat Kontrolü İnternet Kullanımı Kolay İptal Modem Kurulumu Özgür İletişim Paketi Peşin Ödeme SmartyFi Telefon Hizmeti" [ref=e147]:
+            - generic [ref=e150]:
+              - generic [ref=e151]:
+                - generic [ref=e152]:
+                  - region [ref=e154] [cursor=pointer]:
+                    - heading "Abonelik ve Teknik Destek" [level=2] [ref=e155]:
+                      - link "Abonelik ve Teknik Destek" [ref=e156]:
+                        - /url: https://www.turk.net/destek/category/abonelik-islemleri-ve-teknik-destek
+                  - text:                           
+                - generic [ref=e157]:
+                  - region [ref=e159] [cursor=pointer]:
+                    - heading "Arkadaşını Getir" [level=2] [ref=e160]:
+                      - link "Arkadaşını Getir" [ref=e161]:
+                        - /url: https://www.turk.net/destek/category/arkadasini-getir-sorulari
+                  - text:    
+                - generic [ref=e162]:
+                  - region [ref=e164] [cursor=pointer]:
+                    - heading "Dondurma İşlemi" [level=2] [ref=e165]:
+                      - link "Dondurma İşlemi" [ref=e166]:
+                        - /url: https://www.turk.net/destek/category/dondurma-islemi-sorulari
+                  - text:         
+                - generic [ref=e167]:
+                  - region [ref=e169] [cursor=pointer]:
+                    - heading "Fatura ve Ödeme İşlemleri" [level=2] [ref=e170]:
+                      - link "Fatura ve Ödeme İşlemleri" [ref=e171]:
+                        - /url: https://www.turk.net/destek/category/fatura-ile-ilgili-islemler-nasil-yapilir
+                  - text:                         
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - region [ref=e175] [cursor=pointer]:
+                    - heading "Fiber 100 Paketi" [level=2] [ref=e176]:
+                      - link "Fiber 100 Paketi" [ref=e177]:
+                        - /url: https://www.turk.net/destek/category/ozgur-iletisim-fiber-100-paketi-sorular
+                  - text:     
+                - generic [ref=e178]:
+                  - region [ref=e180] [cursor=pointer]:
+                    - heading "GigaFiber Yeni Abonelik" [level=2] [ref=e181]:
+                      - link "GigaFiber Yeni Abonelik" [ref=e182]:
+                        - /url: https://www.turk.net/destek/category/turknet-gigafiber-yeni-abonelik-sorulari
+                  - text:           
+                - generic [ref=e183]:
+                  - region [ref=e185] [cursor=pointer]:
+                    - heading "Güvenli İnternet Hizmeti" [level=2] [ref=e186]:
+                      - link "Güvenli İnternet Hizmeti" [ref=e187]:
+                        - /url: https://www.turk.net/destek/category/guvenli-internet-hizmeti
+                  - text:                   
+                - generic [ref=e188]:
+                  - region [ref=e190] [cursor=pointer]:
+                    - heading "İnternet Adres Değişikliği" [level=2] [ref=e191]:
+                      - link "İnternet Adres Değişikliği" [ref=e192]:
+                        - /url: https://www.turk.net/destek/category/internet-hizmeti-adres-degisikligi
+                  - text:        
+              - generic [ref=e193]:
+                - generic [ref=e194]:
+                  - region [ref=e196] [cursor=pointer]:
+                    - heading "İnternet Bağlantı Sorunları" [level=2] [ref=e197]:
+                      - link "İnternet Bağlantı Sorunları" [ref=e198]:
+                        - /url: https://www.turk.net/destek/category/internet-baglanti-sorunlari-nasil-cozulur
+                  - text:           
+                - generic [ref=e199]:
+                  - region [ref=e201] [cursor=pointer]:
+                    - heading "İnternet Hizmet Değişikliği" [level=2] [ref=e202]:
+                      - link "İnternet Hizmet Değişikliği" [ref=e203]:
+                        - /url: https://www.turk.net/destek/category/internet-hizmetimi-nasil-degistiririm
+                  - text:       
+                - generic [ref=e204]:
+                  - region [ref=e206] [cursor=pointer]:
+                    - heading "İnternet Hızı Soruları" [level=2] [ref=e207]:
+                      - link "İnternet Hızı Soruları" [ref=e208]:
+                        - /url: https://www.turk.net/destek/category/internet-hizi-ile-ilgili-sorular
+                  - text:       
+                - generic [ref=e209]:
+                  - region [ref=e211] [cursor=pointer]:
+                    - heading "İnternet İç Tesisat Kontrolü" [level=2] [ref=e212]:
+                      - link "İnternet İç Tesisat Kontrolü" [ref=e213]:
+                        - /url: https://www.turk.net/destek/category/ic-tesisat-kontrolu-nasil-yapilir
+                  - text:         
+              - generic [ref=e214]:
+                - generic [ref=e215]:
+                  - region [ref=e217] [cursor=pointer]:
+                    - heading "İnternet Kullanımı" [level=2] [ref=e218]:
+                      - link "İnternet Kullanımı" [ref=e219]:
+                        - /url: https://www.turk.net/destek/category/internet-kullanimi
+                  - text:          
+                - generic [ref=e220]:
+                  - region [ref=e222] [cursor=pointer]:
+                    - heading "Kolay İptal" [level=2] [ref=e223]:
+                      - link "Kolay İptal" [ref=e224]:
+                        - /url: https://www.turk.net/destek/category/kolay-iptal-sorulari
+                  - text:          
+                - generic [ref=e225]:
+                  - region [ref=e227] [cursor=pointer]:
+                    - heading "Modem Kurulumu" [level=2] [ref=e228]:
+                      - link "Modem Kurulumu" [ref=e229]:
+                        - /url: https://www.turk.net/destek/category/modem-kurulumu-nasil-yapilir
+                  - text:              
+                - generic [ref=e230]:
+                  - region [ref=e232] [cursor=pointer]:
+                    - heading "Özgür İletişim Paketi" [level=2] [ref=e233]:
+                      - link "Özgür İletişim Paketi" [ref=e234]:
+                        - /url: https://www.turk.net/destek/category/ozgur-iletisim-paketi-ile-ilgili-sorular
+                  - text:  
+              - generic [ref=e235]:
+                - generic [ref=e236]:
+                  - region [ref=e238] [cursor=pointer]:
+                    - heading "Peşin Ödeme" [level=2] [ref=e239]:
+                      - link "Peşin Ödeme" [ref=e240]:
+                        - /url: https://www.turk.net/destek/category/pesin-odeme-sorulari
+                  - text:    
+                - generic [ref=e241]:
+                  - region [ref=e243] [cursor=pointer]:
+                    - heading "SmartyFi" [level=2] [ref=e244]:
+                      - link "SmartyFi" [ref=e245]:
+                        - /url: https://www.turk.net/destek/category/smartyfi-sorulari
+                  - text:                   
+                - generic [ref=e246]:
+                  - region [ref=e248] [cursor=pointer]:
+                    - heading "Telefon Hizmeti" [level=2] [ref=e249]:
+                      - link "Telefon Hizmeti" [ref=e250]:
+                        - /url: https://www.turk.net/destek/category/telefon-hizmeti-ile-ilgili-islemler-ve-sorunlar
+                  - text:                  
+    - contentinfo [ref=e251]:
+      - contentinfo [ref=e252]:
+        - generic [ref=e255]:
+          - generic [ref=e257]:
+            - generic [ref=e260]:
+              - generic [ref=e262] [cursor=pointer]: Hakkımızda
+              - list [ref=e264]:
+                - listitem [ref=e265]:
+                  - link "Bizi Tanıyın" [ref=e266] [cursor=pointer]:
+                    - /url: /hakkimizda/index
+                - listitem [ref=e267]:
+                  - link "Şeffaflık Raporu" [ref=e268] [cursor=pointer]:
+                    - /url: /turknet-karnesi
+                - listitem [ref=e269]:
+                  - link "Bizden Haberler" [ref=e270] [cursor=pointer]:
+                    - /url: /haberler
+                - listitem [ref=e271]:
+                  - link "Bilgi Toplumu Hizmetleri" [ref=e272] [cursor=pointer]:
+                    - /url: https://e-sirket.mkk.com.tr/esir/Dashboard.jsp#/sirketbilgileri/17512
+                - listitem [ref=e273]:
+                  - link "Ekibimize Katıl" [ref=e274] [cursor=pointer]:
+                    - /url: /ekibimize-katil
+            - link "Daha Fazla" [ref=e278] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e279]:
+                - generic [ref=e281]: keyboard_arrow_down
+                - generic [ref=e282]: Daha Fazla
+          - generic [ref=e284]:
+            - generic [ref=e287]:
+              - generic [ref=e289] [cursor=pointer]: Hizmetler
+              - list [ref=e291]:
+                - listitem [ref=e292]:
+                  - link "1000 Mbps İnternet" [ref=e293] [cursor=pointer]:
+                    - /url: /1000-mbps-internet
+                - listitem [ref=e294]:
+                  - link "Sınırsız İnternet" [ref=e295] [cursor=pointer]:
+                    - /url: /sinirsiz-internet-ozgur-iletisim
+                - listitem [ref=e296]:
+                  - link "Altyapı Sorgulama" [ref=e297] [cursor=pointer]:
+                    - /url: /internet-hiz-altyapi-sorgulama
+                - listitem [ref=e298]:
+                  - link "Abonelik Başvurusu" [ref=e299] [cursor=pointer]:
+                    - /url: /turknet-abonelik-basvurusu
+                - listitem [ref=e300]:
+                  - link "Fiber İnternet" [ref=e301] [cursor=pointer]:
+                    - /url: /fiber-internet
+            - link "Daha Fazla" [ref=e305] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e306]:
+                - generic [ref=e308]: keyboard_arrow_down
+                - generic [ref=e309]: Daha Fazla
+          - generic [ref=e311]:
+            - generic [ref=e314]:
+              - generic [ref=e316] [cursor=pointer]: Bilgiler
+              - list [ref=e318]:
+                - listitem [ref=e319]:
+                  - link "Sözleşme ve Formlar" [ref=e320] [cursor=pointer]:
+                    - /url: /sozlesme-ve-formlar
+                - listitem [ref=e321]:
+                  - link "Yasal Bildirimler" [ref=e322] [cursor=pointer]:
+                    - /url: /yasal-bildirimler
+                - listitem [ref=e323]:
+                  - link "İnternet Tarifeleri" [ref=e324] [cursor=pointer]:
+                    - /url: /tarifelerimiz
+                - listitem [ref=e325]:
+                  - link "Telefon Tarifeleri" [ref=e326] [cursor=pointer]:
+                    - /url: /telefon-tarifeleri
+                - listitem [ref=e327]:
+                  - link "Siber Güvenlik" [ref=e328] [cursor=pointer]:
+                    - /url: /siber-guvenlik
+            - link "Daha Fazla" [ref=e332] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e333]:
+                - generic [ref=e335]: keyboard_arrow_down
+                - generic [ref=e336]: Daha Fazla
+          - generic [ref=e341]:
+            - generic [ref=e343] [cursor=pointer]: Yardım
+            - list [ref=e345]:
+              - listitem [ref=e346]:
+                - link "İade Sorgulama" [ref=e347] [cursor=pointer]:
+                  - /url: https://refund.turknet.net.tr/Refund/RefundLogin/Index
+              - listitem [ref=e348]:
+                - link "Borç Alacak Sorgulama" [ref=e349] [cursor=pointer]:
+                  - /url: /borc-sorgulama
+              - listitem [ref=e350]:
+                - link "Sık Sorulan Sorular" [ref=e351] [cursor=pointer]:
+                  - /url: /destek
+              - listitem [ref=e352]:
+                - link "Şikayet İlet" [ref=e353] [cursor=pointer]:
+                  - /url: /tuketici-sikayetleri
+          - generic [ref=e358]:
+            - generic [ref=e360] [cursor=pointer]: Tüketici Şikayetleri
+            - generic [ref=e361]:
+              - paragraph [ref=e363]: Bilgi Teknolojileri ve İletişim Kurulu kararları uyarınca abonelere yapılacak iadeler ve süreç hakkında bilgi alın.
+              - list [ref=e364]:
+                - listitem [ref=e365]:
+                  - link "Detaylı İncele" [ref=e366] [cursor=pointer]:
+                    - /url: https://www.turk.net/duyurular/tuketici-sikayetleri
+                    - generic [ref=e367]:
+                      - text: Detaylı İncele
+                      - generic [ref=e368]: keyboard_arrow_right
+        - generic [ref=e373]:
+          - generic [ref=e374]: Mobil Uygulama
+          - paragraph [ref=e375]: QR kod'u okutarak "Turknet Mobil Uygulamasını" indirin.
+        - generic [ref=e378]:
+          - generic [ref=e380]:
+            - paragraph [ref=e383]: Copyright © 2025 Turknet
+            - list [ref=e388]:
+              - listitem [ref=e389]:
+                - link "Gizlilk Koşulları" [ref=e390] [cursor=pointer]:
+                  - /url: /gizlilik-ve-kullanim-kosullari
+          - list [ref=e397]:
+            - listitem [ref=e398]:
+              - link "Facebook" [ref=e399] [cursor=pointer]:
+                - /url: https://www.facebook.com/turknet/
+                - generic [ref=e400]: Facebook
+                - img [ref=e401]
+            - listitem [ref=e403]:
+              - link "Instagram" [ref=e404] [cursor=pointer]:
+                - /url: http://instagram.com/turknet
+                - generic [ref=e405]: Instagram
+                - img [ref=e406]
+            - listitem [ref=e410]:
+              - link "X" [ref=e411] [cursor=pointer]:
+                - /url: https://twitter.com/Turknet
+                - generic [ref=e412]: X
+                - img [ref=e413]
+            - listitem [ref=e415]:
+              - link "Youtube" [ref=e416] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCNwR4iyGMzOrJPLKz9nMQXw
+                - generic [ref=e417]: Youtube
+                - img [ref=e418]
+            - listitem [ref=e420]:
+              - link "Linkedin" [ref=e421] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/turknet-iletisim-hizmetleri/
+                - generic [ref=e422]: Linkedin
+                - img [ref=e423]
+  - text: keyboard_arrow_right keyboard_arrow_right
+  - generic [ref=e426]:
+    - generic [ref=e427]: Çerezleri kullanıyoruz. 🍪
+    - paragraph [ref=e429]:
+      - text: İnternet sayfamızda çerezler yoluyla kişisel veriler işlenmektedir. İşlevsel, performans/analitik ve reklam/pazarlama çerezleri onay vermeniz halinde kullanılacaktır. Çerezler hakkında ayrıntılı bilgiye
+      - link "www.turk.net/cerez-politikasi" [ref=e430] [cursor=pointer]:
+        - /url: https://www.turk.net/cerez-politikasi
+        - strong [ref=e431]: www.turk.net/cerez-politikasi
+      - text: adresinden ulaşabilirsiniz
+    - generic [ref=e432]:
+      - generic [ref=e433] [cursor=pointer]: Reddet
+      - generic [ref=e434] [cursor=pointer]: Ayarlar
+      - generic [ref=e435] [cursor=pointer]: Kabul Et
+  - generic [ref=e436]: desktop

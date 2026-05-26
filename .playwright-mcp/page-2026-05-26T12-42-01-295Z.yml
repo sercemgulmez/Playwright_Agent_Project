@@ -1,0 +1,64 @@
+- generic [active] [ref=e1]:
+  - main [ref=e4]:
+    - main [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e9]:
+          - link "Turknet" [ref=e11] [cursor=pointer]:
+            - /url: /
+            - img "Turknet" [ref=e13]
+          - heading "Abonelik Süreci" [level=3] [ref=e15]
+          - generic [ref=e16]:
+            - heading "İletişim Bilgileri" [level=3] [ref=e17]
+            - generic [ref=e18]:
+              - heading "1" [level=3] [ref=e19]
+              - heading / [level=3] [ref=e20]
+              - heading "4" [level=3] [ref=e21]
+        - main [ref=e22]:
+          - generic [ref=e23]:
+            - heading "Yasal düzenlemeler kapsamında yalnızca sen bizi arayabilirsin. Tüm soruların için 444 88 75'ten bize ulaşabilirsin. Sana en iyi şekilde yardımcı olacağız." [level=3] [ref=e24]:
+              - text: Yasal düzenlemeler kapsamında yalnızca sen bizi arayabilirsin. Tüm soruların için
+              - strong [ref=e25]: 444 88 75
+              - text: "'ten bize ulaşabilirsin. Sana en iyi şekilde yardımcı olacağız."
+            - img [ref=e27]
+          - generic [ref=e29]:
+            - heading "İletişim bilgilerini bizimle paylaş" [level=3] [ref=e30]
+            - heading "Verdiğin tüm bilgilerin güvenliğini sağlayacağız." [level=3] [ref=e31]
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - generic [ref=e36]:
+                - img [ref=e38]
+                - textbox "+90 (5__) ___ __ __" [ref=e40]
+              - generic [ref=e42]:
+                - img [ref=e44]
+                - textbox "e-Posta Adresi" [ref=e46]
+            - generic [ref=e47]:
+              - generic [ref=e49] [cursor=pointer]:
+                - checkbox "Aydınlatma Metni kapsamında kişisel verilerimin reklam, pazarlama, tanıtım ve analiz amacıyla kullanılmasına onay veriyorum."
+                - generic [ref=e52]:
+                  - generic:
+                    - heading "Aydınlatma Metni kapsamında kişisel verilerimin reklam, pazarlama, tanıtım ve analiz amacıyla kullanılmasına onay veriyorum." [level=3]
+              - generic [ref=e54] [cursor=pointer]:
+                - checkbox "İletişim adreslerime ticari elektronik ileti gönderimini kabul ediyorum."
+                - generic [ref=e57]:
+                  - generic:
+                    - heading "İletişim adreslerime ticari elektronik ileti gönderimini kabul ediyorum." [level=3]
+            - generic [ref=e58]:
+              - heading "Güvenliğiniz için telefon numaranıza doğrulama kodu gönderilecek ve kod giriş alanı açılacaktır." [level=3] [ref=e60]
+              - img [ref=e61]
+            - button "Devam" [ref=e64] [cursor=pointer]:
+              - text: Devam
+              - img [ref=e66]
+        - img "Secure" [ref=e69]
+  - alert [ref=e70]
+  - generic [ref=e72]:
+    - generic [ref=e73]: Çerezleri kullanıyoruz. 🍪
+    - paragraph [ref=e75]:
+      - text: İnternet sayfamızda çerezler yoluyla kişisel veriler işlenmektedir. İşlevsel, performans/analitik ve reklam/pazarlama çerezleri onay vermeniz halinde kullanılacaktır. Çerezler hakkında ayrıntılı bilgiye
+      - link "www.turk.net/cerez-politikasi" [ref=e76] [cursor=pointer]:
+        - /url: https://www.turk.net/cerez-politikasi
+        - strong [ref=e77]: www.turk.net/cerez-politikasi
+      - text: adresinden ulaşabilirsiniz
+    - generic [ref=e78]:
+      - generic [ref=e79] [cursor=pointer]: Reddet
+      - generic [ref=e80] [cursor=pointer]: Ayarlar
+      - generic [ref=e81] [cursor=pointer]: Kabul Et
