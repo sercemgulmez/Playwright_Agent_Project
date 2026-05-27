@@ -1,0 +1,8 @@
+[    1541ms] [WARNING] Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters @ https://js-agent.newrelic.com/nr-loader-spa-current.min.js:1
+[    1543ms] [WARNING] Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters @ https://js-agent.newrelic.com/nr-loader-spa-current.min.js:1
+[    1543ms] [WARNING] Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters @ https://js-agent.newrelic.com/nr-loader-spa-current.min.js:1
+[    1949ms] [LOG] clientTokenManager: All tokens initialized successfully @ https://js-agent.newrelic.com/nr-loader-spa-current.min.js:1
+[    1949ms] [LOG] clientTokenManager: All tokens initialized successfully @ https://js-agent.newrelic.com/nr-loader-spa-current.min.js:1
+[    1949ms] [LOG] clientTokenManager: All tokens initialized successfully @ https://js-agent.newrelic.com/nr-loader-spa-current.min.js:1
+[    3547ms] [ERROR] Framing 'https://www.google.com/' violates the following report-only Content Security Policy directive: "frame-ancestors 'self'". The violation has been logged, but no further action has been taken.
+ @ :0

@@ -1,0 +1,46 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - img "logo" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - 'heading "Hata kodu: 400" [level=4] [ref=e7]'
+        - heading "En kısa sürede sizinleyiz!" [level=1] [ref=e8]
+        - heading "Geçici bir teknik sorundan dolayı erişim veremiyoruz. Kısa bir süre sonra teknik aksaklığı gidereceğiz." [level=6] [ref=e9]:
+          - text: Geçici bir teknik sorundan dolayı erişim veremiyoruz.
+          - text: Kısa bir süre sonra teknik aksaklığı gidereceğiz.
+        - link "Online İşlemler" [ref=e10] [cursor=pointer]:
+          - /url: https://www.turk.net/online-islemler
+        - link "Altyapı sorgula" [ref=e11] [cursor=pointer]:
+          - /url: https://www.turk.net/internet-hiz-altyapi-sorgulama
+        - link "Abone ol" [ref=e12] [cursor=pointer]:
+          - /url: https://www.turk.net/taahhutsuz-ozgur-iletisim-abonelik
+        - paragraph [ref=e13]: Sosyal medya hesaplarımızdan yardım alabilirsiniz.
+        - generic [ref=e14]:
+          - link "facebook" [ref=e15] [cursor=pointer]:
+            - /url: https://www.facebook.com/turknet
+            - img "facebook" [ref=e16]
+          - link "instagram" [ref=e17] [cursor=pointer]:
+            - /url: https://instagram.com/turknet
+            - img "instagram" [ref=e18]
+          - link "linkedin" [ref=e19] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/turknet-iletisim-hizmetleri/mycompany
+            - img "linkedin" [ref=e20]
+          - link "twitter" [ref=e21] [cursor=pointer]:
+            - /url: https://twitter.com/TurkNet
+            - img "twitter" [ref=e22]
+          - link "youtube" [ref=e23] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCNwR4iyGMzOrJPLKz9nMQXw
+            - img "youtube" [ref=e24]
+      - img "500 çalışması" [ref=e26]
+  - generic [ref=e28]:
+    - generic [ref=e29]: Çerezleri kullanıyoruz. 🍪
+    - paragraph [ref=e31]:
+      - text: İnternet sayfamızda çerezler yoluyla kişisel veriler işlenmektedir. İşlevsel, performans/analitik ve reklam/pazarlama çerezleri onay vermeniz halinde kullanılacaktır. Çerezler hakkında ayrıntılı bilgiye
+      - link "www.turk.net/cerez-politikasi" [ref=e32] [cursor=pointer]:
+        - /url: https://www.turk.net/cerez-politikasi
+        - strong [ref=e33]: www.turk.net/cerez-politikasi
+      - text: adresinden ulaşabilirsiniz
+    - generic [ref=e34]:
+      - generic [ref=e35] [cursor=pointer]: Reddet
+      - generic [ref=e36] [cursor=pointer]: Ayarlar
+      - generic [ref=e37] [cursor=pointer]: Kabul Et
