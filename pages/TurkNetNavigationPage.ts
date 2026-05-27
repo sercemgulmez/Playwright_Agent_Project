@@ -1,4 +1,5 @@
 import { expect, type Locator, type Page } from '@playwright/test';
+import { BasePage } from './BasePage';
 
 const SAFE_LINK_NAMES = [
   /Hız Testi/i,
@@ -8,11 +9,9 @@ const SAFE_LINK_NAMES = [
   /İnternet Kampanyaları/i,
 ];
 
-export class TurkNetNavigationPage {
-  readonly page: Page;
-
+export class TurkNetNavigationPage extends BasePage {
   constructor(page: Page) {
-    this.page = page;
+    super(page);
   }
 
   mainNavigationLinks(): Locator {
@@ -23,12 +22,16 @@ export class TurkNetNavigationPage {
       .filter({ visible: true });
   }
 
-  async expectMainNavigationVisible() {
+  async expectNavigationVisible() {
     await expect(this.page.getByRole('img', { name: /Turknet/i }).first()).toBeVisible();
     await expect(this.mainNavigationLinks().first()).toBeVisible();
   }
 
-  async collectVisibleNavigationLinks(): Promise<string[]> {
+  async expectMainNavigationVisible() {
+    await this.expectNavigationVisible();
+  }
+
+  async getVisibleNavigationLinks(): Promise<string[]> {
     const links = await this.page.getByRole('link').evaluateAll((elements) =>
       elements
         .filter((element) => {
@@ -42,22 +45,47 @@ export class TurkNetNavigationPage {
     return Array.from(new Set(links));
   }
 
+  async collectVisibleNavigationLinks(): Promise<string[]> {
+    return this.getVisibleNavigationLinks();
+  }
+
   async openSafeNavigationLink(): Promise<boolean> {
     const currentUrl = this.page.url();
 
     for (const name of SAFE_LINK_NAMES) {
       const link = this.page.getByRole('link', { name }).filter({ visible: true }).first();
       if (await link.isVisible().catch(() => false)) {
-        await Promise.all([
-          this.page.waitForLoadState('domcontentloaded').catch(() => undefined),
-          link.click(),
-        ]);
-        await expect(this.page).not.toHaveURL(currentUrl);
-        await expect(this.page.locator('body')).toContainText(/Turknet|İnternet|Fiber|Yardım|Hız/i);
+        await this.safeClickIfVisible(link);
+        await this.expectNavigationTargetLoaded(currentUrl);
         return true;
       }
     }
 
     return false;
+  }
+
+  async expectNavigationTargetLoaded(previousUrl?: string): Promise<void> {
+    if (previousUrl) {
+      await expect(this.page).not.toHaveURL(previousUrl);
+    }
+    await this.expectPageLoaded(/Turknet|İnternet|Fiber|Yardım|Hız|Kampanya/i);
+  }
+
+  async openMobileMenuIfVisible(): Promise<boolean> {
+    const mobileMenuButton = this.page
+      .getByRole('button', { name: /menü|menu|navigation|nav/i })
+      .or(this.page.locator('.header-mobile svg[cursor="pointer"]').first())
+      .first();
+
+    return this.safeClickIfVisible(mobileMenuButton);
+  }
+
+  async expectMobileNavigationAccessible(): Promise<void> {
+    if (await this.openMobileMenuIfVisible()) {
+      await expect(this.page.getByText(/Turknet Bireysel|Altyapı Sorgula|Abone Ol|Hız Testi/i).first()).toBeVisible();
+      return;
+    }
+
+    await this.expectNavigationVisible();
   }
 }

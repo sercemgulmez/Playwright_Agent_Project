@@ -1,9 +1,10 @@
 {
   "name": "playwright_agent_project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Safe Playwright TypeScript automation framework for public web flows.",
   "main": "index.js",
   "scripts": {
+    "test": "playwright test",
     "security:check": "bash scripts/check-secrets.sh"
   },
   "repository": {

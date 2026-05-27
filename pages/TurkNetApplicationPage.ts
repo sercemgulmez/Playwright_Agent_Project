@@ -1,5 +1,5 @@
 import { expect, type Locator, type Page } from '@playwright/test';
-import { manualBoundaryKeywords } from '../test-data/turknet-test-data';
+import { BasePage } from './BasePage';
 
 const CTA_NAMES = [
   /Altyapı Sorgula/i,
@@ -10,11 +10,9 @@ const CTA_NAMES = [
   /GigaFiber İstiyorum/i,
 ];
 
-export class TurkNetApplicationPage {
-  readonly page: Page;
-
+export class TurkNetApplicationPage extends BasePage {
   constructor(page: Page) {
-    this.page = page;
+    super(page);
   }
 
   async findApplicationEntry(): Promise<Locator | null> {
@@ -104,7 +102,23 @@ export class TurkNetApplicationPage {
   }
 
   async hasManualBoundary(): Promise<boolean> {
-    const bodyText = (await this.page.locator('body').innerText().catch(() => '')).toLocaleLowerCase('tr-TR');
-    return manualBoundaryKeywords.some((keyword) => bodyText.includes(keyword.toLocaleLowerCase('tr-TR')));
+    return this.detectManualBoundary();
+  }
+
+  async stopBeforeFinalSubmission(): Promise<'manual-boundary' | 'safe-to-observe'> {
+    if (await this.hasManualBoundary()) {
+      return 'manual-boundary';
+    }
+
+    const finalSubmit = this.page
+      .getByRole('button', { name: /Başvuruyu Tamamla|Siparişi Tamamla|Ödeme Yap|Onayla|Gönder/i })
+      .filter({ visible: true })
+      .first();
+
+    if (await finalSubmit.isVisible().catch(() => false)) {
+      return 'manual-boundary';
+    }
+
+    return 'safe-to-observe';
   }
 }

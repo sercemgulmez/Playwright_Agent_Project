@@ -1,13 +1,13 @@
 import { expect, type Locator, type Page } from '@playwright/test';
+import { BasePage } from './BasePage';
 
-export class TurkNetHomePage {
-  readonly page: Page;
+export class TurkNetHomePage extends BasePage {
   readonly brandLogo: Locator;
   readonly headerLinks: Locator;
   readonly footer: Locator;
 
   constructor(page: Page) {
-    this.page = page;
+    super(page);
     this.brandLogo = page.getByRole('img', { name: /Turknet/i }).first();
     this.headerLinks = page
       .getByRole('link', {
@@ -18,36 +18,7 @@ export class TurkNetHomePage {
   }
 
   async openHomepage(): Promise<boolean> {
-    try {
-      await this.page.goto('/', { waitUntil: 'domcontentloaded' });
-      await this.page.waitForLoadState('domcontentloaded');
-      return true;
-    } catch (error) {
-      const message = error instanceof Error ? error.message : String(error);
-      if (/ERR_CONNECTION_CLOSED|ERR_SOCKET_NOT_CONNECTED|ERR_CONNECTION_RESET|ERR_FAILED/i.test(message)) {
-        return false;
-      }
-
-      throw error;
-    }
-  }
-
-  async handleCookieBannerSafely() {
-    const cookieActions = [
-      this.page.getByRole('button', { name: /Tümünü Kabul|Kabul Et|Kabul|Accept|Tamam|Anladım/i }),
-      this.page.getByRole('link', { name: /Tümünü Kabul|Kabul Et|Kabul|Accept|Tamam|Anladım/i }),
-    ];
-
-    for (const action of cookieActions) {
-      const count = await action.count();
-      for (let index = 0; index < count; index += 1) {
-        const candidate = action.nth(index);
-        if (await candidate.isVisible().catch(() => false)) {
-          await candidate.click();
-          return;
-        }
-      }
-    }
+    return this.goto('/');
   }
 
   async expectHomepageLoaded() {

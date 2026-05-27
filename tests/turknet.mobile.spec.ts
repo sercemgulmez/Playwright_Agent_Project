@@ -1,5 +1,6 @@
-import { expect, test } from '@playwright/test';
+import { test } from '@playwright/test';
 import { TurkNetHomePage } from '../pages/TurkNetHomePage';
+import { TurkNetNavigationPage } from '../pages/TurkNetNavigationPage';
 
 test.describe('TurkNet mobile experience', () => {
   test.use({
@@ -21,22 +22,12 @@ test.describe('TurkNet mobile experience', () => {
 
   test('mobile menu or main navigation is accessible if visible', async ({ page }) => {
     const homePage = new TurkNetHomePage(page);
+    const navigationPage = new TurkNetNavigationPage(page);
 
     const opened = await homePage.openHomepage();
     test.skip(!opened, 'TurkNet production site closed the automated browser connection.');
     await homePage.handleCookieBannerSafely();
 
-    const mobileMenuButton = page
-      .getByRole('button', { name: /menü|menu|navigation|nav/i })
-      .or(page.locator('.header-mobile svg[cursor="pointer"]').first())
-      .first();
-
-    if (await mobileMenuButton.isVisible().catch(() => false)) {
-      await mobileMenuButton.click();
-      await expect(page.getByText(/Turknet Bireysel|Altyapı Sorgula|Abone Ol|Hız Testi/i).first()).toBeVisible();
-      return;
-    }
-
-    await expect(page.getByRole('link', { name: /Altyapı Sorgula|Abone Ol|Hız Testi/i }).first()).toBeVisible();
+    await navigationPage.expectMobileNavigationAccessible();
   });
 });

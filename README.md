@@ -1,16 +1,18 @@
-# Playwright Agent Project
+# Public Web Flows Playwright QA Framework
 
-Bu proje, herkese açık TurkNet web sitesini güvenli şekilde test etmek için hazırlanmış bir Playwright TypeScript otomasyon projesidir.
+Bu proje, public web flow'larını güvenli şekilde gözlemlemek ve smoke/regression testleri yazmak için hazırlanmış bir Playwright TypeScript otomasyon framework'üdür.
 
-Test edilen hedef site:
+Örnek hedef site:
 
 ```text
 https://www.turk.net/
 ```
 
-Amaç, TurkNet sitesindeki ana sayfa, navigasyon, başvuru/altyapı sorgulama giriş noktaları ve mobil görünüm gibi alanları güvenli sınırlar içinde kontrol etmektir.
+Amaç; public ana sayfa, navigasyon, paket/kampanya sayfaları, güvenli akış giriş noktaları ve mobil görünüm gibi alanları güvenli sınırlar içinde kontrol etmektir.
 
-Bu proje gerçek müşteri işlemi yapmak için değildir. Hiçbir test gerçek başvuru, ödeme, sözleşme onayı, kimlik doğrulama veya müşteri talebi göndermemelidir.
+Bu repo herhangi bir markanın resmi projesi, temsilcisi, partneri veya onaylı test paketi değildir. Hedef site yalnızca public web automation pratiği için örnek olarak kullanılır.
+
+Bu proje gerçek kullanıcı işlemi yapmak için değildir. Hiçbir test gerçek başvuru, ödeme, sözleşme onayı, kimlik doğrulama veya kullanıcı talebi göndermemelidir.
 
 ## Bu Projede Ne Yaptık?
 
@@ -20,10 +22,10 @@ Adım adım yapılan işler:
 2. Playwright TypeScript test altyapısı kuruldu.
 3. VS Code için Playwright MCP ve Playwright agent dosyaları hazırlandı.
 4. GitHub Copilot ve Copilot Chat tarafı kontrol edildi.
-5. TurkNet sitesi için güvenli test yapısı oluşturuldu.
+5. Public web flow'ları için güvenli test yapısı oluşturuldu.
 6. Page Object Model yapısı kuruldu.
 7. Gerçek kişisel veri içermeyen sahte test datası eklendi.
-8. Ana sayfa, navigasyon, başvuru akışı ve mobil görünüm testleri yazıldı.
+8. Ana sayfa, navigasyon, güvenli akış girişi ve mobil görünüm testleri yazıldı.
 9. Public repo güvenliği için `.gitignore` genişletildi.
 10. Push öncesi secret/API key taraması yapan güvenlik hook'u eklendi.
 11. Dokümantasyon dosyaları oluşturuldu.
@@ -79,8 +81,8 @@ Bu projede Playwright ile:
 - Linkler kontrol ediliyor
 - Header, logo, footer gibi alanların görünür olup olmadığı test ediliyor
 - Mobil ekran boyutunda test yapılıyor
-- Başvuru akışına güvenli şekilde giriş deneniyor
-- Captcha, OTP, ödeme veya final başvuru gibi alanlarda duruluyor
+- Hassas akış girişleri yalnızca güvenli sınıra kadar gözlemleniyor
+- Captcha, OTP, ödeme veya final işlem gibi alanlarda duruluyor
 
 Test çalıştırma:
 
@@ -173,9 +175,36 @@ Bu sayede site değişirse sadece ilgili Page Object dosyasını güncellemek ç
 Page Object dosyaları:
 
 ```text
+pages/BasePage.ts
 pages/TurkNetHomePage.ts
 pages/TurkNetNavigationPage.ts
 pages/TurkNetApplicationPage.ts
+pages/TurkNetLoginPage.ts
+pages/TurkNetInfrastructurePage.ts
+pages/TurkNetSupportPage.ts
+```
+
+## Page Object Model Architecture
+
+Bu projede Page Object Model, test niyetini sayfa etkileşim detaylarından ayırmak için kullanılır.
+
+- Test senaryoları `tests/` klasöründedir.
+- Sayfa etkileşimleri ve tekrar kullanılabilir assertion'lar `pages/` klasöründedir.
+- Ortak güvenli gezinme, cookie banner yönetimi, güvenli tıklama ve manuel sınır algılama `pages/BasePage.ts` içindedir.
+- Fake test verileri `test-data/turknet-test-data.ts` içinde merkezi tutulur.
+- Testler uzun ham selector mantığı yazmak yerine Page Object methodlarını çağırır.
+- reCAPTCHA, OTP, SMS, E-Devlet, ödeme, kimlik doğrulama, gerçek login ve final işlem gibi riskli noktalar Page Object methodlarında manuel sınır olarak korunur.
+
+Güncel Page Object dosyaları:
+
+```text
+pages/BasePage.ts
+pages/TurkNetHomePage.ts
+pages/TurkNetNavigationPage.ts
+pages/TurkNetApplicationPage.ts
+pages/TurkNetLoginPage.ts
+pages/TurkNetInfrastructurePage.ts
+pages/TurkNetSupportPage.ts
 ```
 
 ### 8. Test Data
@@ -390,18 +419,24 @@ Ana dosya ve klasörler:
 ├── package-lock.json
 ├── playwright.config.ts
 ├── pages/
+│   ├── BasePage.ts
 │   ├── TurkNetHomePage.ts
 │   ├── TurkNetNavigationPage.ts
-│   └── TurkNetApplicationPage.ts
+│   ├── TurkNetApplicationPage.ts
+│   ├── TurkNetLoginPage.ts
+│   ├── TurkNetInfrastructurePage.ts
+│   └── TurkNetSupportPage.ts
 ├── test-data/
 │   └── turknet-test-data.ts
 ├── tests/
+│   ├── turknet.application-entry.spec.ts
 │   ├── turknet.home.spec.ts
-│   ├── turknet.navigation.spec.ts
-│   ├── turknet.application-flow.spec.ts
+│   ├── turknet.login-entry.spec.ts
 │   ├── turknet.mobile.spec.ts
-│   ├── seed.spec.ts
-│   └── example.spec.ts
+│   ├── turknet.navigation.spec.ts
+│   ├── turknet.packages.spec.ts
+│   ├── turknet.support.spec.ts
+│   └── turknet.validation-boundary.spec.ts
 ├── docs/
 │   ├── turknet-test-strategy.md
 │   └── turknet-agent-observations.md
@@ -425,7 +460,7 @@ Playwright ayar dosyasıdır.
 İçinde şunlar ayarlanır:
 
 - Test klasörü: `./tests`
-- Base URL: `https://www.turk.net/`
+- Base URL: örnek public hedef site olarak `https://www.turk.net/`
 - Timeout değerleri
 - Screenshot ayarı
 - Video ayarı
@@ -435,7 +470,7 @@ Playwright ayar dosyasıdır.
 
 ### `pages/TurkNetHomePage.ts`
 
-TurkNet ana sayfası için yardımcı methodları içerir.
+Örnek public ana sayfa için yardımcı methodları içerir.
 
 Örnek görevleri:
 
@@ -457,7 +492,7 @@ Navigasyon testleri için yardımcı methodları içerir.
 
 ### `pages/TurkNetApplicationPage.ts`
 
-Başvuru, altyapı sorgulama veya paket CTA akışları için yardımcı methodları içerir.
+Akış girişi, altyapı sorgulama veya paket CTA alanları için yardımcı methodları içerir.
 
 Önemli güvenlik davranışı:
 
@@ -465,7 +500,7 @@ Bu dosya final submit yapmaz. Captcha, OTP, SMS, e-Devlet, ödeme veya kimlik do
 
 ### `test-data/turknet-test-data.ts`
 
-Sahte test datası ve manuel sınır kelimelerini içerir.
+Sahte test datasını içerir.
 
 Gerçek kişisel veri içermez.
 
@@ -506,7 +541,7 @@ Ana sayfa testleri.
 Kontrol eder:
 
 - Site açılıyor mu?
-- Başlık TurkNet içeriyor mu?
+- Public hedef sayfa doğru şekilde yükleniyor mu?
 - Header/brand görünüyor mu?
 - CTA alanı bulunabiliyor mu?
 - Footer görünüyor mu?
@@ -522,9 +557,9 @@ Kontrol eder:
 - Güvenli bir navigasyon linki sayfa/section açıyor mu?
 - Veri gönderimi yapılmadan gezinme sağlanıyor mu?
 
-### `tests/turknet.application-flow.spec.ts`
+### `tests/turknet.application-entry.spec.ts`
 
-Başvuru veya altyapı sorgulama giriş akışı testleri.
+Güvenli akış girişi testleri.
 
 Kontrol eder:
 
@@ -533,6 +568,43 @@ Kontrol eder:
 - Form veya sonraki adım görünüyorsa kontrol ediliyor mu?
 - Final submit yapılmıyor.
 - Captcha/OTP/payment/e-Devlet varsa manuel sınır kabul ediliyor.
+
+### `tests/turknet.validation-boundary.spec.ts`
+
+Validation ve manuel sınır testleri.
+
+Kontrol eder:
+
+- Test datası sadece fake placeholder değerlerden oluşuyor mu?
+- Zorunlu alan validasyonu yalnızca güvenli non-final aksiyon varsa deneniyor mu?
+- Altyapı/adres akışında gerçek adres veya final submit yapılmadan duruluyor mu?
+
+### `tests/turknet.login-entry.spec.ts`
+
+Login giriş sayfası gözlem testidir.
+
+Kontrol eder:
+
+- Login sayfası yalnızca yapı olarak gözlemlenebilir mi?
+- Gerçek credential girilmeden manuel sınır korunuyor mu?
+
+### `tests/turknet.support.spec.ts`
+
+Destek/help içerik testidir.
+
+Kontrol eder:
+
+- Destek sayfası güvenli şekilde açılıyor mu?
+- Destek linkleri görünür mü?
+
+### `tests/turknet.packages.spec.ts`
+
+Public paket/kampanya sayfası testidir.
+
+Kontrol eder:
+
+- Bilgi amaçlı public sayfa açılıyor mu?
+- Form submission veya hassas işlem yapılmadan içerik gözlemleniyor mu?
 
 ### `tests/turknet.mobile.spec.ts`
 
@@ -629,11 +701,11 @@ Yasak olanlar:
 - Gerçek telefon numarası kullanmak
 - Gerçek TC kimlik numarası kullanmak
 - Gerçek adres kullanmak
-- Gerçek müşteri numarası kullanmak
+- Gerçek kullanıcı/müşteri numarası kullanmak
 - Gerçek kullanıcı adı/şifre kullanmak
 - Gerçek API key veya token yazmak
 - Gerçek ödeme bilgisi kullanmak
-- Final başvuru göndermek
+- Final işlem veya başvuru göndermek
 - Captcha veya bot koruması aşmaya çalışmak
 - OTP/SMS doğrulaması aşmaya çalışmak
 - e-Devlet akışını otomatikleştirmek
@@ -661,13 +733,13 @@ Bu projede manual boundary kabul edilen durumlar:
 - Ödeme
 - Sözleşme onayı
 - Final başvuru gönderimi
-- Müşteri talebi oluşturma
+- Gerçek kullanıcı/müşteri talebi oluşturma
 
 Bu noktalarda test ilerlememelidir.
 
 ## Public Production Site Test Riski
 
-TurkNet sitesi public production sitedir. Bu yüzden testler bazen skip olabilir veya bağlantı kapanabilir.
+Hedef site public production ortamıdır. Bu yüzden testler bazen skip olabilir veya bağlantı kapanabilir.
 
 Sebep olabilecek durumlar:
 
@@ -680,6 +752,18 @@ Sebep olabilecek durumlar:
 - Tarayıcı otomasyon trafiğinin kapatılması
 
 Bu proje bu durumları bypass etmeye çalışmaz. Güvenli davranış olarak ilgili senaryoyu skip eder veya manuel sınır olarak dokümante eder.
+
+## Marka ve Konumlandırma Notu
+
+Bu repo bir marka adına konuşmaz, resmi kalite güvence paketi olduğunu iddia etmez ve hedef site sahibiyle bir bağlantı beyan etmez.
+
+Konumlandırma bilinçli olarak generic tutulmuştur:
+
+```text
+Safe Playwright TypeScript automation framework for public web flows.
+```
+
+Dosya adlarında ve test örneklerinde hedef siteye ait isimlerin geçmesi yalnızca teknik bağlam içindir. Projenin amacı, public web flow test mimarisi, Page Object Model, güvenli test sınırları ve secret taraması gibi mühendislik pratiklerini göstermektir.
 
 ## VS Code İçinde Playwright Agent Kullanımı
 
@@ -694,7 +778,7 @@ playwright-test-healer
 Örnek planner prompt:
 
 ```text
-Use playwright-test-planner. Open https://www.turk.net/ and explore it as a QA engineer. Save a safe test plan under specs/.
+Use playwright-test-planner. Open the configured public target site and explore safe public web flows as a QA engineer. Save a safe test plan under specs/.
 ```
 
 Örnek generator prompt:
@@ -756,15 +840,15 @@ Push sırasında güvenlik kontrolü otomatik çalışır.
 ## Projenin Şu Anki Sınırları
 
 - Testler public production siteye karşı tasarlandı.
-- Captcha, OTP, ödeme, e-Devlet ve final başvuru otomasyona dahil değildir.
+- Captcha, OTP, ödeme, e-Devlet ve final işlem otomasyona dahil değildir.
 - Site otomasyon trafiğini kapatırsa testler skip olabilir.
 - Bu proje yük testi veya performans testi yapmaz.
 - Footer'daki tüm linkleri test etmek hedeflenmez.
-- Gerçek müşteri yolculuğunun yasal aşamaları manuel test kapsamındadır.
+- Gerçek kullanıcı yolculuğunun yasal veya güvenlik gerektiren aşamaları manuel test kapsamındadır.
 
 ## Kısa Özet
 
-Bu proje güvenli bir Playwright TypeScript test altyapısıdır.
+Bu proje güvenli bir Playwright TypeScript public web flow test altyapısıdır.
 
 Kullanılan ana teknolojiler:
 

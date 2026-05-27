@@ -11,8 +11,8 @@ test.describe('TurkNet navigation', () => {
     test.skip(!opened, 'TurkNet production site closed the automated browser connection.');
     await homePage.handleCookieBannerSafely();
 
-    await navigationPage.expectMainNavigationVisible();
-    const visibleLinks = await navigationPage.collectVisibleNavigationLinks();
+    await navigationPage.expectNavigationVisible();
+    const visibleLinks = await navigationPage.getVisibleNavigationLinks();
     expect(visibleLinks.length).toBeGreaterThan(0);
     expect(visibleLinks.join(' ')).toMatch(/Altyapı|Abone|Hız|GigaFiber|Yardım|Kampanya/i);
   });
@@ -27,5 +27,6 @@ test.describe('TurkNet navigation', () => {
 
     const safeLinkOpened = await navigationPage.openSafeNavigationLink();
     test.skip(!safeLinkOpened, 'No safe visible navigation link was detected on the current page.');
+    await navigationPage.expectNavigationTargetLoaded();
   });
 });
